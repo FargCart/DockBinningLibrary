@@ -72,18 +72,34 @@ with open(destfile, 'wb') as csvfile:
                     myresnumber2 = (stored.residues2[b])
 
                     #Calpha Calculation
+<<<<<<< HEAD
+                    Calpha = str(round(cmd.distance('output', 'chain '+str(clistAB1[ab1])+' and i. ' + str(i+1) +
+                                                    ' and n. CA', 'chain '+str(clistAB2[ab2])+' and i. ' + str(b+1)
+                                                    + ' and n. CA'),1))
+=======
                     Calpha = str(round(cmd.distance('output', 'chain '+str(clistAB1[ab1])+' and i. ' + str(i+1) + ' and n. CA', 'chain '+str(clistAB2[ab2])+' and i. ' + str(b+1) + ' and n. CA'),1))
+>>>>>>> 35cdf80486e4f89c2b85896cf7667fba65d89c39
                     totalRuns = totalRuns+1
                     if Calpha > calphacutoff:
                         pass
                     else:
 
                     #Centroid Calculation
+<<<<<<< HEAD
+                        Centroid = str(round(cmd.distance('output', 'chain H and i. ' + str(i + 1), 'chain L and i. '
+                                                          + str(b + 1),-1, 4), 1))
+
+                    # for atom1 in range(b):
+                    #     for atom2 in range(i):
+                    #         distance = sqrt((atom1.elem.x - atom2.elem.x)^2 + (atom1.elem.y - atom2.elem.y)^2 +
+                    #                         (atom1.elem.z - atom2.elem.z)^2)
+=======
                         Centroid = str(round(cmd.distance('output', 'chain H and i. ' + str(i + 1), 'chain L and i. ' + str(b + 1),-1, 4), 1))
 
                     # for atom1 in range(b):
                     #     for atom2 in range(i):
                     #         distance = sqrt((atom1.elem.x - atom2.elem.x)^2 + (atom1.elem.y - atom2.elem.y)^2 + (atom1.elem.z - atom2.elem.z)^2)
+>>>>>>> 35cdf80486e4f89c2b85896cf7667fba65d89c39
                     #         print(str(atom1.elem + ' ' + atom2.elem + ' '),
                     #         print(str(distance))
                     #         if distance < = Minimum || Medium = 0:
@@ -93,6 +109,18 @@ with open(destfile, 'wb') as csvfile:
 
                         goodRuns = goodRuns+1
                         # if (r % 5000) < = 0:
+<<<<<<< HEAD
+                        # print("running "+str(r)+"/"+str(int(len(stored.residues1))*int(len(stored.residues2)))) \
+                        #      + ' : Remaining Time:',
+                        print("Good Values  " + str(goodRuns) + '\n' + "Total Runs " + str(totalRuns))
+                        averagetime = time.time() - (overalltime/totalRuns)
+                        remaintime = (time.time() - overalltime)/totalRuns * ((int(len(stored.residues1))
+                                                                               *int(len(stored.residues2))) - totalRuns)
+                        print datetime.timedelta(seconds=remaintime)
+
+                        final.extend([str(clistAB1[ab1]), myresname1, myresnumber1, str(clistAB2[ab2]),
+                                      myresname2, myresnumber2, Calpha, Centroid])
+=======
                         #print("running "+str(r)+"/"+str(int(len(stored.residues1))*int(len(stored.residues2)))) + ' : Remaining Time:',
                         print("Good Values  " + str(goodRuns) + '\n' + "Total Runs " + str(totalRuns))
                         averagetime = time.time() - (overalltime/totalRuns)
@@ -100,6 +128,7 @@ with open(destfile, 'wb') as csvfile:
                         print datetime.timedelta(seconds=remaintime)
 
                         final.extend([str(clistAB1[ab1]), myresname1, myresnumber1, str(clistAB2[ab2]), myresname2, myresnumber2, Calpha, Centroid])
+>>>>>>> 35cdf80486e4f89c2b85896cf7667fba65d89c39
                         csvwriter.writerow(final)
                     
 
@@ -111,7 +140,11 @@ print("Total Time = "+str(Ttime))
         #            else:
 
         #                print('Job complete!')
+<<<<<<< HEAD
+ #add
+=======
 
+>>>>>>> 35cdf80486e4f89c2b85896cf7667fba65d89c39
 
 
 
