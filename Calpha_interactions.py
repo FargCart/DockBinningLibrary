@@ -60,7 +60,7 @@ cmd.do("renumber chain N,1")
 
 
 #making the titles
-titleList = ['Chain', '1_Residue #', '1_Residue Name',' ', 'Chain', '2_Residue #', '2_Residue Name', 'cAlpha','centRoid', 'MinDistance']
+titleList = ['Antibody 1',' ', 'Antibody 2', 'cAlpha', 'centRoid', 'MinDistance']
 
 #for the loop counter
 totalRuns = 0
@@ -173,10 +173,10 @@ with open(destfile, 'wb') as csvfile:
                                                     + ' and n. CA'), 1))
 
                     totalRuns = totalRuns+1
-                    # if (totalRuns % 5000) <= 0:
-                    print("Good Values  " + str(goodRuns)
-                          + '\n'
-                          + "Total Runs " + str(totalRuns))
+                    if (totalRuns % 5000) <= 0:
+                        print("Good Values  " + str(goodRuns)
+                              + '\n'
+                              + "Total Runs " + str(totalRuns))
 
                     if float(0) < float(cAlpha) < float(calphaCutoff):
 
@@ -235,6 +235,7 @@ with open(destfile, 'wb') as csvfile:
                                     counter += 1
                                 atomlist.append(distance)
                                 finList = min(atomlist)
+                                finList=round(finList, 1)
 
                         # print(finList)
                         goodRuns = goodRuns + 1
@@ -256,11 +257,16 @@ with open(destfile, 'wb') as csvfile:
                         #              * ((int(len(stored.residues1))
                         #             * int(len(stored.residues2))) - totalRuns)
                         # print datetime.timedelta(seconds=remainTime)
+                        columnOne = str(clistAb1[aB1])+':'+myresNumber1+':'+myresName1
+                        columnTwo = str(clistAb2[aB2])+':'+myresNumber2+':'+myresName2
 
-                        final.extend([str(clistAb1[aB1]), myresNumber1,
-                                      myresName1, placeHolder, str(clistAb2[aB2]),
-                                      myresNumber2, myresName2,
-                                      cAlpha, centRoid,finList])
+                        final.extend([columnOne, placeHolder, columnTwo,
+                                      cAlpha, centRoid, finList])
+
+                        # final.extend([str(clistAb1[aB1]), myresNumber1,
+                        #               myresName1, placeHolder, str(clistAb2[aB2]),
+                        #               myresNumber2, myresName2,
+                        #               cAlpha, centRoid,finList])
                         csvwriter.writerow(final)
                     else:
                         pass
@@ -268,7 +274,7 @@ with open(destfile, 'wb') as csvfile:
 
 t1 = time.time()
 tTime = t1-t0
-#print("Total Time = "+str(tTime))
+print("Total Time = "+str(tTime))
 #print(totalRuns)
                    # if remainTime > datetime.timedelta(seconds = 0):
         #                print(str(remainTime))
