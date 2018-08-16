@@ -12,6 +12,11 @@ from pymol import cmd
 
 from pymol import stored
 
+from pymol import math
+
+
+
+
 
 ''' Will be using mixedCaps style '''
 
@@ -89,11 +94,61 @@ with open(destfile, 'wb') as csvfile:
                         "stored.resN2.append((resn))")
             # Loop for running through all residues for 1st mAb.
             for firstAb in range(0, len(stored.residues1)):
+
                 # Loop for running through all residues for 2nd mAb.
                 for secondAb in range(0, len(stored.residues2)):
                     final = []
                     # stored.t2=[]
                     # stored.t3=[]
+
+                    # extra = ""
+                    # atomlist = []
+                    #
+                    # sel1 = 'chain ' + str(clistAb1[aB1]) + ' and i. ' + str(firstAb + 1)
+                    # print(sel1)
+                    # sel2 = 'chain '+str(clistAb2[aB2])+' and i. '+str(secondAb+1)
+                    # print(sel2)
+                    # max_dist = '200'
+                    #
+                    # # builds models
+                    # m1 = cmd.get_model(
+                    #     sel2 + " around " + str(max_dist) + " and " + sel1 + extra)
+                    # m1o = cmd.get_object_list(sel1)
+                    # m2 = cmd.get_model(
+                    #     sel1 + " around " + str(max_dist) + " and " + sel2 + extra)
+                    # m2o = cmd.get_object_list(sel2)
+                    #
+                    # # defines selections
+                    # cmd.select("__tsel1a",
+                    #            sel1 + " around " + str(max_dist) + " and " + sel2 + extra)
+                    # cmd.select("__tsel1", "__tsel1a and " + sel2 + extra)
+                    # cmd.select("__tsel2a",
+                    #            sel2 + " around " + str(max_dist) + " and " + sel1 + extra)
+                    # cmd.select("__tsel2", "__tsel2a and " + sel1 + extra)
+                    # cmd.select("IntAtoms_" + max_dist, "__tsel1 or __tsel2")
+                    # cmd.select("IntRes_" + max_dist, "byres IntAtoms_" + max_dist)
+                    #
+                    # s = ""
+                    # counter = 0
+                    # atomlist=[]
+                    # for c1 in range(len(m1.atom)):
+                    #     for c2 in range(len(m2.atom)):
+                    #         distance = math.sqrt(sum(map(lambda f: (f[0] - f[1]) ** 2,
+                    #                                      zip(m1.atom[c1].coord,
+                    #                                          m2.atom[c2].coord))))
+                    #         if distance < float(max_dist):
+                    #             s += "%s/%s/%s/%s/%s to %s/%s/%s/%s/%s: %.3f\n" % (
+                    #             m1o[0], m1.atom[c1].chain, m1.atom[c1].resn,
+                    #             m1.atom[c1].resi, m1.atom[c1].name, m2o[0],
+                    #             m2.atom[c2].chain, m2.atom[c2].resn, m2.atom[c2].resi,
+                    #             m2.atom[c2].name, distance)
+                    #             counter += 1
+                    #         atomlist.append(distance)
+                    #         finList = min(atomlist)
+                    #
+                    # print(finList)
+
+
 
                     cmd.iterate('(chain '+str(clistAb1[aB1])+' and i. '+str(firstAb)+')'
                                 , 'stored.t2.append((name))')
@@ -115,13 +170,13 @@ with open(destfile, 'wb') as csvfile:
                                                     + ' and n. CA', 'chain '
                                                     +str(clistAb2[aB2])+' and i. '
                                                     + str(secondAb+1)
-                                                    + ' and n. CA'),1))
+                                                    + ' and n. CA'), 1))
 
                     totalRuns = totalRuns+1
-                    if (totalRuns % 5000) <= 0:
-                        print("Good Values  " + str(goodRuns)
-                              + '\n'
-                              + "Total Runs " + str(totalRuns))
+                    # if (totalRuns % 5000) <= 0:
+                    print("Good Values  " + str(goodRuns)
+                          + '\n'
+                          + "Total Runs " + str(totalRuns))
 
                     if float(0) < float(cAlpha) < float(calphaCutoff):
 
@@ -130,24 +185,69 @@ with open(destfile, 'wb') as csvfile:
                                                           + str(firstAb + 1),
                                                           'chain ' + str(
                                                               clistAb2[aB2]) + ' and i. '
-                                                          + str(secondAb + 1), -1, 4),1))
+                                                          + str(secondAb + 1), -1, 4), 1))
+                        extra = ""
+                        atomlist = []
+
+                        sel1 = 'chain ' + str(clistAb1[aB1]) + ' and i. ' + str(
+                            firstAb + 1)
+                        # print(sel1)
+                        sel2 = 'chain ' + str(clistAb2[aB2]) + ' and i. ' + str(
+                            secondAb + 1)
+                        # print(sel2)
+                        max_dist = '200'
+
+                        # builds models
+                        m1 = cmd.get_model(
+                            sel2 + " around " + str(max_dist) + " and " + sel1 + extra)
+                        m1o = cmd.get_object_list(sel1)
+                        m2 = cmd.get_model(
+                            sel1 + " around " + str(max_dist) + " and " + sel2 + extra)
+                        m2o = cmd.get_object_list(sel2)
+
+                        # defines selections
+                        cmd.select("__tsel1a",
+                                   sel1 + " around " + str(
+                                       max_dist) + " and " + sel2 + extra)
+                        cmd.select("__tsel1", "__tsel1a and " + sel2 + extra)
+                        cmd.select("__tsel2a",
+                                   sel2 + " around " + str(
+                                       max_dist) + " and " + sel1 + extra)
+                        cmd.select("__tsel2", "__tsel2a and " + sel1 + extra)
+                        cmd.select("IntAtoms_" + max_dist, "__tsel1 or __tsel2")
+                        cmd.select("IntRes_" + max_dist, "byres IntAtoms_" + max_dist)
+
+                        s = ""
+                        counter = 0
+                        atomlist = []
+                        for c1 in range(len(m1.atom)):
+                            for c2 in range(len(m2.atom)):
+                                distance = math.sqrt(sum(map(lambda f: (f[0] - f[1]) ** 2,
+                                                             zip(m1.atom[c1].coord,
+                                                                 m2.atom[c2].coord))))
+                                if distance < float(max_dist):
+                                    s += "%s/%s/%s/%s/%s to %s/%s/%s/%s/%s: %.3f\n" % (
+                                        m1o[0], m1.atom[c1].chain, m1.atom[c1].resn,
+                                        m1.atom[c1].resi, m1.atom[c1].name, m2o[0],
+                                        m2.atom[c2].chain, m2.atom[c2].resn,
+                                        m2.atom[c2].resi,
+                                        m2.atom[c2].name, distance)
+                                    counter += 1
+                                atomlist.append(distance)
+                                finList = min(atomlist)
+
+                        # print(finList)
                         goodRuns = goodRuns + 1
+                        # minimumlist = []
+                        # minatom = str(round(cmd.distance('output', 'chain '+str(clistAb1[aB1]) + ' and i. '+str(firstAb+1), 'chain '+str(clistAb2[aB2])+ ' and i. '+str(secondAb+1))))
+                        # minimumList.append(minatom)
+                        # print(minimumList)
+                        # minatom = min(minatom)
 
-                        # for atomTest in range(1,len(stored.t2)):
-                        #     for atomTest2 in range(1,len(stored.t3)):
-                        #         # minimumList=[]
-                        #         minCalc = str(round(cmd.distance('output2', 'chain '+str(clistAb1[aB1])
-                        #                                          + ' and i. '+str(firstAb)+' and n. '
-                        #                                          + str(stored.t2[atomTest]), 'chain '
-                        #                                          + str(clistAb2[aB2])
-                        #                                          + ' and i. '+str(secondAb)
-                        #                                          + ' and n. '
-                        #                                          + str(stored.t3[atomTest2])), 1))
-                        #         minimumList.append(minCalc)
-                        #         minMum = min(minimumList)
-                        #         print(minMum)
 
-                        # if (r % 5000) < = 0:
+
+
+
                         # print("running "+str(r)+"/"+str(int(len(stored.residues1))*int(len(stored.residues2)))) \
                         #      + ' : Remaining Time:',
 
@@ -160,7 +260,7 @@ with open(destfile, 'wb') as csvfile:
                         final.extend([str(clistAb1[aB1]), myresNumber1,
                                       myresName1, placeHolder, str(clistAb2[aB2]),
                                       myresNumber2, myresName2,
-                                      cAlpha, centRoid])
+                                      cAlpha, centRoid,finList])
                         csvwriter.writerow(final)
                     else:
                         pass
