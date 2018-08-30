@@ -36,7 +36,7 @@ destfile = "output.csv"
 calphaCutoff = str(round(5))
 
 os.system("mkdir pdbFiles")
-cmd.load("3_ab_test.mae")
+cmd.load("5_ab_test.mae")
 fullList=cmd.get_object_list('all')
 
 #Making empty lists
@@ -52,8 +52,13 @@ totalTime = 0
 # print("Making PDB files...")
 for x in range(0, len(fullList)):
     ab = []
-    ab = fullList[x].split('.')[1]
+    ab = fullList[x].split('_united')[0]
+    ab = ab.split('t.')[1]
+    print(ab)
+
+
     cmd.save(os.getcwd() + '/pdbFiles/' + ab + '.pdb', fullList[x])
+
 
 # print("PDB files generated!")
 
@@ -90,7 +95,8 @@ with open(destfile, 'wb') as csvfile:
 
         cmd.load(dirlist[loadfirst])
         abTemp=(cmd.get_object_list('all'))
-        noExt1 = dirlist[loadfirst].split('.')
+        noExt1 = dirlist[loadfirst].split('.pdb')
+        print(noExt1[0])
         cmd.alter(str(noExt1[0])+' and chain H', 'chain = "'+str(noExt1[0])+'.H"')
         cmd.alter(str(noExt1[0])+' and chain L', 'chain = "'+str(noExt1[0])+'.L"')
         renumber.renumber('chain ' + str(noExt1[0]) + '.H', 1)
@@ -104,7 +110,7 @@ with open(destfile, 'wb') as csvfile:
         for loadsecond in range(secondStart,len(dirlist)):
 
             cmd.load(dirlist[loadsecond])
-            noExt2 = dirlist[loadsecond].split('.')
+            noExt2 = dirlist[loadsecond].split('.pdb')
             cmd.alter(str(noExt2[0])+' and chain H', 'chain = "' + str(noExt2[0]) + '.H"')
             cmd.alter(str(noExt2[0])+' and chain L', 'chain = "' + str(noExt2[0]) + '.L"')
             renumber.renumber('chain ' + str(noExt2[0]) + '.H', 1)
@@ -245,7 +251,7 @@ with open(destfile, 'wb') as csvfile:
             tTime = ((t1 - t0) / 60)
 
             cmd.delete(noExt2[0])
-        noExt3 = dirlist[loadfirst].split(".")
+        noExt3 = dirlist[loadfirst].split(".pdb")
         cmd.delete(noExt3[0])
 print('Elapsed Time = ' + str(round(totalTime, 2)) + ' minutes')
 
