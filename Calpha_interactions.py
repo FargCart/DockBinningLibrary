@@ -36,7 +36,7 @@ destfile = "output.csv"
 calphaCutoff = str(round(5))
 
 os.system("mkdir pdbFiles")
-cmd.load("5_ab_test.mae")
+cmd.load("3_ab_test.mae")
 fullList=cmd.get_object_list('all')
 
 #Making empty lists
@@ -54,7 +54,7 @@ for x in range(0, len(fullList)):
     ab = []
     ab = fullList[x].split('_united')[0]
     ab = ab.split('t.')[1]
-    print(ab)
+    # print(ab)
 
 
     cmd.save(os.getcwd() + '/pdbFiles/' + ab + '.pdb', fullList[x])
@@ -64,8 +64,8 @@ for x in range(0, len(fullList)):
 
 cmd.reinitialize()
 os.chdir("pdbFiles")
-dirlist=os.listdir(".")
-dirlist=sorted(dirlist)
+dirlist = os.listdir(".")
+dirlist = sorted(dirlist)
 os.chdir("..")
 secondStart = 0
 
@@ -74,10 +74,10 @@ final = []
 
 
 
-#making the titles
-titleList = ['Antibody 1',' ', 'Antibody 2', 'cAlpha', 'centRoid', 'MinDistance']
+# making the titles
+titleList = ['Antibody 1', ' ', 'Antibody 2', 'cAlpha', 'centRoid', 'MinDistance']
 
-#for the loop counter
+# for the loop counter
 totalRuns = 0
 goodRuns = 0
 
@@ -88,7 +88,7 @@ overallTime = time.time();
 # Opening CSV file for writting.
 with open(destfile, 'wb') as csvfile:
     os.chdir('pdbFiles')
-    csvwriter = csv.writer(csvfile, delimiter=',', lineterminator='\n')
+    csvwriter = csv.writer(csvfile, delimiter=',', lineterminator="'\n'")
     csvwriter.writerow(titleList)
     for loadfirst in range(0,len(dirlist)):
 
@@ -96,7 +96,7 @@ with open(destfile, 'wb') as csvfile:
         cmd.load(dirlist[loadfirst])
         abTemp=(cmd.get_object_list('all'))
         noExt1 = dirlist[loadfirst].split('.pdb')
-        print(noExt1[0])
+        # print(noExt1[0])
         cmd.alter(str(noExt1[0])+' and chain H', 'chain = "'+str(noExt1[0])+'.H"')
         cmd.alter(str(noExt1[0])+' and chain L', 'chain = "'+str(noExt1[0])+'.L"')
         renumber.renumber('chain ' + str(noExt1[0]) + '.H', 1)
@@ -145,10 +145,10 @@ with open(destfile, 'wb') as csvfile:
                     cmd.iterate("(chain "+str(clistAb2[aB2])+" and n. CA)",
                                 "stored.resN2.append((resn))")
                     # Loop for running through all residues for 1st mAb.
-                    for firstAb in range(0, len(stored.residues1)):
+                    for firstAb in range(0, len(stored.residues1)-100):
 
                         # Loop for running through all residues for 2nd mAb.
-                        for secondAb in range(0, len(stored.residues2)):
+                        for secondAb in range(0, len(stored.residues2)-100):
                             final = []
                             cmd.iterate('(chain '+str(clistAb1[aB1])+' and i. '+str(firstAb)+')'
                                         , 'stored.t2.append((name))')
@@ -161,7 +161,7 @@ with open(destfile, 'wb') as csvfile:
                             myresName2 = (stored.resN2[secondAb])
                             myresNumber2 = (stored.residues2[secondAb])
                             placeHolder = ' '
-                            #cAlpha Calculation
+                            # cAlpha Calculation
                             cAlpha = str(round(cmd.distance('output', 'chain '
                                                             + str(clistAb1[aB1])
                                                             + ' and i. ' + str(firstAb+1)
@@ -240,6 +240,8 @@ with open(destfile, 'wb') as csvfile:
 
                                 final.extend([columnOne, placeHolder, columnTwo,
                                               cAlpha, centRoid, finList])
+
+
                                 csvwriter.writerow(final)
                             else:
                                 pass
@@ -250,9 +252,11 @@ with open(destfile, 'wb') as csvfile:
             t1 = time.time()
             tTime = ((t1 - t0) / 60)
 
+
             cmd.delete(noExt2[0])
         noExt3 = dirlist[loadfirst].split(".pdb")
         cmd.delete(noExt3[0])
+
 print('Elapsed Time = ' + str(round(totalTime, 2)) + ' minutes')
 
 
