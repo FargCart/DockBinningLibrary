@@ -1,0 +1,163 @@
+INFO:root:cAlpha Cutoff = 4.0
+
+INFO:root:1D3_balanced_model.000.00.H : 1D3_balanced_model.000.05.H
+INFO:root:Run Time = 0.813864803314
+INFO:root:Good Values  66
+
+INFO:root:1D3_balanced_model.000.00.H : 1D3_balanced_model.000.05.L
+INFO:root:Run Time = 0.90386458238
+INFO:root:Good Values  100
+
+INFO:root:1D3_balanced_model.000.00.L : 1D3_balanced_model.000.05.H
+INFO:root:Run Time = 1.03376626571
+INFO:root:Good Values  227
+
+INFO:root:1D3_balanced_model.000.00.L : 1D3_balanced_model.000.05.L
+INFO:root:Run Time = 0.972414882978
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.00.H : E317_balanced_model.000.25.H
+INFO:root:Run Time = 1.13066571554
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.00.H : E317_balanced_model.000.25.L
+INFO:root:Run Time = 1.08504578273
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.00.L : E317_balanced_model.000.25.H
+INFO:root:Run Time = 1.14522116979
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.00.L : E317_balanced_model.000.25.L
+INFO:root:Run Time = 1.07711538474
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.00.H : MC14_balanced_model.000.04.H
+INFO:root:Run Time = 1.43291036685
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.00.H : MC14_balanced_model.000.04.L
+INFO:root:Run Time = 1.57354103327
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.00.L : MC14_balanced_model.000.04.H
+INFO:root:Run Time = 1.55953263442
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.00.L : MC14_balanced_model.000.04.L
+INFO:root:Run Time = 1.35036621491
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.00.H : MC23_balanced_model.000.27.H
+INFO:root:Run Time = 1.71732073625
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.00.H : MC23_balanced_model.000.27.L
+INFO:root:Run Time = 1.80436068376
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.00.L : MC23_balanced_model.000.27.H
+INFO:root:Run Time = 2.19758539995
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.00.L : MC23_balanced_model.000.27.L
+INFO:root:Run Time = 2.20814669927
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.05.H : E317_balanced_model.000.25.H
+INFO:root:Run Time = 3.07039350271
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.05.H : E317_balanced_model.000.25.L
+INFO:root:Run Time = 3.13941586812
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.05.L : E317_balanced_model.000.25.H
+INFO:root:Run Time = 3.49927101533
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.05.L : E317_balanced_model.000.25.L
+INFO:root:Run Time = 3.42954676549
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.05.H : MC14_balanced_model.000.04.H
+INFO:root:Run Time = 4.04404723247
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.05.H : MC14_balanced_model.000.04.L
+INFO:root:Run Time = 3.93427559932
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.05.L : MC14_balanced_model.000.04.H
+INFO:root:Run Time = 4.05933443308
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.05.L : MC14_balanced_model.000.04.L
+INFO:root:Run Time = 4.75723770062
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.05.H : MC23_balanced_model.000.27.H
+INFO:root:Run Time = 5.81642911832
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.05.H : MC23_balanced_model.000.27.L
+INFO:root:Run Time = 5.60679006577
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.05.L : MC23_balanced_model.000.27.H
+INFO:root:Run Time = 5.9439966321
+INFO:root:Good Values  238
+
+INFO:root:1D3_balanced_model.000.05.L : MC23_balanced_model.000.27.L
+INFO:root:Run Time = 3.97058106661
+INFO:root:Good Values  238
+
+INFO:root:E317_balanced_model.000.25.H : MC14_balanced_model.000.04.H
+INFO:root:Run Time = 5.21478600105
+INFO:root:Good Values  238
+
+INFO:root:E317_balanced_model.000.25.H : MC14_balanced_model.000.04.L
+INFO:root:Run Time = 6.49558601777
+INFO:root:Good Values  238
+
+INFO:root:E317_balanced_model.000.25.L : MC14_balanced_model.000.04.H
+INFO:root:Run Time = 7.25150030057
+INFO:root:Good Values  238
+
+INFO:root:E317_balanced_model.000.25.L : MC14_balanced_model.000.04.L
+INFO:root:Run Time = 7.79407629967
+INFO:root:Good Values  238
+
+INFO:root:E317_balanced_model.000.25.H : MC23_balanced_model.000.27.H
+INFO:root:Run Time = 9.9830913345
+INFO:root:Good Values  238
+
+INFO:root:E317_balanced_model.000.25.H : MC23_balanced_model.000.27.L
+INFO:root:Run Time = 6.40235376755
+INFO:root:Good Values  238
+
+INFO:root:E317_balanced_model.000.25.L : MC23_balanced_model.000.27.H
+INFO:root:Run Time = 5.00960371892
+INFO:root:Good Values  238
+
+INFO:root:E317_balanced_model.000.25.L : MC23_balanced_model.000.27.L
+INFO:root:Run Time = 4.95726995071
+INFO:root:Good Values  238
+
+INFO:root:MC14_balanced_model.000.04.H : MC23_balanced_model.000.27.H
+INFO:root:Run Time = 5.91672701836
+INFO:root:Good Values  238
+
+INFO:root:MC14_balanced_model.000.04.H : MC23_balanced_model.000.27.L
+INFO:root:Run Time = 5.91061771711
+INFO:root:Good Values  238
+
+INFO:root:MC14_balanced_model.000.04.L : MC23_balanced_model.000.27.H
+INFO:root:Run Time = 7.30685376724
+INFO:root:Good Values  238
+
+INFO:root:MC14_balanced_model.000.04.L : MC23_balanced_model.000.27.L
+INFO:root:Run Time = 7.34445771774
+INFO:root:Good Values  238
+
+INFO:root:Elapsed Time = 152.86 minutes

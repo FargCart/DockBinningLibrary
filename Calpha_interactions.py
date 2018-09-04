@@ -18,6 +18,9 @@ import sys
 
 import renumber
 
+import logging
+
+
 
 
 
@@ -25,6 +28,8 @@ import renumber
 ''' Will be using mixedCaps style '''
 
 os.system('rm -rf pdbFiles')
+os.system('rm calphaLog.log')
+logging.basicConfig(filename='calphaLog.log', level=logging.DEBUG)
 # launch pymol without gui
 pymol.finish_launching(['pymol', '-c'])
 
@@ -33,7 +38,8 @@ destfile = "output.csv"
 
 # clistAb1 = ['H', 'L']
 # clistAb2 = ['M', 'N']
-calphaCutoff = str(round(5))
+calphaCutoff = str(round(4))
+logging.info('cAlpha Cutoff = '+str(calphaCutoff)+'\n')
 
 os.system("mkdir pdbFiles")
 cmd.load("5_ab_test.mae")
@@ -88,7 +94,7 @@ overallTime = time.time();
 # Opening CSV file for writting.
 with open(destfile, 'wb') as csvfile:
     os.chdir('pdbFiles')
-    csvwriter = csv.writer(csvfile, delimiter=',', lineterminator="'\n'")
+    csvwriter = csv.writer(csvfile, delimiter=',', lineterminator='\n')
     csvwriter.writerow(titleList)
     for loadfirst in range(0,len(dirlist)):
 
@@ -138,6 +144,7 @@ with open(destfile, 'wb') as csvfile:
                 for aB2 in range(0,2):
                     tS = time.time()
                     print(str(clistAb1[aB1])+' : '+str(clistAb2[aB2]))
+                    logging.info(str(clistAb1[aB1])+' : '+str(clistAb2[aB2]))
                     stored.residues2 = []
                     stored.resN2 = []
                     cmd.iterate("(chain "+str(clistAb2[aB2])+" and n. CA)",
@@ -145,10 +152,10 @@ with open(destfile, 'wb') as csvfile:
                     cmd.iterate("(chain "+str(clistAb2[aB2])+" and n. CA)",
                                 "stored.resN2.append((resn))")
                     # Loop for running through all residues for 1st mAb.
-                    for firstAb in range(0, len(stored.residues1)-100):
+                    for firstAb in range(0, len(stored.residues1)):
 
                         # Loop for running through all residues for 2nd mAb.
-                        for secondAb in range(0, len(stored.residues2)-100):
+                        for secondAb in range(0, len(stored.residues2)):
                             final = []
                             cmd.iterate('(chain '+str(clistAb1[aB1])+' and i. '+str(firstAb)+')'
                                         , 'stored.t2.append((name))')
@@ -227,14 +234,6 @@ with open(destfile, 'wb') as csvfile:
 
                                 goodRuns = goodRuns + 1
 
-                                # print("running "+str(r)+"/"+str(int(len(stored.residues1))*int(len(stored.residues2)))) \
-                                #      + ' : Remaining Time:',
-
-                                # averageTime = time.time() - (overallTime/totalRuns)
-                                # remainTime = (time.time() - overallTime)/totalRuns \
-                                #              * ((int(len(stored.residues1))
-                                #             * int(len(stored.residues2))) - totalRuns)
-                                # print datetime.timedelta(seconds=remainTime)
                                 columnOne = str(clistAb1[aB1])+':'+myresNumber1+':'+myresName1
                                 columnTwo = str(clistAb2[aB2])+':'+myresNumber2+':'+myresName2
 
@@ -246,8 +245,12 @@ with open(destfile, 'wb') as csvfile:
                             else:
                                 pass
                     tF = time.time()
-                    print('Run Time = ' + str((tF - tS) / 60))
-                    print("Good Values  " + str(goodRuns))
+                    runTime = 'Run Time = ' + str((tF - tS) / 60)
+                    print(runTime)
+                    logging.info(runTime)
+                    goodValues = "Good Values  " + str(goodRuns)
+                    print(goodValues)
+                    logging.info(goodValues+'\n')
                     totalTime = totalTime + ((tF - tS) / 60)
             t1 = time.time()
             tTime = ((t1 - t0) / 60)
@@ -257,7 +260,9 @@ with open(destfile, 'wb') as csvfile:
         noExt3 = dirlist[loadfirst].split(".pdb")
         cmd.delete(noExt3[0])
 
-print('Elapsed Time = ' + str(round(totalTime, 2)) + ' minutes')
+elapsedTime = 'Elapsed Time = ' + str(round(totalTime, 2)) + ' minutes'
+print(elapsedTime)
+logging.info(elapsedTime)
 
 
 
@@ -265,22 +270,5 @@ print('Elapsed Time = ' + str(round(totalTime, 2)) + ' minutes')
 
 
 
-#print(totalRuns)
-                   # if remainTime > datetime.timedelta(seconds = 0):
-        #                print(str(remainTime))
-        #            else:
-
-        #                print('Job complete!')
 
 
-# for atom1 in range(secondAb):
-#     for atom2 in range(firstAb):
-#         distance = sqrt((atom1.elem.x - atom2.elem.x)^2 +
-#                         (atom1.elem.y - atom2.elem.y)^2 +
-#                         (atom1.elem.z - atom2.elem.z)^2)
-#         print(str(atom1.elem + ' ' + atom2.elem + ' '),
-#         print(str(distance))
-#         if distance < = Minimum || Medium = 0:
-#              Medium = distance
-#
-# Minimum = str(Medium)
