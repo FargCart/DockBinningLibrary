@@ -1,0 +1,6022 @@
+Residue,Closest,Distance,Specific Interactions,# HB,"# Salt
+Bridges","# Pi
+Stacking","#
+Disulfides","# vdW
+Clash","Surface
+Complementarity","Buried
+SASA"
+C:92:Ala,"B:51:Val
+B:66:Gly
+B:65:Ser
+B:33:Leu
+B:52:Ser
+B:35:Trp
+B:64:Gly
+B:50:Lys
+B:48:Ile","0.8 A
+2.3 A
+2.5 A
+2.7 A
+2.7 A
+3.1 A
+3.2 A
+3.3 A
+3.4 A","2x clash to B:33:Leu
+1x hb to B:35:Trp
+1x clash to B:50:Lys
+51x clash to B:51:Val
+4x clash to B:52:Ser
+4x clash to B:65:Ser
+3x clash to B:66:Gly",1,0,0,0,65,0.00,100.0%
+B:35:Trp,"C:94:Tyr
+C:119:Thr
+C:95:Tyr
+C:118:Gly
+C:121:Val
+C:6:Glu
+C:120:Thr
+C:20:Leu
+C:93:Thr
+C:92:Ala
+C:117:Ala
+C:10:Gly
+C:38:Ile
+C:7:Ser","0.3 A
+0.9 A
+1.6 A
+2.1 A
+2.3 A
+2.6 A
+2.7 A
+2.7 A
+3.0 A
+3.1 A
+3.3 A
+3.7 A
+3.8 A
+3.9 A","6x clash to C:6:Glu
+5x clash to C:20:Leu
+1x hb to C:92:Ala
+4x clash to C:93:Thr
+41x clash to C:94:Tyr
+9x clash to C:95:Tyr
+8x clash to C:118:Gly
+73x clash to C:119:Thr
+9x clash to C:120:Thr
+14x clash to C:121:Val",1,0,0,0,169,0.00,0.0%
+C:69:Ser,"B:2:Val
+B:27:Gln
+B:26:Ser
+B:3:Val
+B:1:Asp
+B:97:Thr","0.9 A
+0.9 A
+1.2 A
+2.5 A
+3.7 A
+3.7 A","41x clash to B:2:Val
+1x hb, 1x clash to B:3:Val
+10x clash to B:26:Ser
+1x hb, 25x clash to B:27:Gln",2,0,0,0,77,0.00,82.5%
+B:27:Gln,"C:67:Arg
+C:69:Ser
+C:68:Ile
+C:82:Gln
+C:84:Asn
+C:66:Ser
+C:83:Leu
+C:70:Ile","0.7 A
+0.9 A
+1.0 A
+2.6 A
+3.3 A
+3.6 A
+3.7 A
+3.9 A","10x clash to C:67:Arg
+35x clash to C:68:Ile
+1x hb, 25x clash to C:69:Ser
+1x hb to C:84:Asn",2,0,0,0,70,0.00,18.1%
+B:3:Val,"C:82:Gln
+C:81:Leu
+C:69:Ser
+C:71:Thr
+C:19:Ser
+C:83:Leu
+C:70:Ile
+C:18:Leu
+C:80:Phe","0.8 A
+2.2 A
+2.5 A
+2.6 A
+2.9 A
+3.2 A
+3.5 A
+3.6 A
+3.8 A","2x clash to C:19:Ser
+1x hb, 1x clash to C:69:Ser
+15x clash to C:71:Thr
+3x clash to C:81:Leu
+69x clash to C:82:Gln",1,0,0,0,90,0.00,42.3%
+D:89:Ser,"A:102:Ile
+A:100:Leu
+A:104:Thr
+A:103:Thr
+A:101:Gly
+A:107:Gly
+A:105:Val
+A:32:Asp","0.6 A
+1.7 A
+1.7 A
+1.7 A
+2.1 A
+2.7 A
+2.8 A
+3.9 A","4x clash to A:100:Leu
+6x clash to A:101:Gly
+67x clash to A:102:Ile
+6x clash to A:103:Thr
+5x clash to A:104:Thr
+1x hb to A:105:Val
+8x clash to A:107:Gly",1,0,0,0,96,0.00,0.0%
+A:105:Val,"D:4:Met
+D:88:Cys
+D:33:Leu
+D:23:Cys
+D:71:Phe
+D:89:Ser
+D:29:Leu
+D:34:His
+D:24:Arg
+D:90:Gln
+D:99:Gly","1.1 A
+1.6 A
+2.0 A
+2.2 A
+2.3 A
+2.8 A
+3.0 A
+3.1 A
+3.6 A
+3.9 A
+4.0 A","29x clash to D:4:Met
+7x clash to D:23:Cys
+1x clash to D:29:Leu
+18x clash to D:33:Leu
+11x clash to D:71:Phe
+22x clash to D:88:Cys
+1x hb to D:89:Ser",1,0,0,0,88,0.00,100.0%
+D:54:Arg,"A:27:Tyr
+A:28:Ser
+A:26:Gly
+A:77:Asn
+A:29:Ile
+A:24:Val","0.3 A
+0.6 A
+1.9 A
+2.6 A
+3.1 A
+3.5 A","7x clash to A:26:Gly
+45x clash to A:27:Tyr
+20x clash to A:28:Ser
+1x hb to A:77:Asn",1,0,0,0,72,0.05,31.5%
+A:77:Asn,"D:54:Arg
+D:49:Tyr","2.6 A
+2.7 A",1x hb to D:54:Arg,1,0,0,0,0,0.00,2.4%
+C:66:Ser,"B:28:Ser
+B:29:Leu
+B:30:Val
+B:68:Gly
+B:31:Thr
+B:27:Gln
+B:93:Tyr","0.6 A
+1.5 A
+1.8 A
+2.1 A
+2.2 A
+3.6 A
+3.7 A","22x clash to B:28:Ser
+22x clash to B:29:Leu
+1x hb, 14x clash to B:30:Val
+2x clash to B:31:Thr
+4x clash to B:68:Gly",1,0,0,0,64,0.00,100.0%
+B:30:Val,"C:64:Leu
+C:65:Thr
+C:66:Ser
+C:63:Ser
+C:61:Asn
+C:62:Pro","0.7 A
+0.7 A
+1.8 A
+2.2 A
+3.5 A
+3.5 A","4x clash to C:63:Ser
+42x clash to C:64:Leu
+76x clash to C:65:Thr
+1x hb, 14x clash to C:66:Ser",1,0,0,0,136,-0.10,95.4%
+C:22:Cys,"A:46:Leu
+B:99:Gly
+B:98:Phe
+B:87:Phe
+A:45:Lys
+A:44:Asn
+B:100:Ser
+B:36:Tyr","1.1 A
+1.4 A
+1.8 A
+2.0 A
+2.5 A
+2.8 A
+3.6 A
+3.9 A","2x clash to A:45:Lys
+1x hb, 22x clash to A:46:Leu
+14x clash to B:87:Phe
+15x clash to B:98:Phe
+5x clash to B:99:Gly",1,0,0,0,58,0.00,0.0%
+A:46:Leu,"C:22:Cys
+C:79:Phe
+C:24:Val
+C:78:Gln
+C:23:Thr
+C:96:Cys
+C:77:Asn
+C:5:Gln
+C:4:Leu
+C:29:Ile
+C:3:Gln
+C:25:Thr","1.1 A
+1.5 A
+1.9 A
+2.1 A
+2.1 A
+2.4 A
+2.8 A
+2.8 A
+3.0 A
+3.5 A
+3.8 A
+3.8 A","10x clash to C:4:Leu
+4x clash to C:5:Gln
+1x hb, 22x clash to C:22:Cys
+12x clash to C:23:Thr
+39x clash to C:24:Val
+1x clash to C:29:Ile
+5x clash to C:78:Gln
+20x clash to C:79:Phe
+3x clash to C:96:Cys",1,0,0,0,116,0.00,100.0%
+C:99:Glu,"A:36:Asn
+A:51:Tyr
+A:50:Gly
+A:48:Trp
+A:37:Trp
+B:96:Phe
+A:112:Phe
+A:99:Glu
+A:35:Trp
+A:38:Ile
+A:59:Ser
+A:97:Val","0.5 A
+1.0 A
+1.1 A
+2.3 A
+2.5 A
+2.8 A
+2.9 A
+2.9 A
+3.2 A
+3.5 A
+3.6 A
+3.7 A","55x clash to A:36:Asn
+1x hb to A:37:Trp
+13x clash to A:48:Trp
+4x clash to A:50:Gly
+34x clash to A:51:Tyr
+1x clash to A:99:Glu
+6x clash to A:112:Phe
+2x clash to B:96:Phe",1,0,0,0,115,0.00,0.0%
+A:37:Trp,"C:33:Tyr
+C:98:Arg
+C:99:Glu
+C:35:Trp
+C:34:Ala
+C:102:Ile
+C:100:Leu
+C:32:Asp
+C:1:Asp","0.7 A
+2.1 A
+2.5 A
+2.7 A
+2.7 A
+2.8 A
+3.7 A
+3.8 A
+3.9 A","103x clash to C:33:Tyr
+4x clash to C:35:Trp
+18x clash to C:98:Arg
+1x hb to C:99:Glu
+6x clash to C:102:Ile",1,0,0,0,131,0.00,0.0%
+C:109:Asp,"A:53:Ser
+A:54:Tyr
+A:52:Ile
+A:51:Tyr
+A:56:Gly
+A:57:Ser
+A:72:Arg
+A:34:Ala
+A:55:Ser
+A:35:Trp
+A:33:Tyr","0.9 A
+1.2 A
+1.5 A
+2.4 A
+2.4 A
+2.7 A
+2.8 A
+3.1 A
+3.2 A
+3.4 A
+3.5 A","2x clash to A:34:Ala
+1x hb to A:35:Trp
+6x clash to A:51:Tyr
+18x clash to A:52:Ile
+56x clash to A:53:Ser
+7x clash to A:54:Tyr
+1x clash to A:56:Gly
+1x salt bridge to A:72:Arg",1,1,0,0,90,0.00,100.0%
+A:35:Trp,"C:100:Leu
+D:49:Tyr
+D:55:Phe
+D:46:Leu
+C:111:Tyr
+C:101:Gly
+C:99:Glu
+C:109:Asp
+C:113:Asp
+D:53:Asn","0.5 A
+0.9 A
+1.1 A
+2.7 A
+2.7 A
+2.7 A
+3.2 A
+3.4 A
+3.6 A
+3.8 A","75x clash to C:100:Leu
+1x hb to C:109:Asp
+1x clash to C:113:Asp
+15x clash to D:46:Leu
+1x pi stack, 23x clash to D:49:Tyr
+32x clash to D:55:Phe",1,0,1,0,146,0.00,0.0%
+A:53:Ser,"C:109:Asp
+C:108:Met
+C:110:Trp
+D:50:Lys
+D:32:Tyr
+D:91:Ser
+C:107:Gly","0.9 A
+1.4 A
+2.1 A
+2.2 A
+2.7 A
+3.0 A
+3.5 A","8x clash to C:108:Met
+56x clash to C:109:Asp
+9x clash to C:110:Trp
+4x clash to D:32:Tyr
+1x hb to D:50:Lys
+1x clash to D:91:Ser",1,0,0,0,78,0.00,100.0%
+D:50:Lys,"A:31:Ser
+A:32:Asp
+A:72:Arg
+A:30:Thr
+A:54:Tyr
+A:29:Ile
+A:53:Ser
+A:55:Ser
+A:33:Tyr
+A:56:Gly
+A:27:Tyr","0.6 A
+0.8 A
+1.0 A
+1.5 A
+1.6 A
+2.1 A
+2.2 A
+3.1 A
+3.2 A
+3.6 A
+4.0 A","7x clash to A:29:Ile
+19x clash to A:30:Thr
+37x clash to A:31:Ser
+18x clash to A:32:Asp
+1x hb to A:53:Ser
+16x clash to A:54:Tyr
+2x clash to A:55:Ser
+45x clash to A:72:Arg",1,0,0,0,144,0.00,81.0%
+B:46:Leu,"C:116:Gly
+D:43:Ser
+C:95:Tyr
+C:117:Ala
+C:115:Trp
+D:44:Pro
+D:42:Gln
+D:45:Lys
+C:118:Gly","1.1 A
+1.2 A
+1.6 A
+1.7 A
+1.7 A
+2.1 A
+3.1 A
+3.3 A
+3.5 A","26x clash to C:95:Tyr
+30x clash to C:115:Trp
+6x clash to C:116:Gly
+3x clash to C:117:Ala
+1x hb, 50x clash to D:43:Ser
+16x clash to D:44:Pro",1,0,0,0,131,0.00,90.7%
+D:43:Ser,"B:55:Phe
+B:46:Leu
+B:47:Leu
+B:45:Lys
+B:58:Val
+B:56:Ser","0.5 A
+1.2 A
+2.7 A
+2.9 A
+3.3 A
+4.0 A","1x clash to B:45:Lys
+1x hb, 50x clash to B:46:Leu
+2x clash to B:47:Leu
+32x clash to B:55:Phe",1,0,0,0,85,0.02,100.0%
+C:40:Gln,"B:50:Lys
+B:49:Tyr
+B:53:Asn
+B:52:Ser
+B:51:Val
+B:33:Leu
+B:54:Arg
+B:34:His
+B:55:Phe
+B:48:Ile","0.6 A
+1.0 A
+1.8 A
+1.8 A
+2.1 A
+2.7 A
+2.7 A
+3.6 A
+3.8 A
+3.9 A","1x clash to B:33:Leu
+1x hb, 66x clash to B:49:Tyr
+32x clash to B:50:Lys
+5x clash to B:51:Val
+4x clash to B:52:Ser
+1x hb, 26x clash to B:53:Asn",2,0,0,0,134,-0.02,100.0%
+B:53:Asn,"C:41:Phe
+C:44:Asn
+C:40:Gln
+C:43:Gly
+C:93:Thr
+C:95:Tyr
+C:42:Pro
+C:45:Lys","1.0 A
+1.4 A
+1.8 A
+2.0 A
+2.5 A
+2.7 A
+3.0 A
+3.2 A","1x hb, 26x clash to C:40:Gln
+16x clash to C:41:Phe
+6x clash to C:43:Gly
+6x clash to C:44:Asn
+2x clash to C:93:Thr",1,0,0,0,56,0.01,96.4%
+A:61:Asn,"C:53:Ser
+C:55:Ser
+C:56:Gly
+C:54:Tyr
+C:52:Ile
+C:57:Ser
+C:72:Arg","0.5 A
+1.2 A
+1.6 A
+1.7 A
+2.2 A
+2.4 A
+2.7 A","8x clash to C:52:Ile
+63x clash to C:53:Ser
+13x clash to C:54:Tyr
+1x hb, 6x clash to C:55:Ser
+11x clash to C:56:Gly
+4x clash to C:57:Ser
+1x clash to C:72:Arg",1,0,0,0,106,-0.03,100.0%
+C:55:Ser,"A:64:Leu
+A:61:Asn
+A:63:Ser
+A:62:Pro
+A:65:Thr
+A:68:Ile
+A:66:Ser","0.6 A
+1.2 A
+2.3 A
+2.5 A
+2.8 A
+3.1 A
+3.1 A","1x hb, 6x clash to A:61:Asn
+2x clash to A:62:Pro
+3x clash to A:63:Ser
+38x clash to A:64:Leu",1,0,0,0,49,0.12,84.1%
+C:84:Asn,"B:69:Thr
+B:25:Ser
+B:26:Ser
+B:24:Arg
+B:27:Gln
+B:68:Gly","1.1 A
+1.5 A
+1.5 A
+2.8 A
+3.3 A
+3.9 A","6x clash to B:24:Arg
+10x clash to B:25:Ser
+12x clash to B:26:Ser
+1x hb to B:27:Gln
+25x clash to B:69:Thr",1,0,0,0,53,-0.01,25.9%
+A:49:Met,"C:33:Tyr
+C:32:Asp
+C:35:Trp
+C:34:Ala
+C:28:Ser
+C:54:Tyr
+C:31:Ser
+C:27:Tyr
+C:29:Ile
+C:53:Ser
+C:30:Thr
+C:52:Ile","0.6 A
+1.3 A
+1.3 A
+1.9 A
+2.0 A
+2.1 A
+2.2 A
+2.8 A
+3.1 A
+3.2 A
+3.4 A
+3.7 A","4x clash to C:27:Tyr
+5x clash to C:28:Ser
+8x clash to C:29:Ile
+13x clash to C:31:Ser
+23x clash to C:32:Asp
+23x clash to C:33:Tyr
+11x clash to C:34:Ala
+43x clash to C:35:Trp
+1x hb, 4x clash to C:54:Tyr",1,0,0,0,134,0.00,0.0%
+C:54:Tyr,"A:68:Ile
+A:60:Tyr
+A:61:Asn
+A:64:Leu
+A:49:Met
+A:59:Ser
+A:66:Ser
+A:50:Gly
+A:58:Thr
+A:70:Ile
+A:48:Trp","0.7 A
+0.8 A
+1.7 A
+1.9 A
+2.1 A
+2.3 A
+3.0 A
+3.2 A
+3.3 A
+3.4 A
+3.8 A","1x hb, 4x clash to A:49:Met
+2x clash to A:50:Gly
+2x clash to A:59:Ser
+48x clash to A:60:Tyr
+13x clash to A:61:Asn
+16x clash to A:64:Leu
+1x clash to A:66:Ser
+55x clash to A:68:Ile
+1x clash to A:70:Ile",1,0,0,0,142,0.00,88.0%
+A:103:Thr,"D:90:Gln
+D:91:Ser
+D:89:Ser
+D:97:Thr
+D:4:Met
+D:96:Phe
+D:92:Thr
+D:29:Leu
+D:95:Pro
+D:32:Tyr
+D:93:Tyr","0.4 A
+1.6 A
+1.7 A
+2.1 A
+2.4 A
+2.5 A
+2.8 A
+3.0 A
+3.5 A
+3.7 A
+3.8 A","1x clash to D:4:Met
+6x clash to D:89:Ser
+83x clash to D:90:Gln
+5x clash to D:91:Ser
+1x hb to D:92:Thr
+6x clash to D:96:Phe
+6x clash to D:97:Thr",1,0,0,0,107,0.00,100.0%
+D:92:Thr,"A:103:Thr
+A:54:Tyr","2.8 A
+3.2 A","1x clash to A:54:Tyr
+1x hb to A:103:Thr",1,0,0,0,1,0.00,0.0%
+A:90:Asp,"C:31:Ser
+C:30:Thr
+C:28:Ser","1.2 A
+2.0 A
+2.5 A","6x clash to C:28:Ser
+4x clash to C:30:Thr
+1x hb, 5x clash to C:31:Ser",1,0,0,0,15,0.00,0.0%
+C:31:Ser,"A:68:Ile
+A:90:Asp
+A:83:Leu
+A:66:Ser
+A:49:Met
+A:94:Tyr
+A:39:Arg
+A:67:Arg
+A:82:Gln
+A:64:Leu","1.0 A
+1.2 A
+1.5 A
+2.1 A
+2.2 A
+2.3 A
+2.4 A
+3.4 A
+3.9 A
+4.0 A","5x clash to A:39:Arg
+13x clash to A:49:Met
+9x clash to A:66:Ser
+9x clash to A:68:Ile
+27x clash to A:83:Leu
+1x hb, 5x clash to A:90:Asp
+1x clash to A:94:Tyr",1,0,0,0,69,0.00,100.0%
+D:34:His,"A:54:Tyr
+A:32:Asp
+A:33:Tyr
+A:102:Ile
+A:104:Thr
+A:34:Ala
+A:105:Val
+A:101:Gly","0.2 A
+1.2 A
+1.2 A
+1.3 A
+2.1 A
+3.1 A
+3.1 A
+3.8 A","23x clash to A:32:Asp
+29x clash to A:33:Tyr
+1x hb, 39x clash to A:54:Tyr
+38x clash to A:102:Ile
+4x clash to A:104:Thr",1,0,0,0,133,0.00,0.0%
+A:54:Tyr,"D:34:His
+C:109:Asp
+D:91:Ser
+D:50:Lys
+D:32:Tyr
+D:90:Gln
+D:30E:Asn
+C:111:Tyr
+D:92:Thr
+D:33:Leu
+C:110:Trp","0.2 A
+1.2 A
+1.5 A
+1.6 A
+1.7 A
+1.7 A
+1.9 A
+3.2 A
+3.2 A
+3.7 A
+4.0 A","7x clash to C:109:Asp
+1x pi stack to C:111:Tyr
+2x clash to D:30E:Asn
+41x clash to D:32:Tyr
+1x hb, 39x clash to D:34:His
+16x clash to D:50:Lys
+4x clash to D:90:Gln
+34x clash to D:91:Ser
+1x clash to D:92:Thr",1,0,1,0,144,0.00,99.8%
+B:6:Gln,"C:7:Ser
+C:19:Ser
+C:8:Gly
+C:9:Pro
+C:21:Thr
+C:20:Leu
+C:6:Glu","0.4 A
+1.0 A
+1.2 A
+2.0 A
+2.1 A
+2.8 A
+3.7 A","26x clash to C:7:Ser
+29x clash to C:8:Gly
+12x clash to C:9:Pro
+9x clash to C:19:Ser
+7x clash to C:20:Leu
+1x hb, 4x clash to C:21:Thr",1,0,0,0,87,0.00,0.0%
+C:21:Thr,"B:99:Gly
+B:100:Ser
+B:101:Gly
+B:87:Phe
+B:6:Gln
+B:4:Met
+B:86:Tyr
+B:98:Phe
+B:88:Cys
+B:9:Leu
+A:44:Asn","0.6 A
+0.9 A
+1.4 A
+1.7 A
+2.1 A
+3.2 A
+3.5 A
+3.5 A
+3.6 A
+3.7 A
+3.8 A","1x hb, 4x clash to B:6:Gln
+8x clash to B:87:Phe
+27x clash to B:99:Gly
+47x clash to B:100:Ser
+12x clash to B:101:Gly",1,0,0,0,98,0.00,100.0%
+D:38:Gln,"B:56:Ser
+B:54:Arg
+B:49:Tyr
+B:55:Phe","1.3 A
+1.5 A
+1.5 A
+1.9 A","1x hb, 13x clash to B:49:Tyr
+10x clash to B:54:Arg
+21x clash to B:55:Phe
+16x clash to B:56:Ser",1,0,0,0,60,0.01,94.1%
+B:49:Tyr,"C:40:Gln
+D:38:Gln
+C:46:Leu
+C:95:Tyr
+D:87:Phe
+C:39:Arg
+D:44:Pro
+C:44:Asn
+C:41:Phe
+C:93:Thr
+C:115:Trp
+C:38:Ile","1.0 A
+1.5 A
+1.6 A
+1.8 A
+2.2 A
+2.4 A
+2.9 A
+2.9 A
+2.9 A
+2.9 A
+3.9 A
+4.0 A","1x clash to C:39:Arg
+1x hb, 66x clash to C:40:Gln
+1x clash to C:44:Asn
+28x clash to C:46:Leu
+2x clash to C:93:Thr
+34x clash to C:95:Tyr
+1x clash to C:115:Trp
+1x hb, 13x clash to D:38:Gln
+5x clash to D:44:Pro
+7x clash to D:87:Phe",2,0,0,0,158,0.00,100.0%
+D:36:Tyr,"A:100:Leu
+A:99:Glu
+A:101:Gly
+A:113:Asp
+A:111:Tyr
+A:33:Tyr
+A:102:Ile
+A:98:Arg","0.3 A
+1.3 A
+1.8 A
+2.7 A
+2.7 A
+2.8 A
+3.4 A
+3.7 A","2x clash to A:33:Tyr
+23x clash to A:99:Glu
+101x clash to A:100:Leu
+1x hb, 7x clash to A:101:Gly
+6x clash to A:113:Asp",1,0,0,0,139,0.00,0.0%
+A:101:Gly,"D:36:Tyr
+C:111:Tyr
+D:89:Ser
+D:98:Phe
+C:112:Phe
+D:90:Gln
+D:97:Thr
+D:34:His","1.8 A
+1.9 A
+2.1 A
+2.1 A
+3.2 A
+3.3 A
+3.7 A
+3.8 A","11x clash to C:111:Tyr
+6x clash to C:112:Phe
+1x hb, 7x clash to D:36:Tyr
+6x clash to D:89:Ser
+11x clash to D:98:Phe",1,0,0,0,41,0.00,0.0%
+D:30E:Asn,"A:54:Tyr
+A:55:Ser
+A:72:Arg
+A:56:Gly","1.9 A
+2.0 A
+2.6 A
+3.6 A","2x clash to A:54:Tyr
+16x clash to A:55:Ser
+1x hb to A:72:Arg",1,0,0,0,18,0.00,12.4%
+A:72:Arg,"D:50:Lys
+D:30E:Asn
+C:109:Asp","1.0 A
+2.6 A
+2.8 A","1x salt bridge to C:109:Asp
+1x hb to D:30E:Asn
+45x clash to D:50:Lys",1,1,0,0,45,0.00,26.6%
+B:2:Val,"C:69:Ser
+C:70:Ile
+C:82:Gln
+C:60:Tyr
+C:71:Thr
+C:80:Phe
+C:68:Ile
+C:81:Leu","0.9 A
+0.9 A
+1.8 A
+1.8 A
+2.1 A
+2.3 A
+2.8 A
+3.4 A","17x clash to C:60:Tyr
+4x clash to C:68:Ile
+41x clash to C:69:Ser
+49x clash to C:70:Ile
+1x hb, 4x clash to C:71:Thr
+1x clash to C:80:Phe
+5x clash to C:82:Gln",1,0,0,0,121,0.00,100.0%
+C:71:Thr,"B:1:Asp
+B:2:Val
+B:97:Thr
+B:3:Val","1.9 A
+2.1 A
+2.5 A
+2.6 A","32x clash to B:1:Asp
+1x hb, 4x clash to B:2:Val
+15x clash to B:3:Val
+4x clash to B:97:Thr",1,0,0,0,55,0.16,52.4%
+B:5:Thr,"C:19:Ser
+C:20:Leu
+C:9:Pro
+C:81:Leu
+C:18:Leu
+C:82:Gln","0.9 A
+2.7 A
+2.8 A
+2.9 A
+2.9 A
+3.7 A","4x clash to C:18:Leu
+1x hb, 53x clash to C:19:Ser
+1x clash to C:20:Leu",1,0,0,0,58,0.00,13.3%
+C:19:Ser,"B:5:Thr
+B:6:Gln
+B:4:Met
+B:24:Arg
+B:3:Val
+B:23:Cys
+B:88:Cys
+B:100:Ser
+B:7:Thr","0.9 A
+1.0 A
+1.8 A
+2.2 A
+2.9 A
+2.9 A
+3.4 A
+3.6 A
+3.8 A","2x clash to B:3:Val
+13x clash to B:4:Met
+1x hb, 53x clash to B:5:Thr
+9x clash to B:6:Gln
+1x clash to B:23:Cys
+7x clash to B:24:Arg",1,0,0,0,85,0.00,100.0%
+B:69:Thr,"C:84:Asn
+C:86:Val
+C:85:Ser
+C:83:Leu
+C:90:Asp
+C:87:Thr
+C:67:Arg
+C:18:Leu
+C:16:Gln
+C:17:Ser","1.1 A
+1.2 A
+1.3 A
+1.8 A
+2.5 A
+2.8 A
+2.9 A
+3.2 A
+3.5 A
+4.0 A","1x hb to C:18:Leu
+2x clash to C:67:Arg
+15x clash to C:83:Leu
+25x clash to C:84:Asn
+10x clash to C:85:Ser
+26x clash to C:86:Val
+3x clash to C:87:Thr
+1x clash to C:90:Asp",1,0,0,0,82,0.00,100.0%
+C:18:Leu,"B:23:Cys
+B:24:Arg
+B:25:Ser
+B:22:Ser
+B:71:Phe
+B:5:Thr
+B:69:Thr
+B:3:Val
+B:4:Met
+B:88:Cys","0.3 A
+0.5 A
+2.2 A
+2.5 A
+2.5 A
+2.9 A
+3.2 A
+3.6 A
+3.9 A
+3.9 A","4x clash to B:5:Thr
+4x clash to B:22:Ser
+59x clash to B:23:Cys
+73x clash to B:24:Arg
+2x clash to B:25:Ser
+1x hb to B:69:Thr
+6x clash to B:71:Phe",1,0,0,0,148,0.00,100.0%
+A:70:Ile,"C:102:Ile
+C:104:Thr
+C:105:Val
+C:107:Gly
+C:101:Gly
+C:32:Asp
+C:100:Leu
+C:103:Thr
+C:33:Tyr
+C:54:Tyr
+C:106:Val","0.5 A
+1.6 A
+1.8 A
+2.4 A
+2.7 A
+2.7 A
+3.2 A
+3.4 A
+3.4 A
+3.4 A
+3.5 A","2x clash to C:32:Asp
+3x clash to C:33:Tyr
+1x clash to C:54:Tyr
+1x clash to C:100:Leu
+4x clash to C:101:Gly
+119x clash to C:102:Ile
+8x clash to C:104:Thr
+14x clash to C:105:Val
+1x hb to C:107:Gly",1,0,0,0,152,0.00,100.0%
+C:107:Gly,"A:52:Ile
+A:58:Thr
+A:56:Gly
+A:70:Ile
+A:51:Tyr
+A:53:Ser
+A:57:Ser","1.3 A
+2.1 A
+2.3 A
+2.4 A
+2.9 A
+3.5 A
+3.8 A","33x clash to A:52:Ile
+1x clash to A:56:Gly
+14x clash to A:58:Thr
+1x hb to A:70:Ile",1,0,0,0,48,0.00,100.0%
+B:94:Asp,"C:59:Ser
+C:51:Tyr
+C:58:Thr
+C:60:Tyr
+C:50:Gly
+C:52:Ile
+C:48:Trp
+C:57:Ser","0.8 A
+1.3 A
+1.5 A
+3.0 A
+3.2 A
+3.5 A
+3.6 A
+3.8 A","1x clash to C:50:Gly
+60x clash to C:51:Tyr
+11x clash to C:58:Thr
+1x hb, 34x clash to C:59:Ser",1,0,0,0,106,0.00,96.9%
+C:59:Ser,"B:94:Asp
+B:93:Tyr
+B:95:Pro
+A:59:Ser","0.8 A
+1.1 A
+2.9 A
+3.9 A","10x clash to B:93:Tyr
+1x hb, 34x clash to B:94:Asp
+1x clash to B:95:Pro",1,0,0,0,45,0.00,3.9%
+B:20:Ser,"C:11:Leu
+C:9:Pro
+C:10:Gly","2.4 A
+2.6 A
+3.9 A","1x clash to C:9:Pro
+1x hb, 9x clash to C:11:Leu",1,0,0,0,10,0.24,54.8%
+C:11:Leu,"B:72:Thr
+B:20:Ser
+B:21:Ile
+B:22:Ser
+B:71:Phe
+B:74:Lys","1.1 A
+2.4 A
+2.5 A
+2.7 A
+3.6 A
+3.7 A","1x hb, 9x clash to B:20:Ser
+3x clash to B:21:Ile
+5x clash to B:22:Ser
+28x clash to B:72:Thr",1,0,0,0,45,0.20,39.0%
+A:47:Glu,"C:29:Ile
+C:35:Trp
+C:72:Arg
+C:79:Phe
+C:24:Val
+C:30:Thr
+C:77:Asn
+C:73:Asp","0.9 A
+1.0 A
+2.1 A
+2.2 A
+2.4 A
+2.9 A
+3.7 A
+3.8 A","5x clash to C:24:Val
+70x clash to C:29:Ile
+14x clash to C:35:Trp
+1x salt bridge, 18x clash to C:72:Arg
+8x clash to C:79:Phe",0,1,0,0,115,0.00,100.0%
+C:72:Arg,"A:64:Leu
+A:47:Glu
+A:61:Asn
+B:1:Asp
+A:48:Trp
+A:39:Arg
+A:45:Lys","0.6 A
+2.1 A
+2.7 A
+2.9 A
+3.1 A
+3.7 A
+3.7 A","1x salt bridge, 18x clash to A:47:Glu
+1x clash to A:61:Asn
+45x clash to A:64:Leu
+1x clash to B:1:Asp",0,1,0,0,65,0.00,27.3%
+D:49:Tyr,"A:29:Ile
+A:32:Asp
+A:35:Trp
+A:27:Tyr
+A:33:Tyr
+A:31:Ser
+A:28:Ser
+A:30:Thr
+A:77:Asn
+A:24:Val","0.4 A
+0.7 A
+0.9 A
+1.8 A
+2.3 A
+2.3 A
+2.5 A
+2.7 A
+2.7 A
+3.7 A","1x clash to A:24:Val
+13x clash to A:27:Tyr
+6x clash to A:28:Ser
+53x clash to A:29:Ile
+2x clash to A:30:Thr
+5x clash to A:31:Ser
+29x clash to A:32:Asp
+13x clash to A:33:Tyr
+1x pi stack, 23x clash to A:35:Trp",0,0,1,0,145,0.00,100.0%
+A:51:Tyr,"C:101:Gly
+C:99:Glu
+C:110:Trp
+C:100:Leu
+C:102:Ile
+C:109:Asp
+D:96:Phe
+C:107:Gly
+C:111:Tyr
+C:34:Ala
+C:51:Tyr
+C:103:Thr","0.3 A
+1.0 A
+1.1 A
+2.0 A
+2.3 A
+2.4 A
+2.5 A
+2.9 A
+2.9 A
+3.3 A
+3.5 A
+4.0 A","1x pi stack to C:51:Tyr
+34x clash to C:99:Glu
+11x clash to C:100:Leu
+42x clash to C:101:Gly
+3x clash to C:102:Ile
+6x clash to C:109:Asp
+1x pi stack, 50x clash to C:110:Trp
+3x clash to C:111:Tyr
+1x pi stack, 3x clash to D:96:Phe",0,0,3,0,152,0.00,100.0%
+C:51:Tyr,"B:95:Pro
+B:94:Asp
+B:96:Phe
+A:59:Ser
+A:48:Trp
+B:93:Tyr
+A:51:Tyr
+A:60:Tyr","0.9 A
+1.3 A
+1.4 A
+1.4 A
+1.8 A
+1.9 A
+3.5 A
+3.7 A","26x clash to A:48:Trp
+1x pi stack to A:51:Tyr
+11x clash to A:59:Ser
+4x clash to B:93:Tyr
+60x clash to B:94:Asp
+18x clash to B:95:Pro
+40x clash to B:96:Phe",0,0,1,0,159,0.00,44.4%
+D:96:Phe,"A:110:Trp
+A:109:Asp
+A:108:Met
+A:51:Tyr
+A:103:Thr
+B:32:Tyr","0.7 A
+2.1 A
+2.4 A
+2.5 A
+2.5 A
+4.0 A","1x pi stack, 3x clash to A:51:Tyr
+6x clash to A:103:Thr
+8x clash to A:108:Met
+5x clash to A:109:Asp
+66x clash to A:110:Trp",0,0,1,0,88,0.00,0.0%
+C:110:Trp,"A:59:Ser
+A:51:Tyr
+A:110:Trp
+A:53:Ser
+A:58:Thr
+A:34:Ala
+A:57:Ser
+A:60:Tyr
+A:52:Ile
+A:99:Glu
+A:48:Trp
+A:54:Tyr","0.8 A
+1.1 A
+1.1 A
+2.1 A
+2.4 A
+2.5 A
+2.8 A
+2.9 A
+3.4 A
+3.5 A
+3.7 A
+4.0 A","3x clash to A:34:Ala
+1x pi stack, 50x clash to A:51:Tyr
+9x clash to A:53:Ser
+4x clash to A:57:Ser
+5x clash to A:58:Thr
+51x clash to A:59:Ser
+3x clash to A:60:Tyr
+10x clash to A:110:Trp",0,0,1,0,135,0.00,22.5%
+C:111:Tyr,"A:34:Ala
+A:36:Asn
+A:101:Gly
+A:33:Tyr
+A:99:Glu
+A:100:Leu
+A:102:Ile
+A:35:Trp
+A:51:Tyr
+A:54:Tyr
+A:110:Trp
+A:52:Ile","0.9 A
+1.7 A
+1.9 A
+2.0 A
+2.2 A
+2.5 A
+2.6 A
+2.7 A
+2.9 A
+3.2 A
+3.4 A
+3.8 A","31x clash to A:33:Tyr
+61x clash to A:34:Ala
+6x clash to A:36:Asn
+3x clash to A:51:Tyr
+1x pi stack to A:54:Tyr
+17x clash to A:99:Glu
+5x clash to A:100:Leu
+11x clash to A:101:Gly
+6x clash to A:102:Ile",0,0,1,0,140,0.00,100.0%
+A:110:Trp,"D:96:Phe
+C:110:Trp
+C:48:Trp
+C:112:Phe
+D:98:Phe
+C:38:Ile
+C:36:Asn
+D:91:Ser
+C:37:Trp
+C:111:Tyr
+D:95:Pro
+C:97:Val
+D:90:Gln
+D:93:Tyr","0.7 A
+1.1 A
+1.5 A
+1.7 A
+2.4 A
+2.5 A
+2.6 A
+2.8 A
+3.1 A
+3.4 A
+3.5 A
+3.5 A
+3.7 A
+3.9 A","8x clash to C:38:Ile
+4x pi stack, 21x clash to C:48:Trp
+10x clash to C:110:Trp
+39x clash to C:112:Phe
+9x clash to D:91:Ser
+66x clash to D:96:Phe
+3x clash to D:98:Phe",0,0,4,0,156,0.00,100.0%
+C:48:Trp,"B:32:Tyr
+B:91:Ser
+A:110:Trp
+B:96:Phe
+B:92:Thr
+A:109:Asp
+B:94:Asp
+A:108:Met
+B:93:Tyr","1.3 A
+1.3 A
+1.5 A
+1.7 A
+2.8 A
+3.0 A
+3.6 A
+3.7 A
+4.0 A","2x clash to A:109:Asp
+4x pi stack, 21x clash to A:110:Trp
+28x clash to B:32:Tyr
+18x clash to B:91:Ser
+3x clash to B:92:Thr
+26x clash to B:96:Phe",0,0,4,0,98,0.00,43.3%
+A:111:Tyr,"C:95:Tyr
+C:38:Ile
+C:96:Cys
+C:112:Phe
+C:115:Trp
+D:36:Tyr
+C:97:Val
+C:37:Trp
+C:94:Tyr
+C:6:Glu
+D:98:Phe
+C:36:Asn","0.7 A
+1.0 A
+1.6 A
+2.1 A
+2.2 A
+2.7 A
+2.8 A
+3.0 A
+3.2 A
+3.4 A
+3.7 A
+3.8 A","3x clash to C:37:Trp
+71x clash to C:38:Ile
+48x clash to C:95:Tyr
+8x clash to C:96:Cys
+10x clash to C:97:Val
+14x clash to C:112:Phe
+1x pi stack, 6x clash to C:115:Trp",0,0,1,0,160,0.00,100.0%
+C:115:Trp,"A:113:Asp
+A:115:Trp
+A:112:Phe
+B:46:Leu
+A:111:Tyr
+B:45:Lys
+B:44:Pro
+A:114:Val
+A:100:Leu
+A:98:Arg
+B:36:Tyr
+A:99:Glu
+B:49:Tyr
+A:97:Val","0.4 A
+1.3 A
+1.6 A
+1.7 A
+2.2 A
+2.3 A
+2.5 A
+2.6 A
+2.7 A
+2.8 A
+2.9 A
+3.3 A
+3.9 A
+4.0 A","2x clash to A:99:Glu
+10x clash to A:100:Leu
+1x pi stack, 6x clash to A:111:Tyr
+18x clash to A:112:Phe
+52x clash to A:113:Asp
+3x clash to A:114:Val
+26x clash to A:115:Trp
+4x clash to B:36:Tyr
+1x clash to B:44:Pro
+4x clash to B:45:Lys
+30x clash to B:46:Leu
+1x clash to B:49:Tyr",0,0,1,0,157,0.00,100.0%
+A:1:Asp,"D:47:Leu
+D:58:Val
+D:46:Leu
+D:37:Leu
+D:56:Ser
+D:57:Gly","1.6 A
+3.1 A
+3.6 A
+3.6 A
+3.7 A
+3.7 A","9x clash to D:47:Leu
+1x clash to D:58:Val",0,0,0,0,10,0.56,70.9%
+D:58:Val,"A:26:Gly
+A:2:Val
+A:25:Thr
+A:27:Tyr
+A:1:Asp","1.5 A
+2.2 A
+2.4 A
+2.6 A
+3.1 A","1x clash to A:1:Asp
+15x clash to A:2:Val
+4x clash to A:25:Thr
+24x clash to A:26:Gly
+5x clash to A:27:Tyr",0,0,0,0,49,0.59,92.2%
+D:47:Leu,"A:1:Asp
+A:98:Arg
+A:27:Tyr
+A:33:Tyr
+A:2:Val","1.6 A
+1.7 A
+1.7 A
+2.1 A
+3.1 A","9x clash to A:1:Asp
+1x clash to A:2:Val
+6x clash to A:27:Tyr
+13x clash to A:33:Tyr
+19x clash to A:98:Arg",0,0,0,0,48,0.38,99.7%
+A:2:Val,"D:55:Phe
+D:58:Val
+D:56:Ser
+D:46:Leu
+D:47:Leu","1.3 A
+2.2 A
+2.5 A
+2.6 A
+3.1 A","3x clash to D:46:Leu
+1x clash to D:47:Leu
+44x clash to D:55:Phe
+5x clash to D:56:Ser
+15x clash to D:58:Val",0,0,0,0,68,0.10,12.0%
+D:56:Ser,"A:25:Thr
+A:3:Gln
+A:24:Val
+A:2:Val
+A:26:Gly
+A:23:Thr
+A:4:Leu
+A:1:Asp","1.0 A
+1.4 A
+1.6 A
+2.5 A
+2.8 A
+3.0 A
+3.0 A
+3.7 A","5x clash to A:2:Val
+17x clash to A:3:Gln
+4x clash to A:4:Leu
+1x clash to A:23:Thr
+34x clash to A:24:Val
+22x clash to A:25:Thr
+1x clash to A:26:Gly",0,0,0,0,84,0.00,100.0%
+D:55:Phe,"A:35:Trp
+A:4:Leu
+A:2:Val
+A:27:Tyr
+A:26:Gly
+A:24:Val
+A:25:Thr
+A:28:Ser
+A:98:Arg
+A:79:Phe
+A:97:Val","1.1 A
+1.2 A
+1.3 A
+1.7 A
+2.0 A
+2.2 A
+2.4 A
+3.3 A
+3.3 A
+3.6 A
+3.6 A","44x clash to A:2:Val
+36x clash to A:4:Leu
+10x clash to A:24:Val
+2x clash to A:25:Thr
+4x clash to A:26:Gly
+20x clash to A:27:Tyr
+32x clash to A:35:Trp
+1x clash to A:79:Phe
+2x clash to A:98:Arg",0,0,0,0,151,0.00,100.0%
+D:46:Leu,"A:98:Arg
+A:33:Tyr
+A:113:Asp
+A:2:Val
+A:35:Trp
+A:34:Ala
+A:99:Glu
+A:114:Val
+A:1:Asp","0.4 A
+1.6 A
+1.8 A
+2.6 A
+2.7 A
+3.0 A
+3.1 A
+3.3 A
+3.6 A","3x clash to A:2:Val
+25x clash to A:33:Tyr
+1x clash to A:34:Ala
+15x clash to A:35:Trp
+98x clash to A:98:Arg
+5x clash to A:99:Glu
+6x clash to A:113:Asp
+1x clash to A:114:Val",0,0,0,0,154,0.00,100.0%
+A:3:Gln,"D:56:Ser
+D:57:Gly","1.4 A
+3.8 A",17x clash to D:56:Ser,0,0,0,0,17,0.00,1.0%
+A:4:Leu,"D:55:Phe
+D:56:Ser
+C:113:Asp
+C:114:Val
+C:98:Arg","1.2 A
+3.0 A
+3.3 A
+3.5 A
+3.9 A","2x clash to C:114:Val
+36x clash to D:55:Phe
+4x clash to D:56:Ser",0,0,0,0,42,0.00,0.0%
+A:6:Glu,"C:1:Asp
+C:2:Val
+C:98:Arg","0.6 A
+2.8 A
+4.0 A",33x clash to C:1:Asp,0,0,0,0,33,0.00,0.0%
+C:1:Asp,"A:6:Glu
+A:118:Gly
+A:117:Ala
+A:95:Tyr
+A:96:Cys
+A:94:Tyr
+A:116:Gly
+A:119:Thr
+B:43:Ser
+A:37:Trp","0.6 A
+0.7 A
+1.6 A
+1.8 A
+1.9 A
+2.8 A
+3.2 A
+3.4 A
+3.6 A
+3.9 A","33x clash to A:6:Glu
+16x clash to A:95:Tyr
+9x clash to A:96:Cys
+3x clash to A:116:Gly
+24x clash to A:117:Ala
+23x clash to A:118:Gly",0,0,0,0,108,0.00,100.0%
+A:20:Leu,C:27:Tyr,2.0 A,13x clash to C:27:Tyr,0,0,0,0,13,0.00,0.0%
+C:27:Tyr,"A:94:Tyr
+A:93:Thr
+A:81:Leu
+A:39:Arg
+A:20:Leu
+A:83:Leu
+A:40:Gln
+A:49:Met
+A:95:Tyr
+A:38:Ile
+A:119:Thr
+A:121:Val","0.9 A
+1.4 A
+1.5 A
+1.8 A
+2.0 A
+2.0 A
+2.5 A
+2.8 A
+3.0 A
+3.4 A
+3.6 A
+3.7 A","13x clash to A:20:Leu
+11x clash to A:39:Arg
+2x clash to A:40:Gln
+4x clash to A:49:Met
+19x clash to A:81:Leu
+12x clash to A:83:Leu
+10x clash to A:93:Thr
+94x clash to A:94:Tyr",0,0,0,0,165,0.00,100.0%
+A:23:Thr,D:56:Ser,3.0 A,1x clash to D:56:Ser,0,0,0,0,1,0.00,0.0%
+A:24:Val,"D:56:Ser
+D:55:Phe
+D:57:Gly
+D:54:Arg
+D:49:Tyr","1.6 A
+2.2 A
+3.1 A
+3.5 A
+3.7 A","1x clash to D:49:Tyr
+10x clash to D:55:Phe
+34x clash to D:56:Ser",0,0,0,0,45,0.00,0.0%
+A:25:Thr,"D:57:Gly
+D:56:Ser
+D:58:Val
+D:55:Phe","0.4 A
+1.0 A
+2.4 A
+2.4 A","2x clash to D:55:Phe
+22x clash to D:56:Ser
+33x clash to D:57:Gly
+4x clash to D:58:Val",0,0,0,0,61,-0.12,18.9%
+D:57:Gly,"A:25:Thr
+A:26:Gly
+A:24:Val
+A:1:Asp
+A:3:Gln","0.4 A
+1.7 A
+3.1 A
+3.7 A
+3.8 A","33x clash to A:25:Thr
+9x clash to A:26:Gly",0,0,0,0,42,0.02,80.8%
+A:26:Gly,"D:58:Val
+D:57:Gly
+D:54:Arg
+D:55:Phe
+D:56:Ser","1.5 A
+1.7 A
+1.9 A
+2.0 A
+2.8 A","7x clash to D:54:Arg
+4x clash to D:55:Phe
+1x clash to D:56:Ser
+9x clash to D:57:Gly
+24x clash to D:58:Val",0,0,0,0,45,0.12,79.6%
+A:27:Tyr,"D:54:Arg
+D:48:Ile
+D:47:Leu
+D:55:Phe
+D:49:Tyr
+D:51:Val
+D:53:Asn
+D:58:Val
+D:52:Ser
+D:50:Lys","0.3 A
+0.6 A
+1.7 A
+1.7 A
+1.8 A
+1.8 A
+2.1 A
+2.6 A
+2.9 A
+4.0 A","6x clash to D:47:Leu
+64x clash to D:48:Ile
+13x clash to D:49:Tyr
+3x clash to D:51:Val
+6x clash to D:53:Asn
+45x clash to D:54:Arg
+20x clash to D:55:Phe
+5x clash to D:58:Val",0,0,0,0,162,0.00,100.0%
+D:53:Asn,"A:30:Thr
+A:28:Ser
+A:31:Ser
+A:27:Tyr
+A:29:Ile
+A:35:Trp
+A:32:Asp","0.5 A
+1.4 A
+1.5 A
+2.1 A
+2.7 A
+3.8 A
+3.9 A","6x clash to A:27:Tyr
+41x clash to A:28:Ser
+3x clash to A:29:Ile
+29x clash to A:30:Thr
+29x clash to A:31:Ser",0,0,0,0,108,0.00,72.0%
+D:48:Ile,"A:27:Tyr
+A:33:Tyr
+A:32:Asp","0.6 A
+1.0 A
+3.1 A","64x clash to A:27:Tyr
+30x clash to A:33:Tyr",0,0,0,0,94,0.00,0.0%
+D:51:Val,"A:27:Tyr
+A:31:Ser
+A:32:Asp","1.8 A
+2.1 A
+2.7 A","3x clash to A:27:Tyr
+11x clash to A:31:Ser
+5x clash to A:32:Asp",0,0,0,0,19,0.00,2.7%
+A:28:Ser,"D:54:Arg
+D:52:Ser
+D:53:Asn
+D:49:Tyr
+D:55:Phe","0.6 A
+1.4 A
+1.4 A
+2.5 A
+3.3 A","6x clash to D:49:Tyr
+6x clash to D:52:Ser
+41x clash to D:53:Asn
+20x clash to D:54:Arg",0,0,0,0,73,0.00,56.3%
+D:52:Ser,"A:28:Ser
+A:31:Ser
+A:27:Tyr","1.4 A
+1.9 A
+2.9 A","6x clash to A:28:Ser
+17x clash to A:31:Ser",0,0,0,0,23,0.00,5.9%
+A:29:Ile,"D:49:Tyr
+D:50:Lys
+D:53:Asn
+D:54:Arg","0.4 A
+2.1 A
+2.7 A
+3.1 A","53x clash to D:49:Tyr
+7x clash to D:50:Lys
+3x clash to D:53:Asn",0,0,0,0,63,0.00,0.0%
+A:30:Thr,"D:53:Asn
+D:50:Lys
+D:49:Tyr","0.5 A
+1.5 A
+2.7 A","2x clash to D:49:Tyr
+19x clash to D:50:Lys
+29x clash to D:53:Asn",0,0,0,0,50,0.00,39.9%
+A:31:Ser,"D:50:Lys
+D:53:Asn
+D:52:Ser
+D:51:Val
+D:49:Tyr
+D:33:Leu
+D:31:Thr","0.6 A
+1.5 A
+1.9 A
+2.1 A
+2.3 A
+3.3 A
+3.4 A","5x clash to D:49:Tyr
+37x clash to D:50:Lys
+11x clash to D:51:Val
+17x clash to D:52:Ser
+29x clash to D:53:Asn",0,0,0,0,99,0.00,92.8%
+A:32:Asp,"D:49:Tyr
+D:50:Lys
+D:33:Leu
+D:34:His
+D:51:Val
+D:48:Ile
+D:32:Tyr
+D:35:Trp
+D:89:Ser
+D:53:Asn","0.7 A
+0.8 A
+0.9 A
+1.2 A
+2.7 A
+3.1 A
+3.3 A
+3.6 A
+3.9 A
+3.9 A","15x clash to D:33:Leu
+23x clash to D:34:His
+29x clash to D:49:Tyr
+18x clash to D:50:Lys
+5x clash to D:51:Val",0,0,0,0,90,0.00,100.0%
+D:33:Leu,"A:32:Asp
+A:104:Thr
+A:105:Val
+A:31:Ser
+A:33:Tyr
+A:54:Tyr","0.9 A
+1.2 A
+2.0 A
+3.3 A
+3.6 A
+3.7 A","15x clash to A:32:Asp
+33x clash to A:104:Thr
+18x clash to A:105:Val",0,0,0,0,66,0.00,0.0%
+A:33:Tyr,"D:48:Ile
+D:35:Trp
+D:34:His
+D:46:Leu
+C:111:Tyr
+D:47:Leu
+D:49:Tyr
+D:36:Tyr
+D:50:Lys
+C:109:Asp
+D:33:Leu","1.0 A
+1.1 A
+1.2 A
+1.6 A
+2.0 A
+2.1 A
+2.3 A
+2.8 A
+3.2 A
+3.5 A
+3.6 A","31x clash to C:111:Tyr
+29x clash to D:34:His
+22x clash to D:35:Trp
+2x clash to D:36:Tyr
+25x clash to D:46:Leu
+13x clash to D:47:Leu
+30x clash to D:48:Ile
+13x clash to D:49:Tyr",0,0,0,0,165,0.00,100.0%
+D:35:Trp,"A:33:Tyr
+A:102:Ile
+A:32:Asp
+A:100:Leu","1.1 A
+2.5 A
+3.6 A
+3.8 A","22x clash to A:33:Tyr
+11x clash to A:102:Ile",0,0,0,0,33,0.00,0.0%
+A:34:Ala,"C:111:Tyr
+C:110:Trp
+D:46:Leu
+C:112:Phe
+D:34:His
+C:109:Asp
+C:100:Leu
+C:113:Asp","0.9 A
+2.5 A
+3.0 A
+3.0 A
+3.1 A
+3.1 A
+3.1 A
+3.5 A","1x clash to C:100:Leu
+2x clash to C:109:Asp
+3x clash to C:110:Trp
+61x clash to C:111:Tyr
+1x clash to C:112:Phe
+1x clash to D:46:Leu",0,0,0,0,69,0.00,0.0%
+C:100:Leu,"A:35:Trp
+A:52:Ile
+A:79:Phe
+A:36:Asn
+A:51:Tyr
+A:34:Ala
+A:50:Gly
+A:70:Ile
+A:37:Trp","0.5 A
+1.3 A
+1.5 A
+1.6 A
+2.0 A
+3.1 A
+3.2 A
+3.2 A
+3.7 A","1x clash to A:34:Ala
+75x clash to A:35:Trp
+21x clash to A:36:Asn
+11x clash to A:51:Tyr
+12x clash to A:52:Ile
+1x clash to A:70:Ile
+21x clash to A:79:Phe",0,0,0,0,142,0.00,100.0%
+A:36:Asn,"C:99:Glu
+C:100:Leu
+C:111:Tyr
+C:98:Arg
+C:33:Tyr
+C:113:Asp
+C:112:Phe
+C:34:Ala
+C:101:Gly","0.5 A
+1.6 A
+1.7 A
+2.0 A
+2.2 A
+2.4 A
+2.9 A
+3.3 A
+4.0 A","6x clash to C:33:Tyr
+17x clash to C:98:Arg
+55x clash to C:99:Glu
+21x clash to C:100:Leu
+6x clash to C:111:Tyr
+3x clash to C:112:Phe
+5x clash to C:113:Asp",0,0,0,0,113,0.00,0.0%
+C:113:Asp,"A:97:Val
+A:98:Arg
+A:114:Val
+A:99:Glu
+A:36:Asn
+A:96:Cys
+A:79:Phe
+A:113:Asp
+A:4:Leu
+A:34:Ala
+A:35:Trp
+A:112:Phe","0.7 A
+1.3 A
+2.1 A
+2.4 A
+2.4 A
+2.6 A
+2.7 A
+3.1 A
+3.3 A
+3.5 A
+3.6 A
+3.8 A","1x clash to A:35:Trp
+5x clash to A:36:Asn
+2x clash to A:79:Phe
+1x clash to A:96:Cys
+38x clash to A:97:Val
+35x clash to A:98:Arg
+4x clash to A:99:Glu
+2x clash to A:114:Val",0,0,0,0,88,0.00,100.0%
+C:33:Tyr,"A:49:Met
+A:37:Trp
+A:50:Gly
+A:36:Asn
+A:79:Phe
+A:81:Leu
+A:48:Trp
+A:70:Ile
+A:38:Ile
+A:96:Cys","0.6 A
+0.7 A
+0.9 A
+2.2 A
+2.8 A
+2.9 A
+3.3 A
+3.4 A
+3.4 A
+3.5 A","6x clash to A:36:Asn
+103x clash to A:37:Trp
+23x clash to A:49:Met
+9x clash to A:50:Gly
+3x clash to A:70:Ile
+5x clash to A:79:Phe
+6x clash to A:81:Leu",0,0,0,0,155,0.00,100.0%
+C:98:Arg,"A:96:Cys
+A:95:Tyr
+A:38:Ile
+A:112:Phe
+A:36:Asn
+A:97:Val
+A:37:Trp
+A:79:Phe
+A:115:Trp
+A:22:Cys
+A:4:Leu
+A:6:Glu","0.7 A
+1.3 A
+1.4 A
+1.9 A
+2.0 A
+2.0 A
+2.1 A
+3.7 A
+3.8 A
+3.8 A
+3.9 A
+4.0 A","17x clash to A:36:Asn
+18x clash to A:37:Trp
+45x clash to A:38:Ile
+14x clash to A:95:Tyr
+47x clash to A:96:Cys
+29x clash to A:97:Val
+11x clash to A:112:Phe",0,0,0,0,181,0.00,100.0%
+C:112:Phe,"A:99:Glu
+A:98:Arg
+A:110:Trp
+A:111:Tyr
+A:109:Asp
+A:112:Phe
+A:36:Asn
+A:34:Ala
+A:100:Leu
+A:101:Gly
+A:113:Asp
+A:97:Val
+B:96:Phe","0.8 A
+1.7 A
+1.7 A
+2.1 A
+2.5 A
+2.7 A
+2.9 A
+3.0 A
+3.0 A
+3.2 A
+3.3 A
+3.9 A
+3.9 A","1x clash to A:34:Ala
+3x clash to A:36:Asn
+4x clash to A:98:Arg
+78x clash to A:99:Glu
+6x clash to A:101:Gly
+4x clash to A:109:Asp
+39x clash to A:110:Trp
+14x clash to A:111:Tyr
+19x clash to A:112:Phe",0,0,0,0,168,0.00,0.0%
+C:35:Trp,"A:48:Trp
+A:38:Ile
+A:47:Glu
+A:49:Met
+A:39:Arg
+B:96:Phe
+A:37:Trp
+B:95:Pro
+B:98:Phe
+B:97:Thr
+A:50:Gly","0.8 A
+0.8 A
+1.0 A
+1.3 A
+1.5 A
+2.1 A
+2.7 A
+3.2 A
+3.2 A
+3.6 A
+3.6 A","4x clash to A:37:Trp
+50x clash to A:38:Ile
+13x clash to A:39:Arg
+14x clash to A:47:Glu
+79x clash to A:48:Trp
+43x clash to A:49:Met
+7x clash to B:96:Phe
+3x clash to B:98:Phe",0,0,0,0,213,0.00,0.0%
+C:102:Ile,"A:70:Ile
+A:80:Phe
+A:60:Tyr
+A:71:Thr
+A:51:Tyr
+A:52:Ile
+A:37:Trp
+A:58:Thr
+A:69:Ser
+A:81:Leu","0.5 A
+2.1 A
+2.2 A
+2.2 A
+2.3 A
+2.4 A
+2.8 A
+2.9 A
+3.4 A
+3.9 A","6x clash to A:37:Trp
+3x clash to A:51:Tyr
+5x clash to A:52:Ile
+5x clash to A:60:Tyr
+1x clash to A:69:Ser
+119x clash to A:70:Ile
+10x clash to A:71:Thr
+3x clash to A:80:Phe",0,0,0,0,152,0.00,100.0%
+A:38:Ile,"C:35:Trp
+C:98:Arg
+C:97:Val
+C:2:Val
+C:4:Leu
+C:24:Val
+C:27:Tyr
+C:33:Tyr
+C:99:Glu
+C:79:Phe
+C:34:Ala
+C:114:Val","0.8 A
+1.4 A
+1.7 A
+2.3 A
+2.6 A
+3.2 A
+3.4 A
+3.4 A
+3.5 A
+3.6 A
+3.7 A
+3.9 A","7x clash to C:2:Val
+12x clash to C:4:Leu
+1x clash to C:24:Val
+50x clash to C:35:Trp
+10x clash to C:97:Val
+45x clash to C:98:Arg",0,0,0,0,125,0.00,0.0%
+C:24:Val,"A:40:Gln
+A:39:Arg
+A:46:Leu
+A:47:Glu
+A:44:Asn
+A:45:Lys
+A:41:Phe
+A:95:Tyr
+A:38:Ile
+A:93:Thr","0.5 A
+1.4 A
+1.9 A
+2.4 A
+2.8 A
+3.0 A
+3.0 A
+3.1 A
+3.2 A
+3.7 A","1x clash to A:38:Ile
+16x clash to A:39:Arg
+56x clash to A:40:Gln
+2x clash to A:45:Lys
+39x clash to A:46:Leu
+5x clash to A:47:Glu
+4x clash to A:95:Tyr",0,0,0,0,123,0.00,100.0%
+C:2:Val,"A:95:Tyr
+A:115:Trp
+A:38:Ile
+A:94:Tyr
+B:43:Ser
+A:6:Glu
+A:96:Cys
+A:118:Gly
+A:117:Ala","0.6 A
+2.0 A
+2.3 A
+2.3 A
+2.3 A
+2.8 A
+3.4 A
+3.6 A
+3.8 A","7x clash to A:38:Ile
+4x clash to A:94:Tyr
+99x clash to A:95:Tyr
+10x clash to A:115:Trp
+6x clash to B:43:Ser",0,0,0,0,126,0.00,100.0%
+C:4:Leu,"A:115:Trp
+B:44:Pro
+A:38:Ile
+A:46:Leu
+B:43:Ser
+B:38:Gln
+B:98:Phe
+B:45:Lys
+A:95:Tyr
+A:97:Val
+B:36:Tyr
+B:87:Phe
+B:37:Leu","0.3 A
+0.5 A
+2.6 A
+3.0 A
+3.1 A
+3.4 A
+3.7 A
+3.7 A
+3.7 A
+3.7 A
+3.8 A
+3.9 A
+4.0 A","12x clash to A:38:Ile
+10x clash to A:46:Leu
+1x clash to A:97:Val
+70x clash to A:115:Trp
+44x clash to B:44:Pro",0,0,0,0,137,0.00,100.0%
+C:97:Val,"A:112:Phe
+B:36:Tyr
+A:38:Ile
+B:98:Phe
+A:111:Tyr
+A:115:Trp
+A:110:Trp
+A:113:Asp","1.3 A
+1.6 A
+1.7 A
+2.5 A
+2.8 A
+3.4 A
+3.5 A
+3.7 A","10x clash to A:38:Ile
+10x clash to A:111:Tyr
+88x clash to A:112:Phe
+2x clash to A:115:Trp
+16x clash to B:36:Tyr
+6x clash to B:98:Phe",0,0,0,0,132,0.00,0.0%
+A:39:Arg,"C:30:Thr
+C:28:Ser
+C:24:Val
+C:29:Ile
+C:35:Trp
+C:27:Tyr
+C:77:Asn
+C:31:Ser
+C:72:Arg","0.9 A
+1.3 A
+1.4 A
+1.5 A
+1.5 A
+1.8 A
+2.1 A
+2.4 A
+3.7 A","16x clash to C:24:Val
+11x clash to C:27:Tyr
+45x clash to C:28:Ser
+45x clash to C:29:Ile
+42x clash to C:30:Thr
+5x clash to C:31:Ser
+13x clash to C:35:Trp
+13x clash to C:77:Asn",0,0,0,0,190,0.00,0.0%
+C:29:Ile,"A:47:Glu
+A:39:Arg
+A:45:Lys
+A:64:Leu
+A:49:Met
+A:41:Phe
+A:46:Leu
+A:66:Ser","0.9 A
+1.5 A
+1.7 A
+1.8 A
+3.1 A
+3.3 A
+3.5 A
+4.0 A","45x clash to A:39:Arg
+1x clash to A:41:Phe
+20x clash to A:45:Lys
+1x clash to A:46:Leu
+70x clash to A:47:Glu
+8x clash to A:49:Met
+6x clash to A:64:Leu",0,0,0,0,151,0.00,0.0%
+C:77:Asn,"A:45:Lys
+A:41:Phe
+A:40:Gln
+A:39:Arg
+A:46:Leu
+A:92:Ala
+A:93:Thr
+A:42:Pro
+A:47:Glu
+A:44:Asn","0.7 A
+1.1 A
+1.5 A
+2.1 A
+2.8 A
+3.1 A
+3.3 A
+3.6 A
+3.7 A
+4.0 A","13x clash to A:39:Arg
+19x clash to A:40:Gln
+70x clash to A:41:Phe
+12x clash to A:45:Lys",0,0,0,0,114,0.00,100.0%
+C:28:Ser,"A:94:Tyr
+A:39:Arg
+A:49:Met
+A:90:Asp
+A:93:Thr
+A:92:Ala
+A:83:Leu
+A:89:Glu
+A:121:Val","0.5 A
+1.3 A
+2.0 A
+2.5 A
+2.8 A
+3.7 A
+3.7 A
+3.8 A
+4.0 A","45x clash to A:39:Arg
+5x clash to A:49:Met
+6x clash to A:90:Asp
+1x clash to A:92:Ala
+36x clash to A:94:Tyr",0,0,0,0,93,0.00,100.0%
+C:30:Thr,"A:39:Arg
+A:66:Ser
+A:89:Glu
+A:90:Asp
+A:64:Leu
+A:65:Thr
+A:47:Glu
+A:41:Phe
+A:49:Met","0.9 A
+0.9 A
+1.9 A
+2.0 A
+2.4 A
+2.8 A
+2.9 A
+3.3 A
+3.4 A","42x clash to A:39:Arg
+14x clash to A:64:Leu
+1x clash to A:65:Thr
+15x clash to A:66:Ser
+4x clash to A:89:Glu
+4x clash to A:90:Asp",0,0,0,0,80,0.01,100.0%
+A:40:Gln,"C:24:Val
+C:25:Thr
+C:77:Asn
+C:23:Thr
+C:27:Tyr
+C:3:Gln
+C:26:Gly","0.5 A
+1.3 A
+1.5 A
+1.9 A
+2.5 A
+2.7 A
+3.9 A","25x clash to C:23:Thr
+56x clash to C:24:Val
+16x clash to C:25:Thr
+2x clash to C:27:Tyr
+19x clash to C:77:Asn",0,0,0,0,118,0.00,96.2%
+C:25:Thr,"A:95:Tyr
+A:40:Gln
+B:38:Gln
+A:93:Thr
+A:46:Leu
+B:42:Gln","0.6 A
+1.3 A
+2.1 A
+2.4 A
+3.8 A
+3.8 A","16x clash to A:40:Gln
+5x clash to A:93:Thr
+31x clash to A:95:Tyr
+5x clash to B:38:Gln",0,0,0,0,57,-0.01,43.8%
+C:23:Thr,"A:44:Asn
+B:87:Phe
+A:40:Gln
+A:46:Leu
+A:45:Lys
+A:43:Gly
+A:41:Phe
+B:44:Pro
+B:38:Gln","1.0 A
+1.6 A
+1.9 A
+2.1 A
+3.1 A
+3.3 A
+3.6 A
+3.6 A
+3.7 A","25x clash to A:40:Gln
+37x clash to A:44:Asn
+3x clash to A:45:Lys
+12x clash to A:46:Leu
+21x clash to B:87:Phe",0,0,0,0,98,0.00,89.3%
+A:41:Phe,"C:74:Thr
+C:77:Asn
+C:76:Lys
+C:75:Ser
+C:73:Asp
+C:24:Val
+C:29:Ile
+C:30:Thr
+C:78:Gln
+C:23:Thr","0.7 A
+1.1 A
+1.3 A
+2.5 A
+2.9 A
+3.0 A
+3.3 A
+3.3 A
+3.4 A
+3.6 A","1x clash to C:29:Ile
+22x clash to C:74:Thr
+4x clash to C:75:Ser
+22x clash to C:76:Lys
+70x clash to C:77:Asn",0,0,0,0,119,0.01,98.7%
+C:76:Lys,"A:41:Phe
+A:43:Gly
+A:45:Lys
+A:42:Pro
+A:44:Asn","1.3 A
+2.6 A
+3.1 A
+3.5 A
+3.8 A","22x clash to A:41:Phe
+2x clash to A:43:Gly",0,0,0,0,24,0.07,24.8%
+C:74:Thr,"A:41:Phe
+A:89:Glu
+A:45:Lys","0.7 A
+3.3 A
+3.7 A","22x clash to A:41:Phe
+4x clash to A:89:Glu",0,0,0,0,26,0.47,49.0%
+C:75:Ser,A:41:Phe,2.5 A,4x clash to A:41:Phe,0,0,0,0,4,0.21,19.1%
+A:43:Gly,"C:76:Lys
+C:78:Gln
+C:23:Thr","2.6 A
+2.8 A
+3.3 A","2x clash to C:76:Lys
+1x clash to C:78:Gln",0,0,0,0,3,0.34,29.3%
+C:78:Gln,"A:45:Lys
+A:44:Asn
+A:46:Leu
+A:43:Gly
+A:41:Phe
+B:100:Ser","0.8 A
+1.2 A
+2.1 A
+2.8 A
+3.4 A
+3.5 A","1x clash to A:43:Gly
+15x clash to A:44:Asn
+103x clash to A:45:Lys
+5x clash to A:46:Leu",0,0,0,0,124,0.07,70.8%
+A:44:Asn,"C:23:Thr
+C:78:Gln
+C:24:Val
+C:22:Cys
+C:21:Thr
+C:76:Lys
+C:77:Asn","1.0 A
+1.2 A
+2.8 A
+2.8 A
+3.8 A
+3.8 A
+4.0 A","37x clash to C:23:Thr
+15x clash to C:78:Gln",0,0,0,0,52,0.09,37.3%
+A:45:Lys,"C:77:Asn
+C:78:Gln
+C:73:Asp
+C:29:Ile
+C:22:Cys
+C:79:Phe
+C:24:Val
+C:76:Lys
+C:23:Thr
+C:80:Phe
+C:74:Thr
+C:72:Arg","0.7 A
+0.8 A
+1.7 A
+1.7 A
+2.5 A
+2.6 A
+3.0 A
+3.1 A
+3.1 A
+3.5 A
+3.7 A
+3.7 A","2x clash to C:22:Cys
+3x clash to C:23:Thr
+2x clash to C:24:Val
+20x clash to C:29:Ile
+17x clash to C:73:Asp
+12x clash to C:77:Asn
+103x clash to C:78:Gln
+2x clash to C:79:Phe
+1x clash to C:80:Phe",0,0,0,0,162,0.00,100.0%
+C:79:Phe,"B:98:Phe
+A:46:Leu
+A:47:Glu
+B:96:Phe
+B:97:Thr
+A:45:Lys
+B:99:Gly
+A:48:Trp
+A:38:Ile","0.7 A
+1.5 A
+2.2 A
+2.3 A
+2.6 A
+2.6 A
+3.1 A
+3.3 A
+3.6 A","2x clash to A:45:Lys
+20x clash to A:46:Leu
+8x clash to A:47:Glu
+3x clash to B:96:Phe
+7x clash to B:97:Thr
+68x clash to B:98:Phe",0,0,0,0,108,0.00,0.0%
+C:73:Asp,"A:45:Lys
+A:41:Phe
+A:47:Glu","1.7 A
+2.9 A
+3.8 A",17x clash to A:45:Lys,0,0,0,0,17,0.00,0.0%
+C:5:Gln,"B:87:Phe
+B:85:Val
+B:38:Gln
+B:44:Pro
+A:46:Leu
+B:84:Gly
+B:86:Tyr
+B:37:Leu
+B:36:Tyr","0.5 A
+1.3 A
+1.5 A
+1.6 A
+2.8 A
+2.9 A
+3.6 A
+3.8 A
+3.8 A","4x clash to A:46:Leu
+42x clash to B:38:Gln
+14x clash to B:44:Pro
+39x clash to B:85:Val
+34x clash to B:87:Phe",0,0,0,0,133,0.00,99.8%
+C:96:Cys,"B:36:Tyr
+A:111:Tyr
+B:98:Phe
+B:89:Ser
+A:46:Leu
+A:115:Trp
+A:112:Phe
+B:87:Phe
+B:88:Cys","0.8 A
+1.6 A
+1.6 A
+2.2 A
+2.4 A
+2.5 A
+3.3 A
+3.4 A
+3.9 A","3x clash to A:46:Leu
+8x clash to A:111:Tyr
+1x clash to A:112:Phe
+3x clash to A:115:Trp
+40x clash to B:36:Tyr
+8x clash to B:89:Ser
+23x clash to B:98:Phe",0,0,0,0,86,0.00,0.0%
+A:48:Trp,"C:35:Trp
+C:34:Ala
+C:52:Ile
+C:51:Tyr
+C:99:Glu
+C:36:Asn
+C:53:Ser
+C:72:Arg
+C:33:Tyr
+C:79:Phe
+C:110:Trp
+C:54:Tyr","0.8 A
+1.4 A
+1.7 A
+1.8 A
+2.3 A
+2.6 A
+2.9 A
+3.1 A
+3.3 A
+3.3 A
+3.7 A
+3.8 A","41x clash to C:34:Ala
+79x clash to C:35:Trp
+9x clash to C:36:Asn
+26x clash to C:51:Tyr
+12x clash to C:52:Ile
+8x clash to C:53:Ser
+13x clash to C:99:Glu",0,0,0,0,188,0.00,100.0%
+C:34:Ala,"A:50:Gly
+A:48:Trp
+A:49:Met
+A:37:Trp
+A:51:Tyr
+A:36:Asn
+A:59:Ser
+A:38:Ile","0.6 A
+1.4 A
+1.9 A
+2.7 A
+3.3 A
+3.3 A
+3.5 A
+3.7 A","41x clash to A:48:Trp
+11x clash to A:49:Met
+30x clash to A:50:Gly",0,0,0,0,82,0.00,0.0%
+C:52:Ile,"B:95:Pro
+B:1:Asp
+A:48:Trp
+B:96:Phe
+A:61:Asn
+A:63:Ser
+B:97:Thr
+B:94:Asp
+A:49:Met
+A:62:Pro","0.7 A
+1.5 A
+1.7 A
+2.1 A
+2.2 A
+3.4 A
+3.5 A
+3.5 A
+3.7 A
+4.0 A","12x clash to A:48:Trp
+8x clash to A:61:Asn
+13x clash to B:1:Asp
+59x clash to B:95:Pro
+4x clash to B:96:Phe",0,0,0,0,96,-0.21,100.0%
+C:36:Asn,"B:96:Phe
+A:112:Phe
+B:98:Phe
+A:110:Trp
+A:48:Trp
+B:90:Gln
+B:91:Ser
+A:111:Tyr
+B:89:Ser","1.3 A
+1.5 A
+2.3 A
+2.6 A
+2.6 A
+3.4 A
+3.6 A
+3.8 A
+3.9 A","9x clash to A:48:Trp
+22x clash to A:112:Phe
+51x clash to B:96:Phe
+7x clash to B:98:Phe",0,0,0,0,89,0.00,0.0%
+C:53:Ser,"A:61:Asn
+A:62:Pro
+A:60:Tyr
+A:64:Leu
+A:48:Trp
+B:95:Pro
+A:49:Met
+A:63:Ser","0.5 A
+0.9 A
+1.9 A
+2.7 A
+2.9 A
+3.0 A
+3.2 A
+3.5 A","8x clash to A:48:Trp
+5x clash to A:60:Tyr
+63x clash to A:61:Asn
+16x clash to A:62:Pro
+2x clash to A:64:Leu
+1x clash to B:95:Pro",0,0,0,0,95,0.00,100.0%
+C:32:Asp,"A:81:Leu
+A:49:Met
+A:69:Ser
+A:68:Ile
+A:82:Gln
+A:70:Ile
+A:83:Leu
+A:37:Trp
+A:80:Phe","1.1 A
+1.3 A
+1.9 A
+2.3 A
+2.7 A
+2.7 A
+2.8 A
+3.8 A
+3.9 A","23x clash to A:49:Met
+15x clash to A:68:Ile
+2x clash to A:69:Ser
+2x clash to A:70:Ile
+40x clash to A:81:Leu
+1x clash to A:82:Gln
+2x clash to A:83:Leu",0,0,0,0,85,0.00,100.0%
+A:50:Gly,"C:34:Ala
+C:33:Tyr
+C:99:Glu
+C:101:Gly
+C:100:Leu
+C:54:Tyr
+C:35:Trp","0.6 A
+0.9 A
+1.1 A
+3.0 A
+3.2 A
+3.2 A
+3.6 A","9x clash to C:33:Tyr
+30x clash to C:34:Ala
+2x clash to C:54:Tyr
+4x clash to C:99:Glu",0,0,0,0,45,0.00,0.0%
+C:101:Gly,"A:51:Tyr
+A:52:Ile
+A:59:Ser
+A:70:Ile
+A:35:Trp
+A:50:Gly
+A:60:Tyr
+A:58:Thr
+A:36:Asn","0.3 A
+1.7 A
+2.4 A
+2.7 A
+2.7 A
+3.0 A
+3.3 A
+3.7 A
+4.0 A","42x clash to A:51:Tyr
+10x clash to A:52:Ile
+1x clash to A:59:Ser
+4x clash to A:70:Ile",0,0,0,0,57,0.00,0.0%
+A:52:Ile,"C:107:Gly
+C:100:Leu
+C:109:Asp
+C:101:Gly
+C:102:Ile
+C:108:Met
+C:110:Trp
+C:106:Val
+C:111:Tyr","1.3 A
+1.3 A
+1.5 A
+1.7 A
+2.4 A
+2.6 A
+3.4 A
+3.5 A
+3.8 A","12x clash to C:100:Leu
+10x clash to C:101:Gly
+5x clash to C:102:Ile
+33x clash to C:107:Gly
+2x clash to C:108:Met
+18x clash to C:109:Asp",0,0,0,0,80,-0.05,74.1%
+C:108:Met,"A:57:Ser
+A:56:Gly
+A:53:Ser
+A:58:Thr
+A:52:Ile
+A:55:Ser","1.0 A
+1.0 A
+1.4 A
+1.6 A
+2.6 A
+3.3 A","2x clash to A:52:Ile
+8x clash to A:53:Ser
+21x clash to A:56:Gly
+72x clash to A:57:Ser
+18x clash to A:58:Thr",0,0,0,0,121,-0.12,11.6%
+D:32:Tyr,"A:55:Ser
+A:56:Gly
+A:104:Thr
+A:54:Tyr
+A:57:Ser
+A:53:Ser
+A:32:Asp
+A:103:Thr","0.6 A
+0.8 A
+0.9 A
+1.7 A
+2.6 A
+2.7 A
+3.3 A
+3.7 A","4x clash to A:53:Ser
+41x clash to A:54:Tyr
+62x clash to A:55:Ser
+14x clash to A:56:Gly
+2x clash to A:57:Ser
+19x clash to A:104:Thr",0,0,0,0,142,0.00,100.0%
+D:91:Ser,"A:54:Tyr
+A:103:Thr
+A:110:Trp
+A:53:Ser
+A:104:Thr
+A:55:Ser
+A:57:Ser","1.5 A
+1.6 A
+2.8 A
+3.0 A
+3.6 A
+3.7 A
+3.8 A","1x clash to A:53:Ser
+34x clash to A:54:Tyr
+5x clash to A:103:Thr
+9x clash to A:110:Trp",0,0,0,0,49,0.00,4.8%
+D:90:Gln,"A:103:Thr
+A:102:Ile
+A:104:Thr
+A:54:Tyr
+A:101:Gly
+A:107:Gly
+A:110:Trp
+A:105:Val","0.4 A
+1.0 A
+1.4 A
+1.7 A
+3.3 A
+3.5 A
+3.7 A
+3.9 A","4x clash to A:54:Tyr
+5x clash to A:102:Ile
+83x clash to A:103:Thr
+12x clash to A:104:Thr",0,0,0,0,104,0.00,0.0%
+A:55:Ser,"D:32:Tyr
+D:30E:Asn
+D:30C:Asn
+D:50:Lys
+C:109:Asp
+C:108:Met
+D:30A:His
+D:91:Ser","0.6 A
+2.0 A
+2.5 A
+3.1 A
+3.2 A
+3.3 A
+3.5 A
+3.7 A","3x clash to D:30C:Asn
+16x clash to D:30E:Asn
+62x clash to D:32:Tyr
+2x clash to D:50:Lys",0,0,0,0,83,0.00,100.0%
+D:30C:Asn,"A:55:Ser
+A:56:Gly","2.5 A
+3.2 A","3x clash to A:55:Ser
+2x clash to A:56:Gly",0,0,0,0,5,0.00,10.0%
+A:56:Gly,"D:32:Tyr
+C:108:Met
+C:107:Gly
+C:109:Asp
+D:30C:Asn
+C:106:Val
+D:50:Lys
+D:30E:Asn","0.8 A
+1.0 A
+2.3 A
+2.4 A
+3.2 A
+3.5 A
+3.6 A
+3.6 A","1x clash to C:107:Gly
+21x clash to C:108:Met
+1x clash to C:109:Asp
+2x clash to D:30C:Asn
+14x clash to D:32:Tyr",0,0,0,0,39,-0.09,87.0%
+A:57:Ser,"C:108:Met
+D:32:Tyr
+C:109:Asp
+C:110:Trp
+C:103:Thr
+D:91:Ser
+C:107:Gly","1.0 A
+2.6 A
+2.7 A
+2.8 A
+3.8 A
+3.8 A
+3.8 A","72x clash to C:108:Met
+4x clash to C:110:Trp
+2x clash to D:32:Tyr",0,0,0,0,78,0.00,99.2%
+A:58:Thr,"C:103:Thr
+C:108:Met
+C:107:Gly
+C:106:Val
+C:110:Trp
+C:102:Ile
+C:54:Tyr
+C:101:Gly","1.4 A
+1.6 A
+2.1 A
+2.4 A
+2.4 A
+2.9 A
+3.3 A
+3.7 A","48x clash to C:103:Thr
+12x clash to C:106:Val
+14x clash to C:107:Gly
+18x clash to C:108:Met
+5x clash to C:110:Trp",0,0,0,0,97,0.00,89.4%
+C:103:Thr,"A:60:Tyr
+A:58:Thr
+A:59:Ser
+A:70:Ile
+A:69:Ser
+A:57:Ser
+A:68:Ile
+A:51:Tyr","0.7 A
+1.4 A
+2.8 A
+3.4 A
+3.5 A
+3.8 A
+3.8 A
+4.0 A","48x clash to A:58:Thr
+2x clash to A:59:Ser
+41x clash to A:60:Tyr
+1x clash to A:69:Ser",0,0,0,0,92,0.00,63.0%
+C:106:Val,"A:58:Thr
+A:60:Tyr
+A:70:Ile
+A:56:Gly
+A:52:Ile","2.4 A
+2.8 A
+3.5 A
+3.5 A
+3.5 A",12x clash to A:58:Thr,0,0,0,0,12,0.00,3.9%
+A:59:Ser,"C:110:Trp
+C:51:Tyr
+C:54:Tyr
+C:101:Gly
+C:103:Thr
+C:34:Ala
+C:99:Glu
+C:59:Ser","0.8 A
+1.4 A
+2.3 A
+2.4 A
+2.8 A
+3.5 A
+3.6 A
+3.9 A","11x clash to C:51:Tyr
+2x clash to C:54:Tyr
+1x clash to C:101:Gly
+2x clash to C:103:Thr
+51x clash to C:110:Trp",0,0,0,0,67,0.00,83.0%
+A:60:Tyr,"C:103:Thr
+C:54:Tyr
+C:104:Thr
+C:53:Ser
+C:102:Ile
+C:105:Val
+C:106:Val
+C:110:Trp
+C:101:Gly
+C:51:Tyr","0.7 A
+0.8 A
+1.3 A
+1.9 A
+2.2 A
+2.4 A
+2.8 A
+2.9 A
+3.3 A
+3.7 A","5x clash to C:53:Ser
+48x clash to C:54:Tyr
+5x clash to C:102:Ile
+41x clash to C:103:Thr
+14x clash to C:104:Thr
+2x clash to C:105:Val
+3x clash to C:110:Trp",0,0,0,0,118,0.00,37.8%
+C:104:Thr,"A:69:Ser
+A:68:Ile
+A:60:Tyr
+A:70:Ile
+A:82:Gln
+A:67:Arg","0.4 A
+0.6 A
+1.3 A
+1.6 A
+3.4 A
+3.9 A","14x clash to A:60:Tyr
+21x clash to A:68:Ile
+61x clash to A:69:Ser
+8x clash to A:70:Ile",0,0,0,0,104,0.00,70.9%
+C:105:Val,"A:70:Ile
+A:71:Thr
+A:60:Tyr
+A:69:Ser
+A:82:Gln","1.8 A
+1.9 A
+2.4 A
+2.4 A
+2.4 A","2x clash to A:60:Tyr
+5x clash to A:69:Ser
+14x clash to A:70:Ile
+34x clash to A:71:Thr
+5x clash to A:82:Gln",0,0,0,0,60,0.01,65.4%
+C:57:Ser,"A:62:Pro
+A:63:Ser
+A:61:Asn
+B:95:Pro
+A:64:Leu
+B:94:Asp","0.4 A
+1.3 A
+2.4 A
+2.7 A
+3.7 A
+3.8 A","4x clash to A:61:Asn
+66x clash to A:62:Pro
+12x clash to A:63:Ser
+4x clash to B:95:Pro",0,0,0,0,86,0.00,70.3%
+C:56:Gly,"A:63:Ser
+A:64:Leu
+A:61:Asn
+B:1:Asp
+A:62:Pro","0.2 A
+1.6 A
+1.6 A
+2.8 A
+3.0 A","11x clash to A:61:Asn
+1x clash to A:62:Pro
+28x clash to A:63:Ser
+7x clash to A:64:Leu",0,0,0,0,47,0.00,100.0%
+A:62:Pro,"C:57:Ser
+C:53:Ser
+C:58:Thr
+C:55:Ser
+C:56:Gly
+C:52:Ile","0.4 A
+0.9 A
+2.0 A
+2.5 A
+3.0 A
+4.0 A","16x clash to C:53:Ser
+2x clash to C:55:Ser
+1x clash to C:56:Gly
+66x clash to C:57:Ser
+5x clash to C:58:Thr",0,0,0,0,90,0.00,44.3%
+C:58:Thr,"B:94:Asp
+B:95:Pro
+A:62:Pro
+B:1:Asp","1.5 A
+1.6 A
+2.0 A
+4.0 A","5x clash to A:62:Pro
+11x clash to B:94:Asp
+29x clash to B:95:Pro",0,0,0,0,45,-0.68,11.8%
+A:63:Ser,"C:56:Gly
+C:57:Ser
+C:55:Ser
+C:52:Ile
+C:53:Ser","0.2 A
+1.3 A
+2.3 A
+3.4 A
+3.5 A","3x clash to C:55:Ser
+28x clash to C:56:Gly
+12x clash to C:57:Ser",0,0,0,0,43,0.00,12.7%
+A:64:Leu,"C:55:Ser
+C:72:Arg
+C:56:Gly
+C:29:Ile
+C:54:Tyr
+C:30:Thr
+C:53:Ser
+C:57:Ser
+C:31:Ser","0.6 A
+0.6 A
+1.6 A
+1.8 A
+1.9 A
+2.4 A
+2.7 A
+3.7 A
+4.0 A","6x clash to C:29:Ile
+14x clash to C:30:Thr
+2x clash to C:53:Ser
+16x clash to C:54:Tyr
+38x clash to C:55:Ser
+7x clash to C:56:Gly
+45x clash to C:72:Arg",0,0,0,0,128,-0.01,50.9%
+A:65:Thr,"C:55:Ser
+C:30:Thr","2.8 A
+2.8 A",1x clash to C:30:Thr,0,0,0,0,1,0.00,12.4%
+A:66:Ser,"C:30:Thr
+C:31:Ser
+C:54:Tyr
+C:55:Ser
+C:29:Ile","0.9 A
+2.1 A
+3.0 A
+3.1 A
+4.0 A","15x clash to C:30:Thr
+9x clash to C:31:Ser
+1x clash to C:54:Tyr",0,0,0,0,25,0.16,100.0%
+A:68:Ile,"C:104:Thr
+C:54:Tyr
+C:31:Ser
+C:32:Asp
+C:55:Ser
+C:103:Thr","0.6 A
+0.7 A
+1.0 A
+2.3 A
+3.1 A
+3.8 A","9x clash to C:31:Ser
+15x clash to C:32:Asp
+55x clash to C:54:Tyr
+21x clash to C:104:Thr",0,0,0,0,100,0.00,45.1%
+A:69:Ser,"C:104:Thr
+C:32:Asp
+C:105:Val
+C:102:Ile
+C:103:Thr","0.4 A
+1.9 A
+2.4 A
+3.4 A
+3.5 A","2x clash to C:32:Asp
+1x clash to C:102:Ile
+1x clash to C:103:Thr
+61x clash to C:104:Thr
+5x clash to C:105:Val",0,0,0,0,70,0.04,61.8%
+A:71:Thr,"C:105:Val
+C:102:Ile","1.9 A
+2.2 A","10x clash to C:102:Ile
+34x clash to C:105:Val",0,0,0,0,44,0.08,45.4%
+A:79:Phe,"C:100:Leu
+C:113:Asp
+C:33:Tyr
+D:55:Phe
+C:98:Arg","1.5 A
+2.7 A
+2.8 A
+3.6 A
+3.7 A","5x clash to C:33:Tyr
+21x clash to C:100:Leu
+2x clash to C:113:Asp
+1x clash to D:55:Phe",0,0,0,0,29,0.00,0.0%
+A:80:Phe,"C:102:Ile
+C:32:Asp","2.1 A
+3.9 A",3x clash to C:102:Ile,0,0,0,0,3,0.00,0.0%
+A:81:Leu,"C:32:Asp
+C:27:Tyr
+C:33:Tyr
+C:102:Ile","1.1 A
+1.5 A
+2.9 A
+3.9 A","19x clash to C:27:Tyr
+40x clash to C:32:Asp
+6x clash to C:33:Tyr",0,0,0,0,65,0.00,0.0%
+A:82:Gln,"C:105:Val
+C:32:Asp
+C:104:Thr
+C:31:Ser","2.4 A
+2.7 A
+3.4 A
+3.9 A","1x clash to C:32:Asp
+5x clash to C:105:Val",0,0,0,0,6,0.32,16.0%
+A:83:Leu,"C:31:Ser
+C:27:Tyr
+C:32:Asp
+C:28:Ser","1.5 A
+2.0 A
+2.8 A
+3.7 A","12x clash to C:27:Tyr
+27x clash to C:31:Ser
+2x clash to C:32:Asp",0,0,0,0,41,0.00,0.0%
+A:89:Glu,"C:30:Thr
+C:74:Thr
+C:28:Ser","1.9 A
+3.3 A
+3.8 A","4x clash to C:30:Thr
+4x clash to C:74:Thr",0,0,0,0,8,0.51,48.9%
+A:92:Ala,"C:26:Gly
+C:77:Asn
+C:28:Ser","2.3 A
+3.1 A
+3.7 A","2x clash to C:26:Gly
+1x clash to C:28:Ser",0,0,0,0,3,0.00,0.0%
+C:26:Gly,"A:93:Thr
+A:94:Tyr
+A:92:Ala
+A:95:Tyr
+A:119:Thr
+A:40:Gln","0.6 A
+1.0 A
+2.3 A
+2.4 A
+3.0 A
+3.9 A","2x clash to A:92:Ala
+43x clash to A:93:Thr
+8x clash to A:94:Tyr
+3x clash to A:95:Tyr",0,0,0,0,56,0.00,100.0%
+A:93:Thr,"C:26:Gly
+C:27:Tyr
+C:25:Thr
+C:28:Ser
+C:77:Asn
+C:24:Val","0.6 A
+1.4 A
+2.4 A
+2.8 A
+3.3 A
+3.7 A","5x clash to C:25:Thr
+43x clash to C:26:Gly
+10x clash to C:27:Tyr",0,0,0,0,58,-0.03,54.8%
+A:94:Tyr,"C:28:Ser
+C:27:Tyr
+C:26:Gly
+C:2:Val
+C:31:Ser
+C:1:Asp","0.5 A
+0.9 A
+1.0 A
+2.3 A
+2.3 A
+2.8 A","4x clash to C:2:Val
+8x clash to C:26:Gly
+94x clash to C:27:Tyr
+36x clash to C:28:Ser
+1x clash to C:31:Ser",0,0,0,0,143,0.00,0.0%
+A:95:Tyr,"C:25:Thr
+C:2:Val
+C:98:Arg
+C:1:Asp
+C:3:Gln
+C:26:Gly
+C:27:Tyr
+C:24:Val
+C:4:Leu","0.6 A
+0.6 A
+1.3 A
+1.8 A
+2.0 A
+2.4 A
+3.0 A
+3.1 A
+3.7 A","16x clash to C:1:Asp
+99x clash to C:2:Val
+11x clash to C:3:Gln
+4x clash to C:24:Val
+31x clash to C:25:Thr
+3x clash to C:26:Gly
+14x clash to C:98:Arg",0,0,0,0,178,0.00,97.0%
+C:3:Gln,"B:43:Ser
+B:42:Gln
+B:44:Pro
+B:38:Gln
+A:95:Tyr
+A:40:Gln
+A:115:Trp
+A:117:Ala
+B:39:Lys
+A:46:Leu","0.9 A
+1.0 A
+1.3 A
+1.5 A
+2.0 A
+2.7 A
+3.2 A
+3.6 A
+3.7 A
+3.8 A","11x clash to A:95:Tyr
+25x clash to B:38:Gln
+19x clash to B:42:Gln
+53x clash to B:43:Ser
+23x clash to B:44:Pro",0,0,0,0,131,0.00,98.9%
+A:96:Cys,"C:98:Arg
+C:114:Val
+C:1:Asp
+C:113:Asp
+C:2:Val
+C:33:Tyr","0.7 A
+1.5 A
+1.9 A
+2.6 A
+3.4 A
+3.5 A","9x clash to C:1:Asp
+47x clash to C:98:Arg
+1x clash to C:113:Asp
+7x clash to C:114:Val",0,0,0,0,64,0.00,0.0%
+C:114:Val,"A:97:Val
+A:115:Trp
+A:96:Cys
+A:114:Val
+A:98:Arg
+A:112:Phe
+A:116:Gly
+A:4:Leu
+A:113:Asp
+B:36:Tyr
+A:38:Ile","1.4 A
+1.4 A
+1.5 A
+1.9 A
+2.1 A
+2.2 A
+2.9 A
+3.5 A
+3.5 A
+3.8 A
+3.9 A","2x clash to A:4:Leu
+7x clash to A:96:Cys
+52x clash to A:97:Val
+3x clash to A:98:Arg
+3x clash to A:112:Phe
+6x clash to A:114:Val
+45x clash to A:115:Trp
+2x clash to A:116:Gly",0,0,0,0,120,0.00,100.0%
+A:97:Val,"C:113:Asp
+C:114:Val
+C:98:Arg
+D:55:Phe
+C:99:Glu
+C:4:Leu
+C:112:Phe
+C:115:Trp","0.7 A
+1.4 A
+2.0 A
+3.6 A
+3.7 A
+3.7 A
+3.9 A
+4.0 A","1x clash to C:4:Leu
+29x clash to C:98:Arg
+38x clash to C:113:Asp
+52x clash to C:114:Val",0,0,0,0,120,0.00,0.0%
+A:98:Arg,"D:46:Leu
+C:113:Asp
+D:45:Lys
+C:112:Phe
+D:47:Leu
+C:114:Val
+C:115:Trp
+D:37:Leu
+D:55:Phe
+D:36:Tyr","0.4 A
+1.3 A
+1.3 A
+1.7 A
+1.7 A
+2.1 A
+2.8 A
+3.3 A
+3.3 A
+3.7 A","4x clash to C:112:Phe
+35x clash to C:113:Asp
+3x clash to C:114:Val
+14x clash to D:45:Lys
+98x clash to D:46:Leu
+19x clash to D:47:Leu
+2x clash to D:55:Phe",0,0,0,0,175,0.11,100.0%
+D:45:Lys,"A:114:Val
+A:113:Asp
+A:98:Arg
+B:55:Phe
+B:46:Leu
+B:45:Lys
+A:100:Leu
+A:115:Trp","0.9 A
+1.3 A
+1.3 A
+1.8 A
+3.3 A
+3.5 A
+3.7 A
+4.0 A","14x clash to A:98:Arg
+26x clash to A:113:Asp
+46x clash to A:114:Val
+1x clash to B:45:Lys
+21x clash to B:55:Phe",0,0,0,0,108,0.00,89.9%
+A:99:Glu,"C:112:Phe
+D:36:Tyr
+C:111:Tyr
+C:113:Asp
+C:99:Glu
+D:46:Leu
+C:115:Trp
+C:110:Trp","0.8 A
+1.3 A
+2.2 A
+2.4 A
+2.9 A
+3.1 A
+3.3 A
+3.5 A","1x clash to C:99:Glu
+17x clash to C:111:Tyr
+78x clash to C:112:Phe
+4x clash to C:113:Asp
+2x clash to C:115:Trp
+23x clash to D:36:Tyr
+5x clash to D:46:Leu",0,0,0,0,130,0.00,0.0%
+A:100:Leu,"D:36:Tyr
+D:89:Ser
+D:44:Pro
+C:111:Tyr
+C:115:Trp
+C:46:Leu
+D:98:Phe
+C:112:Phe
+D:87:Phe
+D:37:Leu
+D:45:Lys
+D:35:Trp
+D:88:Cys","0.3 A
+1.7 A
+2.4 A
+2.5 A
+2.7 A
+2.7 A
+2.8 A
+3.0 A
+3.1 A
+3.3 A
+3.7 A
+3.8 A
+3.8 A","5x clash to C:46:Leu
+5x clash to C:111:Tyr
+10x clash to C:115:Trp
+101x clash to D:36:Tyr
+10x clash to D:44:Pro
+2x clash to D:87:Phe
+4x clash to D:89:Ser
+4x clash to D:98:Phe",0,0,0,0,141,0.00,100.0%
+D:98:Phe,"A:108:Met
+A:109:Asp
+A:107:Gly
+A:106:Val
+A:101:Gly
+A:110:Trp
+A:100:Leu
+B:50:Lys
+A:102:Ile
+B:32:Tyr
+A:111:Tyr","0.4 A
+0.8 A
+1.2 A
+1.7 A
+2.1 A
+2.4 A
+2.8 A
+3.1 A
+3.6 A
+3.7 A
+3.7 A","4x clash to A:100:Leu
+11x clash to A:101:Gly
+4x clash to A:106:Val
+27x clash to A:107:Gly
+27x clash to A:108:Met
+58x clash to A:109:Asp
+3x clash to A:110:Trp
+3x clash to B:50:Lys",0,0,0,0,137,0.00,25.3%
+D:44:Pro,"B:55:Phe
+A:113:Asp
+B:46:Leu
+A:100:Leu
+B:49:Tyr
+A:114:Val","0.9 A
+1.8 A
+2.1 A
+2.4 A
+2.9 A
+3.4 A","10x clash to A:100:Leu
+10x clash to A:113:Asp
+16x clash to B:46:Leu
+5x clash to B:49:Tyr
+41x clash to B:55:Phe",0,0,0,0,82,0.00,0.0%
+C:46:Leu,"B:50:Lys
+B:49:Tyr
+A:109:Asp
+B:30E:Asn
+A:100:Leu
+A:108:Met
+B:32:Tyr","0.6 A
+1.6 A
+1.8 A
+2.4 A
+2.7 A
+3.2 A
+3.7 A","5x clash to A:100:Leu
+13x clash to A:109:Asp
+1x clash to B:30E:Asn
+28x clash to B:49:Tyr
+52x clash to B:50:Lys",0,0,0,0,99,0.02,100.0%
+A:102:Ile,"D:89:Ser
+D:90:Gln
+D:34:His
+D:88:Cys
+D:87:Phe
+D:35:Trp
+C:111:Tyr
+D:97:Thr
+D:4:Met
+D:36:Tyr
+D:98:Phe","0.6 A
+1.0 A
+1.3 A
+1.6 A
+2.4 A
+2.5 A
+2.6 A
+3.0 A
+3.2 A
+3.4 A
+3.6 A","6x clash to C:111:Tyr
+1x clash to D:4:Met
+38x clash to D:34:His
+11x clash to D:35:Trp
+4x clash to D:87:Phe
+20x clash to D:88:Cys
+67x clash to D:89:Ser
+5x clash to D:90:Gln",0,0,0,0,152,0.00,100.0%
+D:4:Met,"A:106:Val
+A:105:Val
+A:107:Gly
+A:104:Thr
+A:103:Thr
+A:102:Ile","0.4 A
+1.1 A
+2.0 A
+2.3 A
+2.4 A
+3.2 A","1x clash to A:102:Ile
+1x clash to A:103:Thr
+5x clash to A:104:Thr
+29x clash to A:105:Val
+84x clash to A:106:Val
+6x clash to A:107:Gly",0,0,0,0,126,0.00,3.7%
+D:88:Cys,"A:105:Val
+A:102:Ile
+A:107:Gly
+A:100:Leu","1.6 A
+1.6 A
+2.5 A
+3.8 A","20x clash to A:102:Ile
+22x clash to A:105:Val
+3x clash to A:107:Gly",0,0,0,0,45,0.00,0.0%
+D:87:Phe,"B:49:Tyr
+A:102:Ile
+A:100:Leu","2.2 A
+2.4 A
+3.1 A","2x clash to A:100:Leu
+4x clash to A:102:Ile
+7x clash to B:49:Tyr",0,0,0,0,13,0.00,0.0%
+D:97:Thr,"A:108:Met
+A:107:Gly
+A:103:Thr
+A:109:Asp
+A:102:Ile
+B:30C:Asn
+A:106:Val
+A:101:Gly","1.1 A
+1.2 A
+2.1 A
+2.8 A
+3.0 A
+3.2 A
+3.6 A
+3.7 A","6x clash to A:103:Thr
+7x clash to A:107:Gly
+66x clash to A:108:Met
+1x clash to A:109:Asp
+1x clash to B:30C:Asn",0,0,0,0,81,0.00,89.5%
+A:104:Thr,"D:32:Tyr
+D:33:Leu
+D:90:Gln
+D:29:Leu
+D:89:Ser
+D:34:His
+D:4:Met
+D:71:Phe
+D:25:Ser
+D:31:Thr
+D:91:Ser","0.9 A
+1.2 A
+1.4 A
+1.5 A
+1.7 A
+2.1 A
+2.3 A
+2.6 A
+3.3 A
+3.5 A
+3.6 A","5x clash to D:4:Met
+23x clash to D:29:Leu
+19x clash to D:32:Tyr
+33x clash to D:33:Leu
+4x clash to D:34:His
+2x clash to D:71:Phe
+5x clash to D:89:Ser
+12x clash to D:90:Gln",0,0,0,0,103,0.00,100.0%
+D:29:Leu,"A:104:Thr
+A:105:Val
+A:103:Thr","1.5 A
+3.0 A
+3.0 A","23x clash to A:104:Thr
+1x clash to A:105:Val",0,0,0,0,24,0.00,0.0%
+D:71:Phe,"A:105:Val
+A:104:Thr","2.3 A
+2.6 A","2x clash to A:104:Thr
+11x clash to A:105:Val",0,0,0,0,13,0.00,0.0%
+D:23:Cys,A:105:Val,2.2 A,7x clash to A:105:Val,0,0,0,0,7,0.00,0.0%
+A:106:Val,"D:4:Met
+D:98:Phe
+D:3:Val
+D:5:Thr
+D:2:Val
+D:24:Arg
+D:25:Ser
+D:99:Gly
+D:26:Ser
+D:97:Thr","0.4 A
+1.7 A
+2.0 A
+2.3 A
+2.9 A
+3.0 A
+3.1 A
+3.3 A
+3.4 A
+3.6 A","2x clash to D:2:Val
+11x clash to D:3:Val
+84x clash to D:4:Met
+5x clash to D:5:Thr
+1x clash to D:24:Arg
+5x clash to D:25:Ser
+1x clash to D:26:Ser
+4x clash to D:98:Phe",0,0,0,0,113,0.00,99.8%
+D:3:Val,A:106:Val,2.0 A,11x clash to A:106:Val,0,0,0,0,11,0.00,0.0%
+D:25:Ser,"A:106:Val
+A:104:Thr","3.1 A
+3.3 A",5x clash to A:106:Val,0,0,0,0,5,0.00,0.0%
+D:5:Thr,A:106:Val,2.3 A,5x clash to A:106:Val,0,0,0,0,5,0.00,0.0%
+A:107:Gly,"D:97:Thr
+D:98:Phe
+D:99:Gly
+D:4:Met
+D:88:Cys
+D:89:Ser
+D:90:Gln","1.2 A
+1.2 A
+2.0 A
+2.0 A
+2.5 A
+2.7 A
+3.5 A","6x clash to D:4:Met
+3x clash to D:88:Cys
+8x clash to D:89:Ser
+7x clash to D:97:Thr
+27x clash to D:98:Phe
+7x clash to D:99:Gly",0,0,0,0,58,0.00,100.0%
+D:99:Gly,"A:107:Gly
+A:106:Val
+A:108:Met
+A:105:Val","2.0 A
+3.3 A
+3.7 A
+4.0 A",7x clash to A:107:Gly,0,0,0,0,7,0.00,10.6%
+A:108:Met,"D:98:Phe
+D:95:Pro
+D:97:Thr
+D:96:Phe
+C:46:Leu
+D:1:Asp
+C:47:Glu
+C:48:Trp
+D:99:Gly
+D:94:Asp
+C:61:Asn","0.4 A
+0.9 A
+1.1 A
+2.4 A
+3.2 A
+3.3 A
+3.6 A
+3.7 A
+3.7 A
+3.8 A
+4.0 A","43x clash to D:95:Pro
+8x clash to D:96:Phe
+66x clash to D:97:Thr
+27x clash to D:98:Phe",0,0,0,0,144,0.00,94.9%
+D:95:Pro,"A:108:Met
+B:30B:Asn
+B:30A:Hip
+A:110:Trp
+A:103:Thr
+B:30C:Asn","0.9 A
+3.0 A
+3.0 A
+3.5 A
+3.5 A
+3.9 A","43x clash to A:108:Met
+5x clash to B:30A:Hip
+1x clash to B:30B:Asn",0,0,0,0,49,0.09,85.6%
+A:109:Asp,"D:98:Phe
+C:47:Glu
+C:46:Leu
+D:96:Phe
+C:112:Phe
+D:97:Thr
+C:48:Trp
+C:38:Ile
+C:39:Arg","0.8 A
+1.5 A
+1.8 A
+2.1 A
+2.5 A
+2.8 A
+3.0 A
+3.2 A
+3.3 A","13x clash to C:46:Leu
+5x clash to C:47:Glu
+2x clash to C:48:Trp
+4x clash to C:112:Phe
+5x clash to D:96:Phe
+1x clash to D:97:Thr
+58x clash to D:98:Phe",0,0,0,0,88,0.00,100.0%
+C:47:Glu,"B:30E:Asn
+B:32:Tyr
+A:109:Asp
+B:31:Thr
+B:50:Lys
+B:34:His
+B:91:Ser
+B:30D:Gly
+A:108:Met
+B:30C:Asn","0.9 A
+1.0 A
+1.5 A
+1.6 A
+2.0 A
+2.0 A
+3.1 A
+3.2 A
+3.6 A
+3.9 A","5x clash to A:109:Asp
+23x clash to B:30E:Asn
+10x clash to B:31:Thr
+52x clash to B:32:Tyr
+2x clash to B:34:His
+14x clash to B:50:Lys
+1x clash to B:91:Ser",0,0,0,0,107,0.00,100.0%
+C:38:Ile,"B:34:His
+A:111:Tyr
+B:91:Ser
+A:110:Trp
+A:112:Phe
+A:109:Asp
+B:33:Leu
+B:90:Gln
+B:89:Ser
+B:35:Trp
+B:49:Tyr
+B:48:Ile","0.7 A
+1.0 A
+1.7 A
+2.5 A
+3.1 A
+3.2 A
+3.3 A
+3.5 A
+3.7 A
+3.8 A
+4.0 A
+4.0 A","8x clash to A:110:Trp
+71x clash to A:111:Tyr
+1x clash to A:112:Phe
+41x clash to B:34:His
+16x clash to B:91:Ser",0,0,0,0,137,0.00,0.0%
+C:95:Tyr,"A:111:Tyr
+B:35:Trp
+B:46:Leu
+B:48:Ile
+B:49:Tyr
+B:34:His
+B:47:Leu
+B:89:Ser
+B:53:Asn
+B:36:Tyr
+B:55:Phe
+B:54:Arg","0.7 A
+1.6 A
+1.6 A
+1.7 A
+1.8 A
+1.9 A
+2.1 A
+2.2 A
+2.7 A
+2.9 A
+3.3 A
+3.5 A","48x clash to A:111:Tyr
+16x clash to B:34:His
+9x clash to B:35:Trp
+3x clash to B:36:Tyr
+26x clash to B:46:Leu
+14x clash to B:47:Leu
+26x clash to B:48:Ile
+34x clash to B:49:Tyr
+7x clash to B:89:Ser",0,0,0,0,183,0.00,100.0%
+C:37:Trp,"B:97:Thr
+B:89:Ser
+B:88:Cys
+B:98:Phe
+B:91:Ser
+B:90:Gln
+B:99:Gly
+B:96:Phe
+A:111:Tyr
+A:110:Trp
+A:112:Phe
+B:4:Met
+B:34:His
+B:92:Thr","0.6 A
+0.8 A
+1.0 A
+1.0 A
+1.1 A
+1.6 A
+1.8 A
+2.3 A
+3.0 A
+3.1 A
+3.5 A
+3.6 A
+3.7 A
+3.8 A","3x clash to A:111:Tyr
+12x clash to B:88:Cys
+43x clash to B:89:Ser
+33x clash to B:90:Gln
+17x clash to B:91:Ser
+6x clash to B:96:Phe
+27x clash to B:97:Thr
+29x clash to B:98:Phe
+8x clash to B:99:Gly",0,0,0,0,178,0.00,0.0%
+A:112:Phe,"C:97:Val
+C:36:Asn
+C:115:Trp
+C:98:Arg
+C:114:Val
+C:112:Phe
+C:99:Glu
+C:38:Ile
+C:96:Cys
+C:116:Gly
+C:37:Trp
+C:113:Asp","1.3 A
+1.5 A
+1.6 A
+1.9 A
+2.2 A
+2.7 A
+2.9 A
+3.1 A
+3.3 A
+3.5 A
+3.5 A
+3.8 A","22x clash to C:36:Asn
+1x clash to C:38:Ile
+1x clash to C:96:Cys
+88x clash to C:97:Val
+11x clash to C:98:Arg
+6x clash to C:99:Glu
+19x clash to C:112:Phe
+3x clash to C:114:Val
+18x clash to C:115:Trp",0,0,0,0,169,0.00,0.0%
+A:113:Asp,"C:115:Trp
+D:45:Lys
+D:46:Leu
+D:44:Pro
+D:36:Tyr
+C:113:Asp
+C:112:Phe
+C:114:Val
+C:97:Val
+D:37:Leu","0.4 A
+1.3 A
+1.8 A
+1.8 A
+2.7 A
+3.1 A
+3.3 A
+3.5 A
+3.7 A
+4.0 A","52x clash to C:115:Trp
+6x clash to D:36:Tyr
+10x clash to D:44:Pro
+26x clash to D:45:Lys
+6x clash to D:46:Leu",0,0,0,0,100,0.00,0.0%
+A:114:Val,"D:45:Lys
+C:114:Val
+C:113:Asp
+C:115:Trp
+D:46:Leu
+D:44:Pro","0.9 A
+1.9 A
+2.1 A
+2.6 A
+3.3 A
+3.4 A","2x clash to C:113:Asp
+6x clash to C:114:Val
+3x clash to C:115:Trp
+46x clash to D:45:Lys
+1x clash to D:46:Leu",0,0,0,0,58,0.00,33.3%
+A:115:Trp,"C:4:Leu
+C:115:Trp
+C:114:Val
+C:2:Val
+C:116:Gly
+C:96:Cys
+C:3:Gln
+C:97:Val
+C:98:Arg
+D:45:Lys","0.3 A
+1.3 A
+1.4 A
+2.0 A
+2.2 A
+2.5 A
+3.2 A
+3.4 A
+3.8 A
+4.0 A","10x clash to C:2:Val
+70x clash to C:4:Leu
+3x clash to C:96:Cys
+2x clash to C:97:Val
+45x clash to C:114:Val
+26x clash to C:115:Trp
+3x clash to C:116:Gly",0,0,0,0,159,0.00,0.0%
+C:116:Gly,"B:45:Lys
+B:46:Leu
+B:36:Tyr
+A:115:Trp
+B:44:Pro
+B:37:Leu
+A:112:Phe
+B:47:Leu","0.3 A
+1.1 A
+1.8 A
+2.2 A
+2.8 A
+3.5 A
+3.5 A
+3.5 A","3x clash to A:115:Trp
+21x clash to B:36:Tyr
+5x clash to B:44:Pro
+16x clash to B:45:Lys
+6x clash to B:46:Leu",0,0,0,0,51,-0.01,100.0%
+A:116:Gly,"C:114:Val
+C:1:Asp","2.9 A
+3.2 A","3x clash to C:1:Asp
+2x clash to C:114:Val",0,0,0,0,5,0.00,0.0%
+A:117:Ala,"C:1:Asp
+C:3:Gln
+C:2:Val","1.6 A
+3.6 A
+3.8 A",24x clash to C:1:Asp,0,0,0,0,24,0.00,0.0%
+A:118:Gly,"C:1:Asp
+C:2:Val","0.7 A
+3.6 A",23x clash to C:1:Asp,0,0,0,0,23,0.00,2.1%
+B:1:Asp,"C:70:Ile
+C:52:Ile
+C:71:Thr
+C:56:Gly
+C:72:Arg
+C:82:Gln
+C:69:Ser
+C:58:Thr","1.2 A
+1.5 A
+1.9 A
+2.8 A
+2.9 A
+3.2 A
+3.7 A
+4.0 A","13x clash to C:52:Ile
+14x clash to C:70:Ile
+32x clash to C:71:Thr
+1x clash to C:72:Arg",0,0,0,0,60,0.01,59.8%
+C:70:Ile,"B:90:Gln
+B:2:Val
+B:1:Asp
+B:97:Thr
+B:95:Pro
+B:93:Tyr
+B:3:Val
+B:96:Phe
+B:27:Gln","0.6 A
+0.9 A
+1.2 A
+1.3 A
+2.4 A
+2.6 A
+3.5 A
+3.6 A
+3.9 A","14x clash to B:1:Asp
+49x clash to B:2:Val
+31x clash to B:90:Gln
+2x clash to B:93:Tyr
+6x clash to B:95:Pro
+1x clash to B:96:Phe
+48x clash to B:97:Thr",0,0,0,0,151,-0.13,100.0%
+C:82:Gln,"B:3:Val
+B:25:Ser
+B:2:Val
+B:26:Ser
+B:4:Met
+B:27:Gln
+B:1:Asp
+B:24:Arg
+B:5:Thr","0.8 A
+1.3 A
+1.8 A
+1.8 A
+2.2 A
+2.6 A
+3.2 A
+3.3 A
+3.7 A","5x clash to B:2:Val
+69x clash to B:3:Val
+6x clash to B:4:Met
+20x clash to B:25:Ser
+26x clash to B:26:Ser",0,0,0,0,126,0.00,89.4%
+C:80:Phe,"B:98:Phe
+B:97:Thr
+B:2:Val
+B:4:Met
+B:100:Ser
+B:99:Gly
+A:45:Lys
+B:3:Val","1.5 A
+1.8 A
+2.3 A
+2.8 A
+3.1 A
+3.5 A
+3.5 A
+3.8 A","1x clash to A:45:Lys
+1x clash to B:2:Val
+7x clash to B:4:Met
+6x clash to B:97:Thr
+8x clash to B:98:Phe
+1x clash to B:99:Gly
+6x clash to B:100:Ser",0,0,0,0,30,0.00,37.1%
+C:60:Tyr,"B:93:Tyr
+B:2:Val
+B:92:Thr
+B:94:Asp","1.1 A
+1.8 A
+1.9 A
+3.0 A","17x clash to B:2:Val
+2x clash to B:92:Thr
+73x clash to B:93:Tyr",0,0,0,0,92,0.00,18.3%
+C:68:Ile,"B:29:Leu
+B:27:Gln
+B:93:Tyr
+B:28:Ser
+B:2:Val
+B:25:Ser
+B:26:Ser
+B:90:Gln
+B:92:Thr","0.9 A
+1.0 A
+1.1 A
+1.4 A
+2.8 A
+3.6 A
+3.8 A
+3.9 A
+3.9 A","4x clash to B:2:Val
+35x clash to B:27:Gln
+16x clash to B:28:Ser
+43x clash to B:29:Leu
+25x clash to B:93:Tyr",0,0,0,0,123,0.00,97.5%
+C:81:Leu,"B:4:Met
+B:90:Gln
+B:3:Val
+B:89:Ser
+B:24:Arg
+B:98:Phe
+B:5:Thr
+B:29:Leu
+B:2:Val
+B:25:Ser
+B:97:Thr
+B:23:Cys
+B:99:Gly","0.8 A
+1.8 A
+2.2 A
+2.4 A
+2.4 A
+2.6 A
+2.9 A
+3.3 A
+3.4 A
+3.5 A
+3.6 A
+3.7 A
+3.9 A","3x clash to B:3:Val
+79x clash to B:4:Met
+1x clash to B:24:Arg
+4x clash to B:29:Leu
+4x clash to B:89:Ser
+26x clash to B:90:Gln
+1x clash to B:98:Phe",0,0,0,0,118,0.00,0.0%
+B:4:Met,"C:81:Leu
+C:19:Ser
+C:20:Leu
+C:82:Gln
+C:80:Phe
+C:21:Thr
+C:83:Leu
+C:37:Trp
+C:18:Leu","0.8 A
+1.8 A
+1.8 A
+2.2 A
+2.8 A
+3.2 A
+3.3 A
+3.6 A
+3.9 A","13x clash to C:19:Ser
+22x clash to C:20:Leu
+7x clash to C:80:Phe
+79x clash to C:81:Leu
+6x clash to C:82:Gln
+3x clash to C:83:Leu",0,0,0,0,130,0.00,100.0%
+C:20:Leu,"B:88:Cys
+B:99:Gly
+B:23:Cys
+B:4:Met
+B:100:Ser
+B:98:Phe
+B:5:Thr
+B:35:Trp
+B:6:Gln
+B:89:Ser
+B:33:Leu
+B:34:His
+B:24:Arg","0.8 A
+1.2 A
+1.8 A
+1.8 A
+2.3 A
+2.4 A
+2.7 A
+2.7 A
+2.8 A
+2.9 A
+3.3 A
+3.3 A
+3.4 A","22x clash to B:4:Met
+1x clash to B:5:Thr
+7x clash to B:6:Gln
+17x clash to B:23:Cys
+1x clash to B:33:Leu
+5x clash to B:35:Trp
+51x clash to B:88:Cys
+1x clash to B:89:Ser
+2x clash to B:98:Phe
+16x clash to B:99:Gly
+3x clash to B:100:Ser",0,0,0,0,126,0.00,100.0%
+C:83:Leu,"B:25:Ser
+B:71:Phe
+B:69:Thr
+B:29:Leu
+B:24:Arg
+B:26:Ser
+B:3:Val
+B:4:Met
+B:33:Leu
+B:27:Gln
+B:70:Asp
+B:23:Cys","0.6 A
+0.9 A
+1.8 A
+1.8 A
+2.3 A
+2.8 A
+3.2 A
+3.3 A
+3.3 A
+3.7 A
+3.9 A
+3.9 A","3x clash to B:4:Met
+12x clash to B:24:Arg
+53x clash to B:25:Ser
+17x clash to B:29:Leu
+3x clash to B:33:Leu
+15x clash to B:69:Thr
+44x clash to B:71:Phe",0,0,0,0,147,0.00,0.0%
+C:9:Pro,"B:22:Ser
+B:7:Thr
+B:21:Ile
+B:6:Gln
+B:20:Ser
+B:5:Thr
+B:23:Cys
+B:102:Thr
+B:8:Pro","0.6 A
+1.3 A
+1.6 A
+2.0 A
+2.6 A
+2.8 A
+3.2 A
+3.3 A
+3.5 A","12x clash to B:6:Gln
+50x clash to B:7:Thr
+1x clash to B:20:Ser
+6x clash to B:21:Ile
+37x clash to B:22:Ser
+3x clash to B:23:Cys",0,0,0,0,109,0.00,96.9%
+C:8:Gly,"B:6:Gln
+B:102:Thr
+B:21:Ile
+B:22:Ser
+B:7:Thr
+B:86:Tyr
+B:8:Pro
+B:101:Gly","1.2 A
+1.6 A
+1.8 A
+2.0 A
+2.9 A
+3.5 A
+3.7 A
+3.8 A","29x clash to B:6:Gln
+2x clash to B:7:Thr
+5x clash to B:21:Ile
+1x clash to B:22:Ser
+12x clash to B:102:Thr",0,0,0,0,49,0.00,100.0%
+C:7:Ser,"B:6:Gln
+B:101:Gly
+B:86:Tyr
+B:102:Thr
+B:87:Phe
+B:88:Cys
+B:100:Ser
+B:85:Val
+B:35:Trp
+B:99:Gly
+B:103:Lys","0.4 A
+1.0 A
+1.1 A
+1.5 A
+1.6 A
+2.9 A
+3.1 A
+3.9 A
+3.9 A
+3.9 A
+4.0 A","26x clash to B:6:Gln
+14x clash to B:86:Tyr
+10x clash to B:87:Phe
+14x clash to B:101:Gly
+14x clash to B:102:Thr",0,0,0,0,78,0.00,100.0%
+B:7:Thr,"C:9:Pro
+C:8:Gly
+C:10:Gly
+C:19:Ser","1.3 A
+2.9 A
+3.7 A
+3.8 A","2x clash to C:8:Gly
+50x clash to C:9:Pro",0,0,0,0,52,0.00,6.4%
+B:21:Ile,"C:10:Gly
+C:9:Pro
+C:8:Gly
+C:11:Leu
+C:120:Thr
+C:119:Thr","0.8 A
+1.6 A
+1.8 A
+2.5 A
+3.1 A
+3.9 A","5x clash to C:8:Gly
+6x clash to C:9:Pro
+12x clash to C:10:Gly
+3x clash to C:11:Leu",0,0,0,0,26,0.00,0.0%
+C:10:Gly,"B:21:Ile
+B:22:Ser
+B:71:Phe
+B:72:Thr
+B:23:Cys
+B:73:Leu
+B:35:Trp
+B:7:Thr
+B:20:Ser","0.8 A
+1.1 A
+1.6 A
+1.7 A
+2.5 A
+3.2 A
+3.7 A
+3.7 A
+3.9 A","12x clash to B:21:Ile
+22x clash to B:22:Ser
+2x clash to B:23:Cys
+3x clash to B:71:Phe
+16x clash to B:72:Thr
+2x clash to B:73:Leu",0,0,0,0,57,0.00,100.0%
+B:22:Ser,"C:9:Pro
+C:10:Gly
+C:8:Gly
+C:12:Val
+C:18:Leu
+C:11:Leu","0.6 A
+1.1 A
+2.0 A
+2.0 A
+2.5 A
+2.7 A","1x clash to C:8:Gly
+37x clash to C:9:Pro
+22x clash to C:10:Gly
+5x clash to C:11:Leu
+5x clash to C:12:Val
+4x clash to C:18:Leu",0,0,0,0,74,0.00,94.6%
+C:12:Val,"B:22:Ser
+B:72:Thr
+B:71:Phe
+B:70:Asp
+B:23:Cys
+B:24:Arg","2.0 A
+2.2 A
+2.3 A
+2.6 A
+3.9 A
+3.9 A","5x clash to B:22:Ser
+5x clash to B:70:Asp
+9x clash to B:71:Phe
+5x clash to B:72:Thr",0,0,0,0,24,0.00,26.6%
+B:23:Cys,"C:18:Leu
+C:20:Leu
+C:10:Gly
+C:19:Ser
+C:9:Pro
+C:121:Val
+C:81:Leu
+C:83:Leu
+C:12:Val","0.3 A
+1.8 A
+2.5 A
+2.9 A
+3.2 A
+3.3 A
+3.7 A
+3.9 A
+3.9 A","3x clash to C:9:Pro
+2x clash to C:10:Gly
+59x clash to C:18:Leu
+1x clash to C:19:Ser
+17x clash to C:20:Leu
+2x clash to C:121:Val",0,0,0,0,84,0.00,0.0%
+B:24:Arg,"C:18:Leu
+C:17:Ser
+C:16:Gln
+C:85:Ser
+C:19:Ser
+C:83:Leu
+C:81:Leu
+C:86:Val
+C:84:Asn
+C:82:Gln
+C:15:Ser
+C:20:Leu
+C:12:Val","0.5 A
+1.2 A
+1.2 A
+1.9 A
+2.2 A
+2.3 A
+2.4 A
+2.5 A
+2.8 A
+3.3 A
+3.4 A
+3.4 A
+3.9 A","14x clash to C:16:Gln
+65x clash to C:17:Ser
+73x clash to C:18:Leu
+7x clash to C:19:Ser
+1x clash to C:81:Leu
+12x clash to C:83:Leu
+6x clash to C:84:Asn
+13x clash to C:85:Ser
+4x clash to C:86:Val",0,0,0,0,195,0.00,93.8%
+C:17:Ser,"B:24:Arg
+B:70:Asp
+B:25:Ser
+B:69:Thr","1.2 A
+3.5 A
+3.5 A
+4.0 A",65x clash to B:24:Arg,0,0,0,0,65,0.00,26.6%
+C:16:Gln,"B:24:Arg
+B:70:Asp
+B:69:Thr","1.2 A
+1.8 A
+3.5 A","14x clash to B:24:Arg
+6x clash to B:70:Asp",0,0,0,0,20,0.00,2.1%
+C:85:Ser,"B:69:Thr
+B:24:Arg
+B:70:Asp
+B:68:Gly
+B:25:Ser","1.3 A
+1.9 A
+2.2 A
+3.9 A
+3.9 A","13x clash to B:24:Arg
+10x clash to B:69:Thr
+1x clash to B:70:Asp",0,0,0,0,24,0.00,0.0%
+C:86:Val,"B:70:Asp
+B:69:Thr
+B:67:Ser
+B:24:Arg
+B:71:Phe
+B:68:Gly","0.5 A
+1.2 A
+2.4 A
+2.5 A
+3.1 A
+3.3 A","4x clash to B:24:Arg
+3x clash to B:67:Ser
+1x clash to B:68:Gly
+26x clash to B:69:Thr
+75x clash to B:70:Asp
+1x clash to B:71:Phe",0,0,0,0,110,0.00,0.0%
+B:25:Ser,"C:83:Leu
+C:82:Gln
+C:84:Asn
+C:18:Leu
+C:81:Leu
+C:17:Ser
+C:67:Arg
+C:68:Ile
+C:85:Ser","0.6 A
+1.3 A
+1.5 A
+2.2 A
+3.5 A
+3.5 A
+3.6 A
+3.6 A
+3.9 A","2x clash to C:18:Leu
+20x clash to C:82:Gln
+53x clash to C:83:Leu
+10x clash to C:84:Asn",0,0,0,0,85,0.00,100.0%
+B:26:Ser,"C:69:Ser
+C:84:Asn
+C:82:Gln
+C:67:Arg
+C:83:Leu
+C:68:Ile","1.2 A
+1.5 A
+1.8 A
+2.3 A
+2.8 A
+3.8 A","2x clash to C:67:Arg
+10x clash to C:69:Ser
+26x clash to C:82:Gln
+12x clash to C:84:Asn",0,0,0,0,50,-0.01,52.2%
+C:67:Arg,"B:27:Gln
+B:28:Ser
+B:26:Ser
+B:29:Leu
+B:69:Thr
+B:68:Gly
+B:25:Ser","0.7 A
+0.8 A
+2.3 A
+2.8 A
+2.9 A
+3.0 A
+3.6 A","2x clash to B:26:Ser
+10x clash to B:27:Gln
+48x clash to B:28:Ser
+2x clash to B:69:Thr",0,0,0,0,62,-0.05,10.0%
+B:28:Ser,"C:66:Ser
+C:67:Arg
+C:68:Ile
+C:65:Thr
+C:64:Leu","0.6 A
+0.8 A
+1.4 A
+2.2 A
+3.6 A","2x clash to C:65:Thr
+22x clash to C:66:Ser
+48x clash to C:67:Arg
+16x clash to C:68:Ile",0,0,0,0,88,0.00,83.8%
+C:65:Thr,"B:30:Val
+B:31:Thr
+B:28:Ser
+B:30A:Hip
+B:29:Leu
+B:30E:Asn","0.7 A
+2.1 A
+2.2 A
+2.7 A
+3.3 A
+3.8 A","2x clash to B:28:Ser
+76x clash to B:30:Val
+1x clash to B:30A:Hip
+3x clash to B:31:Thr",0,0,0,0,82,-0.04,29.8%
+B:29:Leu,"C:64:Leu
+C:68:Ile
+C:66:Ser
+C:83:Leu
+C:49:Met
+C:67:Arg
+C:81:Leu
+C:65:Thr
+C:39:Arg","0.7 A
+0.9 A
+1.5 A
+1.8 A
+2.2 A
+2.8 A
+3.3 A
+3.3 A
+3.5 A","17x clash to C:49:Met
+30x clash to C:64:Leu
+22x clash to C:66:Ser
+43x clash to C:68:Ile
+4x clash to C:81:Leu
+17x clash to C:83:Leu",0,0,0,0,133,0.00,0.0%
+C:64:Leu,"B:30:Val
+B:29:Leu
+B:92:Thr
+B:30A:Hip
+B:30E:Asn
+B:32:Tyr
+B:31:Thr
+B:93:Tyr
+B:30B:Asn
+B:28:Ser","0.7 A
+0.7 A
+1.2 A
+1.5 A
+2.5 A
+2.6 A
+3.1 A
+3.1 A
+3.5 A
+3.6 A","30x clash to B:29:Leu
+42x clash to B:30:Val
+15x clash to B:30A:Hip
+2x clash to B:30E:Asn
+1x clash to B:31:Thr
+8x clash to B:32:Tyr
+35x clash to B:92:Thr",0,0,0,0,133,-0.01,42.6%
+C:49:Met,"B:92:Thr
+B:32:Tyr
+B:91:Ser
+B:93:Tyr
+B:90:Gln
+B:29:Leu
+B:33:Leu
+B:89:Ser
+B:34:His
+B:96:Phe","0.7 A
+0.8 A
+0.9 A
+1.5 A
+2.1 A
+2.2 A
+2.7 A
+2.8 A
+3.3 A
+3.4 A","17x clash to B:29:Leu
+29x clash to B:32:Tyr
+4x clash to B:33:Leu
+3x clash to B:34:His
+1x clash to B:89:Ser
+17x clash to B:90:Gln
+39x clash to B:91:Ser
+27x clash to B:92:Thr
+4x clash to B:93:Tyr",0,0,0,0,141,0.00,0.0%
+C:63:Ser,"B:30A:Hip
+B:30B:Asn
+B:30:Val
+B:30C:Asn
+B:30E:Asn","0.6 A
+1.2 A
+2.2 A
+2.5 A
+3.7 A","4x clash to B:30:Val
+58x clash to B:30A:Hip
+27x clash to B:30B:Asn
+8x clash to B:30C:Asn",0,0,0,0,97,0.00,93.3%
+B:30A:Hip,"C:63:Ser
+C:62:Pro
+C:61:Asn
+C:64:Leu
+C:65:Thr
+D:95:Pro","0.6 A
+1.2 A
+1.4 A
+1.5 A
+2.7 A
+3.0 A","25x clash to C:61:Asn
+39x clash to C:62:Pro
+58x clash to C:63:Ser
+15x clash to C:64:Leu
+1x clash to C:65:Thr
+5x clash to D:95:Pro",0,0,0,0,143,0.00,96.1%
+C:61:Asn,"B:92:Thr
+B:30A:Hip
+B:32:Tyr
+B:93:Tyr
+B:30:Val
+B:91:Ser
+B:30E:Asn
+A:108:Met","1.2 A
+1.4 A
+1.9 A
+2.2 A
+3.5 A
+3.8 A
+3.9 A
+4.0 A","25x clash to B:30A:Hip
+12x clash to B:32:Tyr
+38x clash to B:92:Thr
+12x clash to B:93:Tyr",0,0,0,0,87,0.03,100.0%
+C:62:Pro,"B:30A:Hip
+B:30B:Asn
+B:30:Val
+B:93:Tyr
+B:92:Thr","1.2 A
+3.3 A
+3.5 A
+3.9 A
+4.0 A","39x clash to B:30A:Hip
+1x clash to B:30B:Asn",0,0,0,0,40,0.00,16.4%
+B:30B:Asn,"C:63:Ser
+D:1:Asp
+D:95:Pro
+C:62:Pro
+C:64:Leu","1.2 A
+2.1 A
+3.0 A
+3.3 A
+3.5 A","1x clash to C:62:Pro
+27x clash to C:63:Ser
+1x clash to D:1:Asp
+1x clash to D:95:Pro",0,0,0,0,30,-0.14,26.7%
+D:1:Asp,"B:30B:Asn
+B:30C:Asn
+A:108:Met","2.1 A
+2.1 A
+3.3 A","1x clash to B:30B:Asn
+11x clash to B:30C:Asn",0,0,0,0,12,0.21,40.0%
+B:30C:Asn,"D:1:Asp
+C:63:Ser
+D:97:Thr
+D:95:Pro
+C:47:Glu","2.1 A
+2.5 A
+3.2 A
+3.9 A
+3.9 A","8x clash to C:63:Ser
+11x clash to D:1:Asp
+1x clash to D:97:Thr",0,0,0,0,20,0.24,51.3%
+B:30E:Asn,"C:47:Glu
+C:46:Leu
+C:45:Lys
+C:64:Leu
+C:63:Ser
+C:39:Arg
+C:65:Thr
+C:61:Asn","0.9 A
+2.4 A
+2.4 A
+2.5 A
+3.7 A
+3.7 A
+3.8 A
+3.9 A","20x clash to C:45:Lys
+1x clash to C:46:Leu
+23x clash to C:47:Glu
+2x clash to C:64:Leu",0,0,0,0,46,0.25,73.6%
+C:45:Lys,"B:50:Lys
+B:30E:Asn
+B:31:Thr
+B:53:Asn
+B:30D:Gly","1.6 A
+2.4 A
+3.2 A
+3.2 A
+3.5 A","20x clash to B:30E:Asn
+28x clash to B:50:Lys",0,0,0,0,48,0.29,40.3%
+B:31:Thr,"C:39:Arg
+C:47:Glu
+C:65:Thr
+C:66:Ser
+C:64:Leu
+C:41:Phe
+C:45:Lys
+C:90:Asp
+C:89:Glu","1.2 A
+1.6 A
+2.1 A
+2.2 A
+3.1 A
+3.1 A
+3.2 A
+3.3 A
+3.7 A","53x clash to C:39:Arg
+4x clash to C:41:Phe
+10x clash to C:47:Glu
+1x clash to C:64:Leu
+3x clash to C:65:Thr
+2x clash to C:66:Ser",0,0,0,0,73,0.00,98.7%
+C:39:Arg,"B:34:His
+B:31:Thr
+B:50:Lys
+B:33:Leu
+B:51:Val
+B:32:Tyr
+B:49:Tyr
+A:109:Asp
+B:71:Phe
+B:29:Leu
+B:30E:Asn","0.8 A
+1.2 A
+1.2 A
+1.7 A
+2.3 A
+2.3 A
+2.4 A
+3.3 A
+3.3 A
+3.5 A
+3.7 A","53x clash to B:31:Thr
+10x clash to B:32:Tyr
+41x clash to B:33:Leu
+25x clash to B:34:His
+1x clash to B:49:Tyr
+23x clash to B:50:Lys
+12x clash to B:51:Val",0,0,0,0,165,-0.15,100.0%
+C:41:Phe,"B:50:Lys
+B:53:Asn
+B:52:Ser
+B:51:Val
+B:49:Tyr
+B:31:Thr","0.7 A
+1.0 A
+2.4 A
+2.7 A
+2.9 A
+3.1 A","4x clash to B:31:Thr
+17x clash to B:50:Lys
+9x clash to B:51:Val
+6x clash to B:52:Ser
+16x clash to B:53:Asn",0,0,0,0,52,0.07,9.6%
+B:32:Tyr,"C:49:Met
+C:47:Glu
+C:48:Trp
+C:61:Asn
+C:39:Arg
+C:64:Leu
+C:94:Tyr
+C:46:Leu
+D:98:Phe
+D:96:Phe","0.8 A
+1.0 A
+1.3 A
+1.9 A
+2.3 A
+2.6 A
+3.7 A
+3.7 A
+3.7 A
+4.0 A","10x clash to C:39:Arg
+52x clash to C:47:Glu
+28x clash to C:48:Trp
+29x clash to C:49:Met
+12x clash to C:61:Asn
+8x clash to C:64:Leu",0,0,0,0,139,0.15,100.0%
+B:33:Leu,"C:94:Tyr
+C:39:Arg
+C:93:Thr
+C:92:Ala
+C:40:Gln
+C:49:Met
+C:38:Ile
+C:83:Leu
+C:20:Leu
+C:90:Asp
+C:121:Val","0.4 A
+1.7 A
+2.0 A
+2.7 A
+2.7 A
+2.7 A
+3.3 A
+3.3 A
+3.3 A
+3.4 A
+3.5 A","1x clash to C:20:Leu
+41x clash to C:39:Arg
+1x clash to C:40:Gln
+4x clash to C:49:Met
+3x clash to C:83:Leu
+2x clash to C:92:Ala
+3x clash to C:93:Thr
+88x clash to C:94:Tyr
+1x clash to C:121:Val",0,0,0,0,144,0.00,0.0%
+C:94:Tyr,"B:35:Trp
+B:33:Leu
+B:34:His
+B:48:Ile
+B:71:Phe
+B:89:Ser
+B:36:Tyr
+A:111:Tyr
+B:66:Gly
+B:32:Tyr
+B:88:Cys","0.3 A
+0.4 A
+0.9 A
+2.6 A
+2.6 A
+2.8 A
+2.8 A
+3.2 A
+3.6 A
+3.7 A
+3.9 A","88x clash to B:33:Leu
+43x clash to B:34:His
+41x clash to B:35:Trp
+5x clash to B:48:Ile
+3x clash to B:71:Phe
+3x clash to B:89:Ser",0,0,0,0,183,0.00,0.0%
+C:93:Thr,"B:48:Ile
+B:51:Val
+B:33:Leu
+B:53:Asn
+B:52:Ser
+B:49:Tyr
+B:34:His
+B:35:Trp
+B:50:Lys
+B:47:Leu
+B:64:Gly","0.5 A
+1.2 A
+2.0 A
+2.5 A
+2.7 A
+2.9 A
+3.0 A
+3.0 A
+3.4 A
+3.4 A
+3.8 A","3x clash to B:33:Leu
+2x clash to B:34:His
+4x clash to B:35:Trp
+77x clash to B:48:Ile
+2x clash to B:49:Tyr
+6x clash to B:51:Val
+3x clash to B:52:Ser
+2x clash to B:53:Asn",0,0,0,0,99,0.00,100.0%
+B:34:His,"C:38:Ile
+C:39:Arg
+C:94:Tyr
+C:95:Tyr
+C:47:Glu
+C:93:Thr
+C:49:Met
+C:20:Leu
+C:40:Gln
+C:37:Trp
+C:119:Thr","0.7 A
+0.8 A
+0.9 A
+1.9 A
+2.0 A
+3.0 A
+3.3 A
+3.3 A
+3.6 A
+3.7 A
+3.9 A","41x clash to C:38:Ile
+25x clash to C:39:Arg
+2x clash to C:47:Glu
+3x clash to C:49:Met
+2x clash to C:93:Thr
+43x clash to C:94:Tyr
+16x clash to C:95:Tyr",0,0,0,0,132,0.00,0.0%
+C:6:Glu,"B:87:Phe
+B:36:Tyr
+B:86:Tyr
+B:37:Leu
+B:85:Val
+B:35:Trp
+B:88:Cys
+A:111:Tyr
+B:45:Lys
+B:6:Gln
+B:89:Ser","0.8 A
+0.8 A
+0.9 A
+1.9 A
+2.3 A
+2.6 A
+3.0 A
+3.4 A
+3.6 A
+3.7 A
+3.9 A","6x clash to B:35:Trp
+44x clash to B:36:Tyr
+1x clash to B:37:Leu
+2x clash to B:85:Val
+9x clash to B:86:Tyr
+62x clash to B:87:Phe
+1x clash to B:88:Cys",0,0,0,0,125,0.00,100.0%
+C:119:Thr,"B:35:Trp
+B:73:Leu
+B:87:Phe
+B:48:Ile
+B:36:Tyr
+B:88:Cys
+B:86:Tyr
+B:47:Leu
+B:21:Ile
+B:34:His","0.9 A
+2.3 A
+2.5 A
+2.7 A
+3.3 A
+3.4 A
+3.5 A
+3.6 A
+3.9 A
+3.9 A","73x clash to B:35:Trp
+5x clash to B:48:Ile
+15x clash to B:73:Leu
+1x clash to B:86:Tyr
+2x clash to B:87:Phe",0,0,0,0,96,0.00,100.0%
+C:118:Gly,"B:47:Leu
+B:35:Trp
+B:37:Leu
+B:36:Tyr
+B:48:Ile
+B:45:Lys
+B:86:Tyr
+B:73:Leu
+B:46:Leu","1.4 A
+2.1 A
+2.4 A
+2.5 A
+2.6 A
+3.2 A
+3.3 A
+3.4 A
+3.5 A","8x clash to B:35:Trp
+6x clash to B:36:Tyr
+3x clash to B:37:Leu
+34x clash to B:47:Leu
+6x clash to B:48:Ile",0,0,0,0,57,0.00,100.0%
+C:120:Thr,"B:73:Leu
+B:64:Gly
+B:72:Thr
+B:65:Ser
+B:63:Ser
+B:35:Trp
+B:21:Ile
+B:48:Ile
+B:74:Lys
+B:62:Phe","0.9 A
+1.2 A
+2.0 A
+2.4 A
+2.6 A
+2.7 A
+3.1 A
+3.3 A
+3.3 A
+3.7 A","9x clash to B:35:Trp
+1x clash to B:48:Ile
+4x clash to B:63:Ser
+21x clash to B:64:Gly
+4x clash to B:65:Ser
+3x clash to B:72:Thr
+58x clash to B:73:Leu
+1x clash to B:74:Lys",0,0,0,0,101,0.00,100.0%
+C:121:Val,"B:71:Phe
+B:65:Ser
+B:72:Thr
+B:66:Gly
+B:35:Trp
+B:73:Leu
+B:70:Asp
+B:23:Cys
+B:33:Leu
+B:64:Gly
+B:74:Lys","0.8 A
+1.6 A
+1.8 A
+2.3 A
+2.3 A
+2.7 A
+3.1 A
+3.3 A
+3.5 A
+3.6 A
+3.7 A","2x clash to B:23:Cys
+1x clash to B:33:Leu
+14x clash to B:35:Trp
+7x clash to B:65:Ser
+2x clash to B:66:Gly
+51x clash to B:71:Phe
+22x clash to B:72:Thr
+2x clash to B:73:Leu",0,0,0,0,101,-0.01,100.0%
+B:36:Tyr,"C:96:Cys
+C:6:Glu
+C:97:Val
+C:116:Gly
+C:118:Gly
+C:117:Ala
+C:94:Tyr
+C:95:Tyr
+C:115:Trp
+C:119:Thr
+C:114:Val
+C:5:Gln
+C:4:Leu
+C:22:Cys","0.8 A
+0.8 A
+1.6 A
+1.8 A
+2.5 A
+2.7 A
+2.8 A
+2.9 A
+2.9 A
+3.3 A
+3.8 A
+3.8 A
+3.8 A
+3.9 A","44x clash to C:6:Glu
+3x clash to C:95:Tyr
+40x clash to C:96:Cys
+16x clash to C:97:Val
+4x clash to C:115:Trp
+21x clash to C:116:Gly
+12x clash to C:117:Ala
+6x clash to C:118:Gly",0,0,0,0,146,0.00,0.0%
+C:117:Ala,"B:45:Lys
+B:47:Leu
+B:37:Leu
+B:46:Leu
+B:36:Tyr
+B:35:Trp
+B:38:Gln
+B:48:Ile
+B:44:Pro","1.1 A
+1.2 A
+1.5 A
+1.7 A
+2.7 A
+3.3 A
+3.6 A
+3.7 A
+3.7 A","12x clash to B:36:Tyr
+35x clash to B:37:Leu
+9x clash to B:45:Lys
+3x clash to B:46:Leu
+12x clash to B:47:Leu",0,0,0,0,71,0.00,96.8%
+B:37:Leu,"C:117:Ala
+C:6:Glu
+C:118:Gly
+C:116:Gly
+C:5:Gln
+C:4:Leu","1.5 A
+1.9 A
+2.4 A
+3.5 A
+3.8 A
+4.0 A","1x clash to C:6:Glu
+35x clash to C:117:Ala
+3x clash to C:118:Gly",0,0,0,0,39,0.00,37.1%
+B:38:Gln,"C:5:Gln
+C:3:Gln
+C:25:Thr
+C:4:Leu
+C:117:Ala
+C:23:Thr","1.5 A
+1.5 A
+2.1 A
+3.4 A
+3.6 A
+3.7 A","25x clash to C:3:Gln
+42x clash to C:5:Gln
+5x clash to C:25:Thr",0,0,0,0,72,-0.04,63.5%
+B:42:Gln,"C:3:Gln
+C:25:Thr","1.0 A
+3.8 A",19x clash to C:3:Gln,0,0,0,0,19,-0.14,5.4%
+B:43:Ser,"C:3:Gln
+C:2:Val
+C:4:Leu
+C:1:Asp","0.9 A
+2.3 A
+3.1 A
+3.6 A","6x clash to C:2:Val
+53x clash to C:3:Gln",0,0,0,0,59,0.00,0.0%
+B:44:Pro,"C:4:Leu
+C:3:Gln
+C:5:Gln
+C:115:Trp
+C:116:Gly
+C:23:Thr
+C:117:Ala","0.5 A
+1.3 A
+1.6 A
+2.5 A
+2.8 A
+3.6 A
+3.7 A","23x clash to C:3:Gln
+44x clash to C:4:Leu
+14x clash to C:5:Gln
+1x clash to C:115:Trp
+5x clash to C:116:Gly",0,0,0,0,87,0.00,0.0%
+B:45:Lys,"C:116:Gly
+C:117:Ala
+C:115:Trp
+D:43:Ser
+C:118:Gly
+D:45:Lys
+C:6:Glu
+C:4:Leu","0.3 A
+1.1 A
+2.3 A
+2.9 A
+3.2 A
+3.5 A
+3.6 A
+3.7 A","4x clash to C:115:Trp
+16x clash to C:116:Gly
+9x clash to C:117:Ala
+1x clash to D:43:Ser
+1x clash to D:45:Lys",0,0,0,0,31,-0.01,31.5%
+B:47:Leu,"C:117:Ala
+C:118:Gly
+C:95:Tyr
+D:43:Ser
+D:42:Gln
+C:93:Thr
+C:116:Gly
+C:119:Thr","1.2 A
+1.4 A
+2.1 A
+2.7 A
+3.4 A
+3.4 A
+3.5 A
+3.6 A","14x clash to C:95:Tyr
+12x clash to C:117:Ala
+34x clash to C:118:Gly
+2x clash to D:43:Ser",0,0,0,0,62,0.00,28.0%
+B:48:Ile,"C:93:Thr
+C:95:Tyr
+C:94:Tyr
+C:118:Gly
+C:119:Thr
+C:120:Thr
+C:92:Ala
+C:117:Ala
+C:40:Gln
+C:38:Ile","0.5 A
+1.7 A
+2.6 A
+2.6 A
+2.7 A
+3.3 A
+3.4 A
+3.7 A
+3.9 A
+4.0 A","77x clash to C:93:Thr
+5x clash to C:94:Tyr
+26x clash to C:95:Tyr
+6x clash to C:118:Gly
+5x clash to C:119:Thr
+1x clash to C:120:Thr",0,0,0,0,120,0.00,0.0%
+B:50:Lys,"C:40:Gln
+C:46:Leu
+C:41:Phe
+C:39:Arg
+C:45:Lys
+C:47:Glu
+D:98:Phe
+C:92:Ala
+C:42:Pro
+C:93:Thr
+C:44:Asn","0.6 A
+0.6 A
+0.7 A
+1.2 A
+1.6 A
+2.0 A
+3.1 A
+3.3 A
+3.3 A
+3.4 A
+3.5 A","23x clash to C:39:Arg
+32x clash to C:40:Gln
+17x clash to C:41:Phe
+28x clash to C:45:Lys
+52x clash to C:46:Leu
+14x clash to C:47:Glu
+1x clash to C:92:Ala
+3x clash to D:98:Phe",0,0,0,0,170,0.00,97.2%
+B:51:Val,"C:92:Ala
+C:93:Thr
+C:91:Ser
+C:40:Gln
+C:39:Arg
+C:41:Phe
+C:89:Glu
+C:42:Pro
+C:90:Asp","0.8 A
+1.2 A
+1.5 A
+2.1 A
+2.3 A
+2.7 A
+3.0 A
+3.2 A
+3.9 A","12x clash to C:39:Arg
+5x clash to C:40:Gln
+9x clash to C:41:Phe
+3x clash to C:42:Pro
+1x clash to C:89:Glu
+9x clash to C:91:Ser
+51x clash to C:92:Ala
+6x clash to C:93:Thr",0,0,0,0,96,0.00,96.3%
+C:42:Pro,"B:52:Ser
+B:53:Asn
+B:64:Gly
+B:51:Val
+B:50:Lys","0.5 A
+3.0 A
+3.2 A
+3.2 A
+3.3 A","3x clash to B:51:Val
+57x clash to B:52:Ser",0,0,0,0,60,0.03,28.3%
+C:91:Ser,"B:66:Gly
+B:51:Val
+B:65:Ser
+B:67:Ser
+B:64:Gly","0.8 A
+1.5 A
+1.9 A
+2.1 A
+3.8 A","9x clash to B:51:Val
+19x clash to B:65:Ser
+32x clash to B:66:Gly
+5x clash to B:67:Ser",0,0,0,0,65,0.04,47.2%
+B:52:Ser,"C:42:Pro
+C:40:Gln
+C:41:Phe
+C:93:Thr
+C:92:Ala","0.5 A
+1.8 A
+2.4 A
+2.7 A
+2.7 A","4x clash to C:40:Gln
+6x clash to C:41:Phe
+57x clash to C:42:Pro
+4x clash to C:92:Ala
+3x clash to C:93:Thr",0,0,0,0,74,0.00,94.0%
+C:43:Gly,B:53:Asn,2.0 A,6x clash to B:53:Asn,0,0,0,0,6,0.18,8.5%
+C:44:Asn,"B:53:Asn
+B:49:Tyr
+B:50:Lys","1.4 A
+2.9 A
+3.5 A","1x clash to B:49:Tyr
+6x clash to B:53:Asn",0,0,0,0,7,0.00,8.7%
+B:54:Arg,"D:38:Gln
+C:40:Gln
+D:42:Gln
+C:95:Tyr","1.5 A
+2.7 A
+3.0 A
+3.5 A",10x clash to D:38:Gln,0,0,0,0,10,0.04,12.6%
+B:55:Phe,"D:43:Ser
+D:44:Pro
+D:42:Gln
+D:45:Lys
+D:38:Gln
+D:39:Lys
+D:41:Gly
+D:37:Leu
+D:40:Pro
+C:95:Tyr
+C:40:Gln","0.5 A
+0.9 A
+0.9 A
+1.8 A
+1.9 A
+2.1 A
+2.4 A
+2.6 A
+3.2 A
+3.3 A
+3.8 A","2x clash to D:37:Leu
+21x clash to D:38:Gln
+2x clash to D:39:Lys
+3x clash to D:41:Gly
+30x clash to D:42:Gln
+32x clash to D:43:Ser
+41x clash to D:44:Pro
+21x clash to D:45:Lys",0,0,0,0,152,0.00,100.0%
+D:42:Gln,"B:55:Phe
+B:58:Val
+B:56:Ser
+B:54:Arg
+B:46:Leu
+B:57:Gly
+B:47:Leu","0.9 A
+1.7 A
+2.5 A
+3.0 A
+3.1 A
+3.1 A
+3.4 A","30x clash to B:55:Phe
+2x clash to B:56:Ser
+20x clash to B:58:Val",0,0,0,0,52,0.01,19.4%
+D:39:Lys,"B:56:Ser
+B:55:Phe
+B:57:Gly
+B:58:Val","0.2 A
+2.1 A
+2.1 A
+3.9 A","2x clash to B:55:Phe
+49x clash to B:56:Ser
+2x clash to B:57:Gly",0,0,0,0,53,0.75,39.9%
+D:41:Gly,"B:58:Val
+B:57:Gly
+B:55:Phe
+B:56:Ser
+B:59:Pro","0.3 A
+1.4 A
+2.4 A
+2.5 A
+3.3 A","3x clash to B:55:Phe
+1x clash to B:56:Ser
+16x clash to B:57:Gly
+38x clash to B:58:Val",0,0,0,0,58,0.01,89.3%
+D:37:Leu,"B:55:Phe
+B:56:Ser
+A:100:Leu
+A:98:Arg
+A:1:Asp
+A:113:Asp","2.6 A
+2.9 A
+3.3 A
+3.3 A
+3.6 A
+4.0 A",2x clash to B:55:Phe,0,0,0,0,2,0.65,94.7%
+B:56:Ser,"D:39:Lys
+D:38:Gln
+D:40:Pro
+D:42:Gln
+D:41:Gly
+D:37:Leu
+D:43:Ser","0.2 A
+1.3 A
+1.8 A
+2.5 A
+2.5 A
+2.9 A
+4.0 A","16x clash to D:38:Gln
+49x clash to D:39:Lys
+14x clash to D:40:Pro
+1x clash to D:41:Gly
+2x clash to D:42:Gln",0,0,0,0,82,0.00,99.4%
+D:40:Pro,"B:57:Gly
+B:56:Ser
+B:58:Val
+B:55:Phe","0.7 A
+1.8 A
+2.4 A
+3.2 A","14x clash to B:56:Ser
+25x clash to B:57:Gly
+3x clash to B:58:Val",0,0,0,0,42,0.00,18.5%
+B:57:Gly,"D:40:Pro
+D:41:Gly
+D:39:Lys
+D:42:Gln","0.7 A
+1.4 A
+2.1 A
+3.1 A","2x clash to D:39:Lys
+25x clash to D:40:Pro
+16x clash to D:41:Gly",0,0,0,0,43,0.00,62.1%
+B:58:Val,"D:41:Gly
+D:42:Gln
+D:40:Pro
+D:43:Ser
+D:39:Lys","0.3 A
+1.7 A
+2.4 A
+3.3 A
+3.9 A","3x clash to D:40:Pro
+38x clash to D:41:Gly
+20x clash to D:42:Gln",0,0,0,0,61,0.03,83.3%
+B:63:Ser,"C:120:Thr
+C:122:Thr","2.6 A
+3.2 A",4x clash to C:120:Thr,0,0,0,0,4,0.00,0.0%
+B:64:Gly,"C:120:Thr
+C:92:Ala
+C:42:Pro
+C:121:Val
+C:93:Thr
+C:91:Ser","1.2 A
+3.2 A
+3.2 A
+3.6 A
+3.8 A
+3.8 A",21x clash to C:120:Thr,0,0,0,0,21,0.00,20.6%
+B:65:Ser,"C:121:Val
+C:122:Thr
+C:91:Ser
+C:120:Thr
+C:92:Ala
+C:123:Val
+C:90:Asp","1.6 A
+1.6 A
+1.9 A
+2.4 A
+2.5 A
+2.7 A
+3.7 A","19x clash to C:91:Ser
+4x clash to C:92:Ala
+4x clash to C:120:Thr
+7x clash to C:121:Val
+8x clash to C:122:Thr
+1x clash to C:123:Val",0,0,0,0,43,0.02,43.9%
+C:122:Thr,"B:74:Lys
+B:72:Thr
+B:65:Ser
+B:71:Phe
+B:73:Leu
+B:63:Ser
+B:66:Gly","0.8 A
+1.1 A
+1.6 A
+2.7 A
+3.2 A
+3.2 A
+3.9 A","8x clash to B:65:Ser
+2x clash to B:71:Phe
+42x clash to B:72:Thr
+57x clash to B:74:Lys",0,0,0,0,109,0.00,87.8%
+C:123:Val,"B:70:Asp
+B:72:Thr
+B:66:Gly
+B:65:Ser
+B:67:Ser
+B:74:Lys
+B:71:Phe","1.5 A
+2.5 A
+2.6 A
+2.7 A
+2.8 A
+3.5 A
+3.5 A","1x clash to B:65:Ser
+5x clash to B:66:Gly
+4x clash to B:67:Ser
+6x clash to B:70:Asp
+2x clash to B:72:Thr",0,0,0,0,18,0.00,0.0%
+B:66:Gly,"C:90:Asp
+C:91:Ser
+C:121:Val
+C:92:Ala
+C:123:Val
+C:89:Glu
+C:88:Thr
+C:94:Tyr
+C:122:Thr
+C:87:Thr","0.6 A
+0.8 A
+2.3 A
+2.3 A
+2.6 A
+2.8 A
+3.6 A
+3.6 A
+3.9 A
+3.9 A","1x clash to C:89:Glu
+17x clash to C:90:Asp
+32x clash to C:91:Ser
+3x clash to C:92:Ala
+2x clash to C:121:Val
+5x clash to C:123:Val",0,0,0,0,60,0.00,100.0%
+C:90:Asp,"B:66:Gly
+B:67:Ser
+B:68:Gly
+B:71:Phe
+B:69:Thr
+B:70:Asp
+B:31:Thr
+B:33:Leu
+B:65:Ser
+B:51:Val","0.6 A
+0.9 A
+1.1 A
+1.4 A
+2.5 A
+3.2 A
+3.3 A
+3.4 A
+3.7 A
+3.9 A","17x clash to B:66:Gly
+45x clash to B:67:Ser
+10x clash to B:68:Gly
+1x clash to B:69:Thr
+21x clash to B:71:Phe",0,0,0,0,94,0.00,0.0%
+C:89:Glu,"B:67:Ser
+B:66:Gly
+B:51:Val
+B:31:Thr
+B:68:Gly","1.5 A
+2.8 A
+3.0 A
+3.7 A
+3.7 A","1x clash to B:51:Val
+1x clash to B:66:Gly
+22x clash to B:67:Ser",0,0,0,0,24,0.00,1.2%
+B:67:Ser,"C:90:Asp
+C:88:Thr
+C:89:Glu
+C:87:Thr
+C:91:Ser
+C:86:Val
+C:123:Val","0.9 A
+1.5 A
+1.5 A
+1.7 A
+2.1 A
+2.4 A
+2.8 A","3x clash to C:86:Val
+22x clash to C:87:Thr
+8x clash to C:88:Thr
+22x clash to C:89:Glu
+45x clash to C:90:Asp
+5x clash to C:91:Ser
+4x clash to C:123:Val",0,0,0,0,109,0.00,100.0%
+C:87:Thr,"B:68:Gly
+B:67:Ser
+B:69:Thr
+B:70:Asp
+B:66:Gly","1.7 A
+1.7 A
+2.8 A
+3.6 A
+3.9 A","22x clash to B:67:Ser
+22x clash to B:68:Gly
+3x clash to B:69:Thr",0,0,0,0,47,0.00,0.6%
+C:88:Thr,"B:67:Ser
+B:66:Gly","1.5 A
+3.6 A",8x clash to B:67:Ser,0,0,0,0,8,0.00,0.0%
+B:68:Gly,"C:90:Asp
+C:87:Thr
+C:66:Ser
+C:67:Arg
+C:86:Val
+C:89:Glu
+C:85:Ser
+C:84:Asn","1.1 A
+1.7 A
+2.1 A
+3.0 A
+3.3 A
+3.7 A
+3.9 A
+3.9 A","4x clash to C:66:Ser
+1x clash to C:86:Val
+22x clash to C:87:Thr
+10x clash to C:90:Asp",0,0,0,0,37,0.00,100.0%
+B:70:Asp,"C:86:Val
+C:123:Val
+C:16:Gln
+C:85:Ser
+C:12:Val
+C:13:Lys
+C:15:Ser
+C:121:Val
+C:90:Asp
+C:17:Ser
+C:87:Thr
+C:83:Leu
+C:14:Pro","0.5 A
+1.5 A
+1.8 A
+2.2 A
+2.6 A
+2.9 A
+3.0 A
+3.1 A
+3.2 A
+3.5 A
+3.6 A
+3.9 A
+3.9 A","5x clash to C:12:Val
+6x clash to C:16:Gln
+1x clash to C:85:Ser
+75x clash to C:86:Val
+6x clash to C:123:Val",0,0,0,0,93,0.00,100.0%
+B:71:Phe,"C:121:Val
+C:83:Leu
+C:90:Asp
+C:10:Gly
+C:12:Val
+C:18:Leu
+C:94:Tyr
+C:122:Thr
+C:86:Val
+C:39:Arg
+C:123:Val
+C:11:Leu","0.8 A
+0.9 A
+1.4 A
+1.6 A
+2.3 A
+2.5 A
+2.6 A
+2.7 A
+3.1 A
+3.3 A
+3.5 A
+3.6 A","3x clash to C:10:Gly
+9x clash to C:12:Val
+6x clash to C:18:Leu
+44x clash to C:83:Leu
+1x clash to C:86:Val
+21x clash to C:90:Asp
+3x clash to C:94:Tyr
+51x clash to C:121:Val
+2x clash to C:122:Thr",0,0,0,0,140,0.00,100.0%
+B:72:Thr,"C:11:Leu
+C:122:Thr
+C:10:Gly
+C:121:Val
+C:120:Thr
+C:12:Val
+C:123:Val
+C:124:Ser","1.1 A
+1.1 A
+1.7 A
+1.8 A
+2.0 A
+2.2 A
+2.5 A
+3.8 A","16x clash to C:10:Gly
+28x clash to C:11:Leu
+5x clash to C:12:Val
+3x clash to C:120:Thr
+22x clash to C:121:Val
+42x clash to C:122:Thr
+2x clash to C:123:Val",0,0,0,0,118,0.00,100.0%
+B:73:Leu,"C:120:Thr
+C:119:Thr
+C:121:Val
+C:122:Thr
+C:10:Gly
+C:118:Gly","0.9 A
+2.3 A
+2.7 A
+3.2 A
+3.2 A
+3.4 A","2x clash to C:10:Gly
+15x clash to C:119:Thr
+58x clash to C:120:Thr
+2x clash to C:121:Val",0,0,0,0,77,0.00,0.0%
+B:74:Lys,"C:122:Thr
+C:120:Thr
+C:123:Val
+C:11:Leu
+C:121:Val","0.8 A
+3.3 A
+3.5 A
+3.7 A
+3.7 A","1x clash to C:120:Thr
+57x clash to C:122:Thr",0,0,0,0,58,0.04,50.4%
+B:85:Val,"C:5:Gln
+C:6:Glu
+C:7:Ser","1.3 A
+2.3 A
+3.9 A","39x clash to C:5:Gln
+2x clash to C:6:Glu",0,0,0,0,41,0.00,2.6%
+B:86:Tyr,"C:6:Glu
+C:7:Ser
+C:118:Gly
+C:21:Thr
+C:119:Thr
+C:8:Gly
+C:5:Gln","0.9 A
+1.1 A
+3.3 A
+3.5 A
+3.5 A
+3.5 A
+3.6 A","9x clash to C:6:Glu
+14x clash to C:7:Ser
+1x clash to C:119:Thr",0,0,0,0,24,0.00,0.0%
+B:87:Phe,"C:5:Gln
+C:6:Glu
+C:7:Ser
+C:23:Thr
+C:21:Thr
+C:22:Cys
+C:119:Thr
+C:96:Cys
+C:4:Leu","0.5 A
+0.8 A
+1.6 A
+1.6 A
+1.7 A
+2.0 A
+2.5 A
+3.4 A
+3.9 A","34x clash to C:5:Gln
+62x clash to C:6:Glu
+10x clash to C:7:Ser
+8x clash to C:21:Thr
+14x clash to C:22:Cys
+21x clash to C:23:Thr
+2x clash to C:119:Thr",0,0,0,0,151,0.00,0.0%
+B:88:Cys,"C:20:Leu
+C:37:Trp
+C:7:Ser
+C:6:Glu
+C:119:Thr
+C:19:Ser
+C:21:Thr
+C:94:Tyr
+C:96:Cys
+C:18:Leu","0.8 A
+1.0 A
+2.9 A
+3.0 A
+3.4 A
+3.4 A
+3.6 A
+3.9 A
+3.9 A
+3.9 A","1x clash to C:6:Glu
+51x clash to C:20:Leu
+12x clash to C:37:Trp",0,0,0,0,64,0.00,0.0%
+B:89:Ser,"C:37:Trp
+C:96:Cys
+C:95:Tyr
+C:81:Leu
+C:49:Met
+C:94:Tyr
+C:20:Leu
+C:38:Ile
+C:6:Glu
+C:36:Asn","0.8 A
+2.2 A
+2.2 A
+2.4 A
+2.8 A
+2.8 A
+2.9 A
+3.7 A
+3.9 A
+3.9 A","1x clash to C:20:Leu
+43x clash to C:37:Trp
+1x clash to C:49:Met
+4x clash to C:81:Leu
+3x clash to C:94:Tyr
+7x clash to C:95:Tyr
+8x clash to C:96:Cys",0,0,0,0,67,0.00,0.0%
+B:90:Gln,"C:70:Ile
+C:37:Trp
+C:81:Leu
+C:49:Met
+C:50:Gly
+C:36:Asn
+C:38:Ile
+C:68:Ile","0.6 A
+1.6 A
+1.8 A
+2.1 A
+2.6 A
+3.4 A
+3.5 A
+3.9 A","33x clash to C:37:Trp
+17x clash to C:49:Met
+1x clash to C:50:Gly
+31x clash to C:70:Ile
+26x clash to C:81:Leu",0,0,0,0,108,0.00,0.0%
+C:50:Gly,"B:96:Phe
+B:92:Thr
+B:93:Tyr
+B:91:Ser
+B:90:Gln
+B:94:Asp
+B:95:Pro
+B:97:Thr","1.4 A
+1.8 A
+1.9 A
+2.1 A
+2.6 A
+3.2 A
+3.2 A
+3.4 A","1x clash to B:90:Gln
+6x clash to B:91:Ser
+4x clash to B:92:Thr
+17x clash to B:93:Tyr
+1x clash to B:94:Asp
+31x clash to B:96:Phe",0,0,0,0,60,0.00,0.0%
+B:91:Ser,"C:49:Met
+C:37:Trp
+C:48:Trp
+C:38:Ile
+C:50:Gly
+C:47:Glu
+C:36:Asn
+C:61:Asn","0.9 A
+1.1 A
+1.3 A
+1.7 A
+2.1 A
+3.1 A
+3.6 A
+3.8 A","17x clash to C:37:Trp
+16x clash to C:38:Ile
+1x clash to C:47:Glu
+18x clash to C:48:Trp
+39x clash to C:49:Met
+6x clash to C:50:Gly",0,0,0,0,97,0.00,0.0%
+B:92:Thr,"C:49:Met
+C:61:Asn
+C:64:Leu
+C:50:Gly
+C:60:Tyr
+C:48:Trp
+C:37:Trp
+C:68:Ile
+C:62:Pro","0.7 A
+1.2 A
+1.2 A
+1.8 A
+1.9 A
+2.8 A
+3.8 A
+3.9 A
+4.0 A","3x clash to C:48:Trp
+27x clash to C:49:Met
+4x clash to C:50:Gly
+2x clash to C:60:Tyr
+38x clash to C:61:Asn
+35x clash to C:64:Leu",0,0,0,0,109,0.00,100.0%
+B:93:Tyr,"C:59:Ser
+C:68:Ile
+C:60:Tyr
+C:49:Met
+C:50:Gly
+C:51:Tyr
+C:61:Asn
+C:70:Ile
+C:64:Leu
+C:66:Ser
+C:62:Pro
+C:48:Trp","1.1 A
+1.1 A
+1.1 A
+1.5 A
+1.9 A
+1.9 A
+2.2 A
+2.6 A
+3.1 A
+3.7 A
+3.9 A
+4.0 A","4x clash to C:49:Met
+17x clash to C:50:Gly
+4x clash to C:51:Tyr
+10x clash to C:59:Ser
+73x clash to C:60:Tyr
+12x clash to C:61:Asn
+25x clash to C:68:Ile
+2x clash to C:70:Ile",0,0,0,0,147,0.00,72.5%
+B:95:Pro,"C:52:Ile
+C:51:Tyr
+C:58:Thr
+C:70:Ile
+C:57:Ser
+C:59:Ser
+C:53:Ser
+C:50:Gly
+C:35:Trp","0.7 A
+0.9 A
+1.6 A
+2.4 A
+2.7 A
+2.9 A
+3.0 A
+3.2 A
+3.2 A","18x clash to C:51:Tyr
+59x clash to C:52:Ile
+1x clash to C:53:Ser
+4x clash to C:57:Ser
+29x clash to C:58:Thr
+1x clash to C:59:Ser
+6x clash to C:70:Ile",0,0,0,0,118,-0.03,100.0%
+B:96:Phe,"C:36:Asn
+C:51:Tyr
+C:50:Gly
+C:48:Trp
+C:52:Ile
+C:35:Trp
+C:37:Trp
+C:79:Phe
+C:99:Glu
+C:49:Met
+C:70:Ile
+C:112:Phe","1.3 A
+1.4 A
+1.4 A
+1.7 A
+2.1 A
+2.1 A
+2.3 A
+2.3 A
+2.8 A
+3.4 A
+3.6 A
+3.9 A","7x clash to C:35:Trp
+51x clash to C:36:Asn
+6x clash to C:37:Trp
+26x clash to C:48:Trp
+31x clash to C:50:Gly
+40x clash to C:51:Tyr
+4x clash to C:52:Ile
+1x clash to C:70:Ile
+3x clash to C:79:Phe
+2x clash to C:99:Glu",0,0,0,0,171,0.00,100.0%
+B:97:Thr,"C:37:Trp
+C:70:Ile
+C:80:Phe
+C:71:Thr
+C:79:Phe
+C:50:Gly
+C:52:Ile
+C:35:Trp
+C:81:Leu
+C:69:Ser","0.6 A
+1.3 A
+1.8 A
+2.5 A
+2.6 A
+3.4 A
+3.5 A
+3.6 A
+3.6 A
+3.7 A","27x clash to C:37:Trp
+48x clash to C:70:Ile
+4x clash to C:71:Thr
+7x clash to C:79:Phe
+6x clash to C:80:Phe",0,0,0,0,92,0.00,100.0%
+B:98:Phe,"C:79:Phe
+C:37:Trp
+C:80:Phe
+C:96:Cys
+C:22:Cys
+C:36:Asn
+C:20:Leu
+C:97:Val
+C:81:Leu
+C:35:Trp
+C:21:Thr
+C:4:Leu","0.7 A
+1.0 A
+1.5 A
+1.6 A
+1.8 A
+2.3 A
+2.4 A
+2.5 A
+2.6 A
+3.2 A
+3.5 A
+3.7 A","2x clash to C:20:Leu
+15x clash to C:22:Cys
+3x clash to C:35:Trp
+7x clash to C:36:Asn
+29x clash to C:37:Trp
+68x clash to C:79:Phe
+8x clash to C:80:Phe
+1x clash to C:81:Leu
+23x clash to C:96:Cys
+6x clash to C:97:Val",0,0,0,0,162,0.00,100.0%
+B:99:Gly,"C:21:Thr
+C:20:Leu
+C:22:Cys
+C:37:Trp
+C:79:Phe
+C:80:Phe
+C:7:Ser
+C:81:Leu","0.6 A
+1.2 A
+1.4 A
+1.8 A
+3.1 A
+3.5 A
+3.9 A
+3.9 A","16x clash to C:20:Leu
+27x clash to C:21:Thr
+5x clash to C:22:Cys
+8x clash to C:37:Trp
+1x clash to C:80:Phe",0,0,0,0,57,-0.02,100.0%
+B:100:Ser,"C:21:Thr
+C:20:Leu
+C:7:Ser
+C:80:Phe
+C:78:Gln
+C:19:Ser
+C:22:Cys","0.9 A
+2.3 A
+3.1 A
+3.1 A
+3.5 A
+3.6 A
+3.6 A","3x clash to C:20:Leu
+47x clash to C:21:Thr
+6x clash to C:80:Phe",0,0,0,0,56,-0.01,63.5%
+B:101:Gly,"C:7:Ser
+C:21:Thr
+C:8:Gly","1.0 A
+1.4 A
+3.8 A","14x clash to C:7:Ser
+12x clash to C:21:Thr",0,0,0,0,26,0.00,0.0%
+B:102:Thr,"C:7:Ser
+C:8:Gly
+C:9:Pro","1.5 A
+1.6 A
+3.3 A","14x clash to C:7:Ser
+12x clash to C:8:Gly",0,0,0,0,26,0.00,0.0%
+D:2:Val,A:106:Val,2.9 A,2x clash to A:106:Val,0,0,0,0,2,0.00,0.0%
+D:26:Ser,A:106:Val,3.4 A,1x clash to A:106:Val,0,0,0,0,1,0.00,0.0%
+D:24:Arg,"A:106:Val
+A:105:Val","3.0 A
+3.6 A",1x clash to A:106:Val,0,0,0,0,1,0.00,0.0%
+A:22:Cys,C:98:Arg,3.8 A,,0,0,0,0,0,0.00,0.0%
+D:31:Thr,"A:31:Ser
+A:104:Thr","3.4 A
+3.5 A",,0,0,0,0,0,0.00,0.1%
+A:42:Pro,"C:76:Lys
+C:77:Asn","3.5 A
+3.6 A",,0,0,0,0,0,0.52,14.2%
+D:30A:His,A:55:Ser,3.5 A,,0,0,0,0,0,0.00,0.0%
+A:67:Arg,"C:31:Ser
+C:104:Thr","3.4 A
+3.9 A",,0,0,0,0,0,0.00,6.7%
+D:93:Tyr,"A:103:Thr
+A:110:Trp","3.8 A
+3.9 A",,0,0,0,0,0,0.00,0.0%
+D:94:Asp,A:108:Met,3.8 A,,0,0,0,0,0,0.00,1.2%
+A:119:Thr,"C:26:Gly
+C:1:Asp
+C:27:Tyr","3.0 A
+3.4 A
+3.6 A",,0,0,0,0,0,0.00,0.0%
+A:121:Val,"C:27:Tyr
+C:28:Ser","3.7 A
+4.0 A",,0,0,0,0,0,0.00,0.0%
+B:8:Pro,"C:9:Pro
+C:8:Gly","3.5 A
+3.7 A",,0,0,0,0,0,0.00,0.2%
+B:9:Leu,C:21:Thr,3.7 A,,0,0,0,0,0,0.00,0.6%
+C:15:Ser,"B:70:Asp
+B:24:Arg","3.0 A
+3.4 A",,0,0,0,0,0,0.00,0.0%
+B:30D:Gly,"C:47:Glu
+C:45:Lys","3.2 A
+3.5 A",,0,0,0,0,0,0.00,22.6%
+B:39:Lys,C:3:Gln,3.7 A,,0,0,0,0,0,0.00,0.0%
+B:59:Pro,D:41:Gly,3.3 A,,0,0,0,0,0,0.00,0.5%
+B:62:Phe,C:120:Thr,3.7 A,,0,0,0,0,0,0.00,0.0%
+C:13:Lys,B:70:Asp,2.9 A,,0,0,0,0,0,0.00,0.0%
+C:14:Pro,B:70:Asp,3.9 A,,0,0,0,0,0,0.00,0.0%
+C:124:Ser,B:72:Thr,3.8 A,,0,0,0,0,0,0.00,2.6%
+B:84:Gly,C:5:Gln,2.9 A,,0,0,0,0,0,0.00,0.0%
+B:103:Lys,C:7:Ser,4.0 A,,0,0,0,0,0,0.00,0.0%
+A:74:Thr,,,,0,0,0,0,0,0.00,0.5%
+B:41:Gly,,,,0,0,0,0,0,0.00,8.4%
+D:59:Pro,,,,0,0,0,0,0,0.72,17.8%
+D:62:Phe,,,,0,0,0,0,0,0.00,38.2%
+D:81:Glu,,,,0,0,0,0,0,0.00,10.8%
+D:85:Val,,,,0,0,0,0,0,0.00,4.8%

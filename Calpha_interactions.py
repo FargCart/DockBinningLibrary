@@ -36,7 +36,7 @@ destfile = "output.csv"
 calphaCutoff = str(round(5))
 
 os.system("mkdir pdbFiles")
-cmd.load("3_ab_test.mae")
+cmd.load("5_ab_test.mae")
 fullList=cmd.get_object_list('all')
 
 #Making empty lists

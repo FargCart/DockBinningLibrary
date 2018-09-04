@@ -1,0 +1,10 @@
+Residue,Closest,Distance,Specific Interactions,# HB,"# Salt
+Bridges","# Pi
+Stacking","#
+Disulfides","# vdW
+Clash","Surface
+Complementarity","Buried
+SASA"
+H:3:Val,,,,0,0,0,0,0,0.00,0.1%
+H:5:Thr,,,,0,0,0,0,0,0.00,1.1%
+J:30E:Asn,,,,0,0,0,0,0,0.00,2.1%
