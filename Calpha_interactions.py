@@ -38,7 +38,7 @@ destfile = "output.csv"
 
 # clistAb1 = ['H', 'L']
 # clistAb2 = ['M', 'N']
-calphaCutoff = str(round(4))
+calphaCutoff = str(round(10))
 logging.info('cAlpha Cutoff = '+str(calphaCutoff)+'\n')
 
 os.system("mkdir pdbFiles")
